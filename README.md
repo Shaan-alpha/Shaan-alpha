@@ -1,22 +1,16 @@
-<div align="center">
+<!-- HEADER BANNER -->
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=Shaan%20Satsangi&fontSize=60&fontColor=ffffff&fontAlignY=36&desc=Aspiring%20Data%20Engineer%20%7C%20AI%2FML%20%7C%20Full%20Stack&descAlignY=56&descSize=18&animation=fadeIn)
 
-<!-- Animated Header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Shaan%20Satsangi&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=CS%20Engineer%20%7C%20AI%2FML%20%7C%20Full%20Stack&descAlignY=58&descSize=18&animation=fadeIn" />
+<!-- TYPING SUBTITLE -->
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=650&lines=Building+data+pipelines+that+don't+break+%F0%9F%94%A7;Turning+raw+data+into+decisions+%F0%9F%93%8A;Crafting+AI+that+thinks+%F0%9F%A7%A0;Shipping+apps+that+protect+%F0%9F%9B%A1%EF%B8%8F;Open+to+exciting+opportunities+%F0%9F%9A%80)](https://git.io/typing-svg)
 
-<!-- Typing Animation -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Building+AI+that+thinks+%F0%9F%A7%A0;Crafting+Apps+that+protect+%F0%9F%9B%A1%EF%B8%8F;Turning+data+into+decisions+%F0%9F%93%8A;Open+to+exciting+opportunities+%F0%9F%9A%80" alt="Typing SVG" />
-</a>
-
-<br/>
-
-<!-- Social Badges -->
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-shaansatsangi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shaansatsangi)
-[![GitHub](https://img.shields.io/badge/GitHub-Shaan--alpha-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Shaan-alpha)
-[![Email](https://img.shields.io/badge/Email-shaansatsangi@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shaansatsangi@gmail.com)
-[![Phone](https://img.shields.io/badge/Call-+91%209521587085-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:+919521587085)
-
-</div>
+<!-- SOCIAL BADGES -->
+<p align="center">
+  <a href="https://linkedin.com/in/shaansatsangi"><img src="https://img.shields.io/badge/LinkedIn-shaansatsangi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://github.com/Shaan-alpha"><img src="https://img.shields.io/badge/GitHub-Shaan--alpha-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="mailto:shaansatsangi@gmail.com"><img src="https://img.shields.io/badge/Email-shaansatsangi@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://shaan-alpha.github.io/Portfolio"><img src="https://img.shields.io/badge/Portfolio-Live-A78BFA?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+</p>
 
 ---
 
@@ -25,157 +19,177 @@
 ```python
 class ShaanSatsangi:
     def __init__(self):
-        self.name        = "Shaan Satsangi"
-        self.role        = "CS Undergrad @ JECRC, Jaipur"
-        self.focus       = ["AI/ML", "NLP", "Full Stack", "Women Safety Tech"]
-        self.languages   = ["Python", "C/C++", "Dart", "HTML/CSS"]
-        self.currently   = "Building AI-powered real-world solutions"
-        self.open_to     = "Internships & Entry-level SWE / ML roles"
+        self.name         = "Shaan Satsangi"
+        self.role         = "CS Undergrad @ JECRC, Jaipur"
+        self.aspiring_to  = "Data Engineer"
+        self.focus        = ["Data Pipelines", "AI/ML", "Full Stack", "MLOps"]
+        self.languages    = ["Python", "SQL", "C/C++", "Dart", "JavaScript"]
+        self.learning     = ["Airflow", "dbt", "Spark", "Docker", "Kubernetes"]
+        self.currently    = "Building end-to-end data + AI systems"
+        self.open_to      = "Internships & entry-level Data / ML / SWE roles"
 
-    def say_hi(self):
-        print("Thanks for stopping by! Let's build something awesome 🚀")
+    def philosophy(self):
+        return "Clean data > clever models. Reliable pipelines > cool demos."
 
 me = ShaanSatsangi()
-me.say_hi()
+print(me.philosophy())
 ```
 
 ---
 
 ## 🛠️ Tech Stack
 
-<div align="center">
-
-**Languages**
+**Data Engineering**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-
-**AI / ML / Data**
-
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Airflow](https://img.shields.io/badge/Apache_Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
+![Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
+
+**AI / ML / Deep Learning**
+
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![DeepFace](https://img.shields.io/badge/DeepFace-FF4B4B?style=for-the-badge&logo=meta&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
-**Tools & Platforms**
+**Full Stack & Languages**
 
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+
+**Tools & Cloud**
+
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-
-</div>
 
 ---
 
 ## 🚀 Featured Projects
 
-<div align="center">
-
-| 🤖 Project | 🔧 Stack | 📌 Highlights |
-|---|---|---|
-| [**JARVIS – AI Voice Assistant**](#) | Python · TensorFlow · Keras · NLP · Speech Recognition | Locally trained ML model · Intent classification · System automation · No external APIs |
-| [**Review Reader – Sentiment Analysis**](#) | Python · Scikit-learn · Pandas · TF-IDF · Jupyter | 85% accuracy · 1000+ reviews · <0.5s per prediction · 20% boost in precision/recall |
-| [**Sahara – Women Safety App**](#) | Flutter · Firebase · Google Maps API · Express.js | Gesture SOS · Real-time tracking · Emergency alerts · Cross-platform |
-
-</div>
+| Project | Stack | Highlights |
+| --- | --- | --- |
+| 🧠 [**JARVIS – AI Voice Assistant**](https://github.com/Shaan-alpha/jarvis-py) | Python · TensorFlow · Keras · NLP | Locally trained model · Intent classification · Zero external APIs |
+| 😀 [**FaceFilter AI**](https://github.com/Shaan-alpha/face-sort-studio) | Flask · DeepFace · OpenCV · SQLite | Embedding caching · Cosine matching · 4-step wizard UI |
+| 📊 **Review Reader – Sentiment Analysis** | Python · Scikit-learn · Pandas · TF-IDF | 85% accuracy · 1000+ reviews · <0.5s per prediction |
+| 🛡️ **Sahara – Women Safety App** | Flutter · Firebase · Maps API · Express.js | Gesture SOS · Real-time tracking · Cross-platform |
+| 🌐 [**Portfolio Website**](https://github.com/Shaan-alpha/Portfolio) | HTML · CSS · JS · localStorage | Apple-inspired UI · Glassmorphism · Admin panel · CSV export |
 
 ---
 
-### 🤖 JARVIS – AI Voice Assistant
+### 🧠 JARVIS – AI Voice Assistant
 > *"Like Iron Man's AI, but running on your local machine."*
 
-- 🧠 Built a **locally trained NLP model** — zero dependency on external AI APIs
-- 🎙️ Integrated **speech recognition** for real-time voice command processing
-- ⚡ Combined intent classification + system automation in a single pipeline
-- 🔧 **Stack:** Python · TensorFlow · Keras · NLP · SpeechRecognition
+- Locally trained **NLP model** — zero dependency on external AI APIs
+- **Speech recognition** for real-time voice command processing
+- Intent classification + system automation in a single pipeline
+- **Stack:** Python · TensorFlow · Keras · SpeechRecognition
+
+---
+
+### 😀 FaceFilter AI
+> *"Drop a photo. Find every face that matches, instantly."*
+
+- Full-stack **face recognition** app for Windows built on Flask + DeepFace (Facenet512)
+- **Embedding caching** + cosine-distance matching for fast repeat scans
+- Drag-and-drop **dark-themed UI** with a 4-step wizard and real-time progress
+- Deep **VS Code integration** — tasks.json, launch.json, batch launchers
+- **Stack:** Flask · DeepFace · OpenCV · SQLite · Python 3.9–3.11
 
 ---
 
 ### 📊 Review Reader – Sentiment Analysis
 > *"Turning customer opinions into actionable data at scale."*
 
-- 🔁 End-to-end ML pipeline processing **1,000+ reviews** with **85% accuracy**
-- ⚡ Classifies sentiment in under **0.5 seconds** per review
-- 📈 Boosted precision & recall by **20%** via TF-IDF vectorization & NLP preprocessing
-- 🔧 **Stack:** Python · Scikit-learn · Pandas · Jupyter Notebook
+- End-to-end ML pipeline processing **1,000+ reviews** with **85% accuracy**
+- Classifies sentiment in under **0.5 seconds** per review
+- Boosted precision & recall by **20%** via TF-IDF + NLP preprocessing
+- **Stack:** Python · Scikit-learn · Pandas · Jupyter
 
 ---
 
 ### 🛡️ Sahara – Women Safety App
 > *"Because every second counts in a crisis."*
 
-- 🤳 Gesture-based **SOS trigger** for instant emergency alerts
-- 📍 **Real-time GPS tracking** with Firebase + Google Maps API
-- 👥 One-tap alerts to **trusted contacts** with live geo-tagging
-- 🔧 **Stack:** Flutter · Firebase · Google Maps API · Express.js
+- Gesture-based **SOS trigger** for instant emergency alerts
+- **Real-time GPS tracking** with Firebase + Google Maps API
+- One-tap alerts to **trusted contacts** with live geo-tagging
+- **Stack:** Flutter · Firebase · Google Maps API · Express.js
+
+---
+
+### 🌐 Portfolio Website
+> *"Apple-clean design, ES5-compatible, built ground-up."*
+
+- Apple-inspired UI with **magnetic cursor**, **glassmorphism** nav, **3D card tilt**, and parallax blobs
+- Functional contact form with **localStorage inbox**, CSV export, and admin panel
+- Ground-up **ES5-compatible rewrite** for maximum browser support
+- **Stack:** HTML · CSS · JavaScript · localStorage
+
+---
+
+## 🎯 Currently
+
+- 📚 **B.Tech CSE @ JECRC Jaipur** *(2022 – Present)* · CGPA: 7.07
+- 🏗️ Building toward **Data Engineering** — Airflow, dbt, Spark, Great Expectations
+- 🔭 Exploring **LLMOps, RAG pipelines, and Agentic AI**
+- 🌱 Learning **Docker, Kubernetes, MLflow, DVC, and cloud deployment (AWS/GCP)**
+- 🤝 Open to **internships, hackathons, and collaborations**
 
 ---
 
 ## 📜 Certifications
 
-<div align="center">
-
 | 🏆 Certification | 🏢 Issuer | 📅 Year |
-|---|---|---|
+| --- | --- | --- |
 | Fundamentals of Machine Learning | ![Microsoft](https://img.shields.io/badge/Microsoft-0078D4?style=flat&logo=microsoft&logoColor=white) | 2023 |
 | Fundamental AI Concepts | ![Microsoft](https://img.shields.io/badge/Microsoft-0078D4?style=flat&logo=microsoft&logoColor=white) | 2023 |
 | Introduction to Cybersecurity | ![Cisco](https://img.shields.io/badge/Cisco-1BA0D7?style=flat&logo=cisco&logoColor=white) | — |
 | Cybersecurity Essentials | ![Cisco](https://img.shields.io/badge/Cisco-1BA0D7?style=flat&logo=cisco&logoColor=white) | — |
 | 🥈 2nd Place – IEEE Debate Competition | ![IEEE](https://img.shields.io/badge/IEEE-00629B?style=flat&logo=ieee&logoColor=white) | — |
 
-</div>
-
 ---
 
 ## 📊 GitHub Stats
 
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Shaan-alpha&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shaan-alpha&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Shaan-alpha&theme=tokyonight&hide_border=true&background=0d1117" />
-
-</div>
-
----
-
-## 🎯 Currently
-
-- 📚 B.Tech CSE @ JECRC Jaipur *(2022 – Present)* · CGPA: 7.07
-- 🔭 Exploring **LLMs, Agentic AI, and MLOps**
-- 🌱 Learning **FastAPI, Docker, and cloud deployment**
-- 🤝 Open to **internships, hackathons, and collaborations**
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Shaan-alpha&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shaan-alpha&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Shaan-alpha&theme=tokyonight&hide_border=true&background=0d1117" />
+</p>
 
 ---
 
 ## 🌐 Let's Connect
 
-<div align="center">
+> *"I believe every line of code — and every row of clean data — can make someone's life a little better."*
 
-> *"I believe every line of code can make someone's life a little better."*
-
-[![LinkedIn](https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shaansatsangi)
-[![Email Me](https://img.shields.io/badge/Email%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shaansatsangi@gmail.com)
-[![GitHub Follow](https://img.shields.io/badge/Follow%20on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Shaan-alpha)
-
-</div>
+<p align="center">
+  <a href="https://linkedin.com/in/shaansatsangi"><img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:shaansatsangi@gmail.com"><img src="https://img.shields.io/badge/Email%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/Shaan-alpha"><img src="https://img.shields.io/badge/Follow%20on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+</p>
 
 ---
 
-<div align="center">
+![footer](https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer&animation=fadeIn)
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer&animation=fadeIn"/>
-
-![Profile Views](https://komarev.com/ghpvc/?username=Shaan-alpha&color=a78bfa&style=for-the-badge&label=PROFILE+VIEWS)
-
-</div>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Shaan-alpha&color=a78bfa&style=for-the-badge&label=PROFILE+VIEWS" />
+</p>
