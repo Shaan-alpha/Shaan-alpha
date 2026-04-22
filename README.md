@@ -146,7 +146,7 @@ print(me.philosophy())
 
 ## 🎯 Currently
 
-- 📚 **B.Tech CSE @ JECRC Jaipur** *(2022 – Present)* · CGPA: 7.07
+- 📚 **B.Tech CSE @ JECRC Jaipur** *(2022 – Present)* · CGPA: 7.21
 - 🏗️ Building toward **Data Engineering** — Airflow, dbt, Spark, Great Expectations
 - 🔭 Exploring **LLMOps, RAG pipelines, and Agentic AI**
 - 🌱 Learning **Docker, Kubernetes, MLflow, DVC, and cloud deployment (AWS/GCP)**
