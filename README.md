@@ -2,7 +2,7 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=Shaan%20Satsangi&fontSize=60&fontColor=ffffff&fontAlignY=36&desc=Aspiring%20Data%20Engineer%20%7C%20AI%2FML%20%7C%20Full%20Stack&descAlignY=56&descSize=18&animation=fadeIn)
 
 <!-- TYPING SUBTITLE -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=650&lines=Building+data+pipelines+that+don't+break+%F0%9F%94%A7;Turning+raw+data+into+decisions+%F0%9F%93%8A;Crafting+AI+that+thinks+%F0%9F%A7%A0;Shipping+apps+that+protect+%F0%9F%9B%A1%EF%B8%8F;Open+to+exciting+opportunities+%F0%9F%9A%80)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=650&lines=Building+data+pipelines+that+don't+break+%F0%9F%94%A7;Turning+watch+history+into+insights+%F0%9F%8E%AC;Crafting+AI+that+thinks+%F0%9F%A7%A0;Shipping+apps+that+protect+%F0%9F%9B%A1%EF%B8%8F;Open+to+exciting+opportunities+%F0%9F%9A%80)](https://git.io/typing-svg)
 
 <!-- SOCIAL BADGES -->
 <p align="center">
@@ -85,11 +85,22 @@ print(me.philosophy())
 
 | Project | Stack | Highlights |
 | --- | --- | --- |
+| 🎬 [**YouTube Wrapped**](https://github.com/Shaan-alpha/youtube-wrapped) | Databricks · Delta Lake · FastAPI · Python | End-to-end pipeline · Personal watch analytics · API-ready insights |
 | 🧠 [**JARVIS – AI Voice Assistant**](https://github.com/Shaan-alpha/jarvis-py) | Python · TensorFlow · Keras · NLP | Locally trained model · Intent classification · Zero external APIs |
 | 😀 [**FaceFilter AI**](https://github.com/Shaan-alpha/face-sort-studio) | Flask · DeepFace · OpenCV · SQLite | Embedding caching · Cosine matching · 4-step wizard UI |
-| 📊 **Review Reader – Sentiment Analysis** | Python · Scikit-learn · Pandas · TF-IDF | 85% accuracy · 1000+ reviews · <0.5s per prediction |
-| 🛡️ **Sahara – Women Safety App** | Flutter · Firebase · Maps API · Express.js | Gesture SOS · Real-time tracking · Cross-platform |
+| 🛡️ [**Sahaara App**](https://github.com/Shaan-alpha/Sahaara_APP) | TypeScript · Mobile stack · Safety workflows | SOS-first UX · Real-time support flow · Cross-platform focus |
 | 🌐 [**Portfolio Website**](https://github.com/Shaan-alpha/Portfolio) | HTML · CSS · JS · localStorage | Apple-inspired UI · Glassmorphism · Admin panel · CSV export |
+
+---
+
+### 🎬 YouTube Wrapped
+> *"Your year on YouTube, engineered like a real data product."*
+
+- Built as an **end-to-end data pipeline** to analyze personal YouTube watch history
+- Uses **Databricks + Delta Lake** for scalable ingestion, cleaning, and transformation
+- Serves analytics through **FastAPI** for dashboard or app integration
+- Generates shareable “wrapped-style” insights across watch habits, categories, and behavior trends
+- **Stack:** Python · Databricks · Delta Lake · FastAPI · Jupyter
 
 ---
 
@@ -147,8 +158,8 @@ print(me.philosophy())
 ## 🎯 Currently
 
 - 📚 **B.Tech CSE @ JECRC Jaipur** *(2022 – Present)* · CGPA: 7.21
-- 🏗️ Building toward **Data Engineering** — Airflow, dbt, Spark, Great Expectations
-- 🔭 Exploring **LLMOps, RAG pipelines, and Agentic AI**
+- 🏗️ Building toward **Data Engineering** — Databricks, Delta Lake, Airflow, dbt, Spark
+- 🔭 Exploring **LLMOps, RAG pipelines, Agentic AI, and analytics APIs**
 - 🌱 Learning **Docker, Kubernetes, MLflow, DVC, and cloud deployment (AWS/GCP)**
 - 🤝 Open to **internships, hackathons, and collaborations**
 
