@@ -69,8 +69,6 @@ me.say_hi()
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
@@ -84,8 +82,8 @@ me.say_hi()
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![Neon](https://img.shields.io/badge/Neon-00E699?style=for-the-badge&logo=neon&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=for-the-badge&logo=twilio&logoColor=white)
+![MapLibre](https://img.shields.io/badge/MapLibre-396CB2?style=for-the-badge&logo=maplibre&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
@@ -100,7 +98,7 @@ me.say_hi()
 | [**Face Sort Studio**](https://github.com/Shaan-alpha/face-sort-studio) | Python · Flask · OpenCV DNN · SQLite · SSE | Local face-recognition photo organizer (YuNet + SFace, 128-d embeddings) |
 | [**Review Reader**](https://github.com/Shaan-alpha) | Python · Scikit-learn · TF-IDF · NLTK | Sentiment analysis pipeline → 85% accuracy on 1,000+ reviews |
 | [**JARVIS**](https://github.com/Shaan-alpha/jarvis-py) | Python · TensorFlow · Keras · NLP | Offline voice assistant with locally-trained intent classification |
-| [**Sahara**](https://github.com/Shaan-alpha/Sahaara_APP) | Flutter · Firebase · Google Maps · Express.js | Cross-platform women's safety app with gesture-based SOS |
+| [**Sahara**](https://github.com/Shaan-alpha/Sahaara_APP) | Next.js · TypeScript · Supabase · Tailwind · Twilio · MapLibre | Women's safety web app with gesture SOS, live location, and Twilio alerts to trusted contacts |
 
 ---
 
