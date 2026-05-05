@@ -19,20 +19,18 @@
 ```python
 class ShaanSatsangi:
     def __init__(self):
-        self.name         = "Shaan Satsangi"
-        self.role         = "CS Undergrad @ JECRC, Jaipur"
-        self.aspiring_to  = "Data Engineer"
-        self.focus        = ["Data Pipelines", "AI/ML", "Full Stack", "MLOps"]
-        self.languages    = ["Python", "SQL", "C/C++", "Dart", "JavaScript"]
-        self.learning     = ["Airflow", "dbt", "Spark", "Docker", "Kubernetes"]
-        self.currently    = "Building end-to-end data + AI systems"
-        self.open_to      = "Internships & entry-level Data / ML / SWE roles"
+        self.name        = "Shaan Satsangi"
+        self.role        = "CS Undergrad @ JECRC, Jaipur"
+        self.focus       = ["Data Engineering", "Analytics", "ML/AI"]
+        self.stack       = ["Python", "SQL", "PySpark", "Databricks", "dbt", "Airflow"]
+        self.currently   = "Building production-grade data pipelines"
+        self.open_to     = "Data Engineering / Data Analytics / Data Science roles"
 
-    def philosophy(self):
-        return "Clean data > clever models. Reliable pipelines > cool demos."
+    def say_hi(self):
+        print("Thanks for stopping by! Let's build something useful 🌍")
 
 me = ShaanSatsangi()
-print(me.philosophy())
+me.say_hi()
 ```
 
 ---
@@ -83,85 +81,22 @@ print(me.philosophy())
 
 ## 🚀 Featured Projects
 
-| Project | Stack | Highlights |
+| Project | Stack | What it does |
 | --- | --- | --- |
-| 🎬 [**YouTube Wrapped**](https://github.com/Shaan-alpha/youtube-wrapped) | Databricks · Delta Lake · FastAPI · Python | End-to-end pipeline · Personal watch analytics · API-ready insights |
-| 🧠 [**JARVIS – AI Voice Assistant**](https://github.com/Shaan-alpha/jarvis-py) | Python · TensorFlow · Keras · NLP | Locally trained model · Intent classification · Zero external APIs |
-| 😀 [**FaceFilter AI**](https://github.com/Shaan-alpha/face-sort-studio) | Flask · DeepFace · OpenCV · SQLite | Embedding caching · Cosine matching · 4-step wizard UI |
-| 🛡️ [**Sahaara App**](https://github.com/Shaan-alpha/Sahaara_APP) | TypeScript · Mobile stack · Safety workflows | SOS-first UX · Real-time support flow · Cross-platform focus |
-| 🌐 [**Portfolio Website**](https://github.com/Shaan-alpha/Portfolio) | HTML · CSS · JS · localStorage | Apple-inspired UI · Glassmorphism · Admin panel · CSV export |
-
----
-
-### 🎬 YouTube Wrapped
-> *"Your year on YouTube, engineered like a real data product."*
-
-- Built as an **end-to-end data pipeline** to analyze personal YouTube watch history
-- Uses **Databricks + Delta Lake** for scalable ingestion, cleaning, and transformation
-- Serves analytics through **FastAPI** for dashboard or app integration
-- Generates shareable “wrapped-style” insights across watch habits, categories, and behavior trends
-- **Stack:** Python · Databricks · Delta Lake · FastAPI · Jupyter
-
----
-
-### 🧠 JARVIS – AI Voice Assistant
-> *"Like Iron Man's AI, but running on your local machine."*
-
-- Locally trained **NLP model** — zero dependency on external AI APIs
-- **Speech recognition** for real-time voice command processing
-- Intent classification + system automation in a single pipeline
-- **Stack:** Python · TensorFlow · Keras · SpeechRecognition
-
----
-
-### 😀 FaceFilter AI
-> *"Drop a photo. Find every face that matches, instantly."*
-
-- Full-stack **face recognition** app for Windows built on Flask + DeepFace (Facenet512)
-- **Embedding caching** + cosine-distance matching for fast repeat scans
-- Drag-and-drop **dark-themed UI** with a 4-step wizard and real-time progress
-- Deep **VS Code integration** — tasks.json, launch.json, batch launchers
-- **Stack:** Flask · DeepFace · OpenCV · SQLite · Python 3.9–3.11
-
----
-
-### 📊 Review Reader – Sentiment Analysis
-> *"Turning customer opinions into actionable data at scale."*
-
-- End-to-end ML pipeline processing **1,000+ reviews** with **85% accuracy**
-- Classifies sentiment in under **0.5 seconds** per review
-- Boosted precision & recall by **20%** via TF-IDF + NLP preprocessing
-- **Stack:** Python · Scikit-learn · Pandas · Jupyter
-
----
-
-### 🛡️ Sahara – Women Safety App
-> *"Because every second counts in a crisis."*
-
-- Gesture-based **SOS trigger** for instant emergency alerts
-- **Real-time GPS tracking** with Firebase + Google Maps API
-- One-tap alerts to **trusted contacts** with live geo-tagging
-- **Stack:** Flutter · Firebase · Google Maps API · Express.js
-
----
-
-### 🌐 Portfolio Website
-> *"Apple-clean design, ES5-compatible, built ground-up."*
-
-- Apple-inspired UI with **magnetic cursor**, **glassmorphism** nav, **3D card tilt**, and parallax blobs
-- Functional contact form with **localStorage inbox**, CSV export, and admin panel
-- Ground-up **ES5-compatible rewrite** for maximum browser support
-- **Stack:** HTML · CSS · JavaScript · localStorage
+| [**YouTube Wrapped**](https://github.com/Shaan-alpha/youtube-wrapped) | Databricks · PySpark · Delta Lake · FastAPI · Next.js | Personal YouTube watch-history → medallion lakehouse → analytics dashboard |
+| [**Face Sort Studio**](https://github.com/Shaan-alpha/face-sort-studio) | Python · Flask · OpenCV DNN · SQLite · SSE | Local face-recognition photo organizer (YuNet + SFace, 128-d embeddings) |
+| [**Review Reader**](https://github.com/Shaan-alpha) | Python · Scikit-learn · TF-IDF · NLTK | Sentiment analysis pipeline → 85% accuracy on 1,000+ reviews |
+| [**JARVIS**](https://github.com/Shaan-alpha/jarvis-py) | Python · TensorFlow · Keras · NLP | Offline voice assistant with locally-trained intent classification |
+| [**Sahara**](https://github.com/Shaan-alpha/Sahaara_APP) | Flutter · Firebase · Google Maps · Express.js | Cross-platform women's safety app with gesture-based SOS |
 
 ---
 
 ## 🎯 Currently
 
 - 📚 **B.Tech CSE @ JECRC Jaipur** *(2022 – Present)* · CGPA: 7.21
-- 🏗️ Building toward **Data Engineering** — Databricks, Delta Lake, Airflow, dbt, Spark
-- 🔭 Exploring **LLMOps, RAG pipelines, Agentic AI, and analytics APIs**
-- 🌱 Learning **Docker, Kubernetes, MLflow, DVC, and cloud deployment (AWS/GCP)**
-- 🤝 Open to **internships, hackathons, and collaborations**
+- 🏗️ Building **YouTube Wrapped** — end-to-end Databricks lakehouse + Next.js dashboard
+- 🌱 Studying for the **Databricks Certified Data Engineer Associate** exam
+- 🤝 Open to **Data Engineering, Data Analytics, and Data Science** roles
 
 ---
 
