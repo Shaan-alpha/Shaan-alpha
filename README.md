@@ -94,17 +94,18 @@ me.say_hi()
 
 | Project | Stack | What it does |
 | --- | --- | --- |
-| [**YouTube Wrapped**](https://github.com/Shaan-alpha/youtube-wrapped) | Databricks · PySpark · Delta Lake · FastAPI · Next.js | Personal YouTube watch-history → medallion lakehouse → analytics dashboard |
-| [**Face Sort Studio**](https://github.com/Shaan-alpha/face-sort-studio) | Python · Flask · OpenCV DNN · SQLite · SSE | Local face-recognition photo organizer (YuNet + SFace, 128-d embeddings) |
+| [**CRM Sales Warehouse**](https://github.com/Shaan-alpha/CRM-Sales-Warehouse) | Python · PostgreSQL · Docker · Power BI · DAX | End-to-end ETL → star-schema warehouse → 5-page Power BI executive dashboard |
+| [**YouTube Wrapped**](https://github.com/Shaan-alpha/Youtube-Wrapped) | Databricks · PySpark · Delta Lake · FastAPI · Next.js | Personal YouTube watch-history → medallion lakehouse → analytics dashboard |
+| [**Face Sort Studio**](https://github.com/Shaan-alpha/Face-Sort-Studio) | Python · Flask · OpenCV DNN · SQLite · SSE | Local face-recognition photo organizer (YuNet + SFace, 128-d embeddings) |
+| [**Sahaara**](https://github.com/Shaan-alpha/Sahaara_APP) | Next.js · TypeScript · Supabase · Tailwind · Twilio · MapLibre | Women's safety web app with gesture SOS, live location, and Twilio alerts to trusted contacts |
 | [**Review Reader**](https://github.com/Shaan-alpha) | Python · Scikit-learn · TF-IDF · NLTK | Sentiment analysis pipeline → 85% accuracy on 1,000+ reviews |
 | [**JARVIS**](https://github.com/Shaan-alpha/jarvis-py) | Python · TensorFlow · Keras · NLP | Offline voice assistant with locally-trained intent classification |
-| [**Sahara**](https://github.com/Shaan-alpha/Sahaara_APP) | Next.js · TypeScript · Supabase · Tailwind · Twilio · MapLibre | Women's safety web app with gesture SOS, live location, and Twilio alerts to trusted contacts |
 
 ---
 
 ## 🎯 Currently
 
-- 📚 **B.Tech CSE @ JECRC Jaipur** *(2022 – Present)* · CGPA: 7.21
+- 📚 **B.Tech CSE @ JECRC Jaipur** *(2022 – Present)* · CGPA: 7.39
 - 🏗️ Building **YouTube Wrapped** — end-to-end Databricks lakehouse + Next.js dashboard
 - 🌱 Studying for the **Databricks Certified Data Engineer Associate** exam
 - 🤝 Open to **Data Engineering, Data Analytics, and Data Science** roles
@@ -115,10 +116,9 @@ me.say_hi()
 
 | 🏆 Certification | 🏢 Issuer | 📅 Year |
 | --- | --- | --- |
+| Certified Data Science, AI/ML Engineer & Data Engineer | ![micro1](https://img.shields.io/badge/micro1-6366F1?style=flat&logo=verifiedby&logoColor=white) | 2026 |
 | Fundamentals of Machine Learning | ![Microsoft](https://img.shields.io/badge/Microsoft-0078D4?style=flat&logo=microsoft&logoColor=white) | 2023 |
 | Fundamental AI Concepts | ![Microsoft](https://img.shields.io/badge/Microsoft-0078D4?style=flat&logo=microsoft&logoColor=white) | 2023 |
-| Introduction to Cybersecurity | ![Cisco](https://img.shields.io/badge/Cisco-1BA0D7?style=flat&logo=cisco&logoColor=white) | — |
-| Cybersecurity Essentials | ![Cisco](https://img.shields.io/badge/Cisco-1BA0D7?style=flat&logo=cisco&logoColor=white) | — |
 | 🥈 2nd Place – IEEE Debate Competition | ![IEEE](https://img.shields.io/badge/IEEE-00629B?style=flat&logo=ieee&logoColor=white) | — |
 
 ---
