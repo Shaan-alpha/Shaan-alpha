@@ -1,8 +1,8 @@
 <!-- HEADER BANNER -->
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=Shaan%20Satsangi&fontSize=60&fontColor=ffffff&fontAlignY=36&desc=Aspiring%20Data%20Engineer%20%7C%20AI%2FML%20%7C%20Full%20Stack&descAlignY=56&descSize=18&animation=fadeIn)
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=Shaan%20Satsangi&fontSize=60&fontColor=ffffff&fontAlignY=36&desc=Data%20Engineering%20%7C%20AI%20Systems%20%7C%20Full%20Stack&descAlignY=56&descSize=18&animation=fadeIn)
 
 <!-- TYPING SUBTITLE -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=650&lines=Building+data+pipelines+that+don't+break+%F0%9F%94%A7;Turning+watch+history+into+insights+%F0%9F%8E%AC;Crafting+AI+that+thinks+%F0%9F%A7%A0;Shipping+apps+that+protect+%F0%9F%9B%A1%EF%B8%8F;Open+to+exciting+opportunities+%F0%9F%9A%80)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=820&lines=Building+data+pipelines+that+don't+break+%F0%9F%94%A7;Turning+watch+history+into+analytics+%F0%9F%8E%AC;Building+local-first+AI+assistants+with+RAG+%F0%9F%A7%A0;Shipping+safety-first+full-stack+apps+%F0%9F%9B%A1%EF%B8%8F;Open+to+Data+Engineering+%2F+AI+Systems+roles+%F0%9F%9A%80)](https://git.io/typing-svg)
 
 <!-- SOCIAL BADGES -->
 <p align="center">
@@ -19,15 +19,15 @@
 ```python
 class ShaanSatsangi:
     def __init__(self):
-        self.name        = "Shaan Satsangi"
-        self.role        = "CS Undergrad @ JECRC, Jaipur"
-        self.focus       = ["Data Engineering", "Analytics", "ML/AI"]
-        self.stack       = ["Python", "SQL", "PySpark", "Databricks", "dbt", "Airflow"]
-        self.currently   = "Building production-grade data pipelines"
-        self.open_to     = "Data Engineering / Data Analytics / Data Science roles"
+        self.name      = "Shaan Satsangi"
+        self.role      = "CS Undergrad @ JECRC, Jaipur"
+        self.focus     = ["Data Engineering", "AI Systems", "Analytics", "Full Stack"]
+        self.stack     = ["Python", "SQL", "PySpark", "Databricks", "dbt", "Airflow", "FastAPI", "Next.js"]
+        self.currently = "Building production-grade data platforms and local-first AI tools"
+        self.open_to   = "Data Engineering / Analytics / AI Systems roles"
 
     def say_hi(self):
-        print("Thanks for stopping by! Let's build something useful 🌍")
+        print("Thanks for stopping by! Let's build something useful.")
 
 me = ShaanSatsangi()
 me.say_hi()
@@ -35,15 +35,26 @@ me.say_hi()
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 Featured Projects
 
-**Data Engineering**
+| Project | Stack | What it does |
+| --- | --- | --- |
+| [**CRM Sales Warehouse**](https://github.com/Shaan-alpha/CRM-Sales-Warehouse) | Python · PostgreSQL · Docker · dbt · Airflow · Power BI | End-to-end CRM analytics platform with ETL/ELT pipeline, star-schema warehouse, dbt tests, and 5-page executive dashboard |
+| [**YouTube Wrapped**](https://github.com/Shaan-alpha/Youtube-Wrapped) | Databricks · PySpark · Delta Lake · FastAPI · Next.js | Personal YouTube watch-history product using medallion lakehouse architecture, Neon Postgres, deployed API, and analytics dashboard |
+| [**JARVIS-PY**](https://github.com/Shaan-alpha/jarvis-py) | Python · Ollama · Vosk · openWakeWord · FAISS · fastembed | Local-first AI voice assistant with wake-word barge-in, online/offline STT, semantic memory, PDF RAG, tool-agent routing, reminders, and interruptible TTS |
+| [**Face Sort Studio**](https://github.com/Shaan-alpha/Face-Sort-Studio) | Python · Flask · OpenCV DNN · SQLite · SSE | Local face-recognition photo organizer using YuNet + SFace embeddings, real-time progress streaming, and privacy-first local processing |
+| [**Sahaara**](https://github.com/Shaan-alpha/Sahaara_APP) | Next.js · TypeScript · Supabase · Tailwind · Twilio · MapLibre | Safety-focused full-stack app with emergency SOS workflows, live location sharing, trusted contacts, and Twilio alerts |
+| [**RepoPulse**](https://github.com/Shaan-alpha) | FastAPI · Next.js · GitHub API · AI · Analytics | Upcoming developer-tool project: GitHub repo auditor with recruiter-readiness scoring, OSS hygiene checks, and personality-driven diagnostics |
+
+---
+
+## 🛠️ Core Tech Stack
+
+**Data Engineering & Analytics**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
 ![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
 ![Delta Lake](https://img.shields.io/badge/Delta_Lake-00ADD4?style=for-the-badge&logo=delta&logoColor=white)
@@ -51,70 +62,64 @@ me.say_hi()
 ![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
-**AI / ML / Deep Learning**
+**AI / ML / Local AI Systems**
 
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 ![ONNX](https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white)
-![NLTK](https://img.shields.io/badge/NLTK-154F3C?style=for-the-badge&logo=python&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 
-**Full Stack & Languages**
+**Full Stack & Tools**
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Neon](https://img.shields.io/badge/Neon-00E699?style=for-the-badge&logo=neon&logoColor=white)
+
+<details>
+<summary><b>More tools I use</b></summary>
+<br />
+
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
+![NLTK](https://img.shields.io/badge/NLTK-154F3C?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-
-**Tools & Cloud**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![Neon](https://img.shields.io/badge/Neon-00E699?style=for-the-badge&logo=neon&logoColor=white)
 ![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=for-the-badge&logo=twilio&logoColor=white)
 ![MapLibre](https://img.shields.io/badge/MapLibre-396CB2?style=for-the-badge&logo=maplibre&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
----
-
-## 🚀 Featured Projects
-
-| Project | Stack | What it does |
-| --- | --- | --- |
-| [**CRM Sales Warehouse**](https://github.com/Shaan-alpha/CRM-Sales-Warehouse) | Python · PostgreSQL · Docker · Power BI · DAX | End-to-end ETL → star-schema warehouse → 5-page Power BI executive dashboard |
-| [**YouTube Wrapped**](https://github.com/Shaan-alpha/Youtube-Wrapped) | Databricks · PySpark · Delta Lake · FastAPI · Next.js | Personal YouTube watch-history → medallion lakehouse → analytics dashboard |
-| [**Face Sort Studio**](https://github.com/Shaan-alpha/Face-Sort-Studio) | Python · Flask · OpenCV DNN · SQLite · SSE | Local face-recognition photo organizer (YuNet + SFace, 128-d embeddings) |
-| [**Sahaara**](https://github.com/Shaan-alpha/Sahaara_APP) | Next.js · TypeScript · Supabase · Tailwind · Twilio · MapLibre | Women's safety web app with gesture SOS, live location, and Twilio alerts to trusted contacts |
-| [**Review Reader**](https://github.com/Shaan-alpha) | Python · Scikit-learn · TF-IDF · NLTK | Sentiment analysis pipeline → 85% accuracy on 1,000+ reviews |
-| [**JARVIS**](https://github.com/Shaan-alpha/jarvis-py) | Python · TensorFlow · Keras · NLP | Offline voice assistant with locally-trained intent classification |
+</details>
 
 ---
 
 ## 🎯 Currently
 
 - 📚 **B.Tech CSE @ JECRC Jaipur** *(2022 – Present)* · CGPA: 7.39
-- 🏗️ Building **YouTube Wrapped** — end-to-end Databricks lakehouse + Next.js dashboard
+- 🧠 Upgraded **JARVIS-PY** into a local-first AI assistant with RAG, semantic memory, wake-word barge-in, and tool-agent routing
+- 🏗️ Planning **RepoPulse** — a GitHub repo auditor with engineering diagnostics and recruiter-readiness scoring
 - 🌱 Studying for the **Databricks Certified Data Engineer Associate** exam
-- 🤝 Open to **Data Engineering, Data Analytics, and Data Science** roles
+- 🤝 Open to **Data Engineering, Data Analytics, and AI Systems** roles
 
 ---
 
-## 📜 Certifications
+## 📜 Certifications & Achievements
 
-| 🏆 Certification | 🏢 Issuer | 📅 Year |
+| 🏆 Certification / Achievement | 🏢 Issuer | 📅 Year |
 | --- | --- | --- |
 | Certified Data Science, AI/ML Engineer & Data Engineer | ![micro1](https://img.shields.io/badge/micro1-6366F1?style=flat&logo=verifiedby&logoColor=white) | 2026 |
 | Fundamentals of Machine Learning | ![Microsoft](https://img.shields.io/badge/Microsoft-0078D4?style=flat&logo=microsoft&logoColor=white) | 2023 |
@@ -135,7 +140,7 @@ me.say_hi()
 
 ## 🌐 Let's Connect
 
-> *"I believe every line of code — and every row of clean data — can make someone's life a little better."*
+> *"I build data platforms, AI systems, and full-stack products that turn messy inputs into useful outcomes."*
 
 <p align="center">
   <a href="https://linkedin.com/in/shaansatsangi"><img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
