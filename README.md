@@ -44,7 +44,7 @@ me.say_hi()
 | [**JARVIS-PY**](https://github.com/Shaan-alpha/jarvis-py) | Python · Ollama · Vosk · openWakeWord · FAISS · fastembed | Local-first AI voice assistant with wake-word barge-in, online/offline STT, semantic memory, PDF RAG, tool-agent routing, reminders, and interruptible TTS |
 | [**Face Sort Studio**](https://github.com/Shaan-alpha/Face-Sort-Studio) | Python · Flask · OpenCV DNN · SQLite · SSE | Local face-recognition photo organizer using YuNet + SFace embeddings, real-time progress streaming, and privacy-first local processing |
 | [**Sahaara**](https://github.com/Shaan-alpha/Sahaara_APP) | Next.js · TypeScript · Supabase · Tailwind · Twilio · MapLibre | Safety-focused full-stack app with emergency SOS workflows, live location sharing, trusted contacts, and Twilio alerts |
-| [**RepoPulse**](https://github.com/Shaan-alpha) | FastAPI · Next.js · GitHub API · AI · Analytics | Upcoming developer-tool project: GitHub repo auditor with recruiter-readiness scoring, OSS hygiene checks, and personality-driven diagnostics |
+| [**Skill Issue**](https://github.com/Shaan-alpha) | FastAPI · Next.js · GitHub API · AI · Analytics | Upcoming GitHub intelligence platform for developer identity analysis, OSS signals, recruiter readiness, and personality-driven diagnostics |
 
 ---
 
@@ -111,7 +111,7 @@ me.say_hi()
 
 - 📚 **B.Tech CSE @ JECRC Jaipur** *(2022 – Present)* · CGPA: 7.39
 - 🧠 Upgraded **JARVIS-PY** into a local-first AI assistant with RAG, semantic memory, wake-word barge-in, and tool-agent routing
-- 🏗️ Planning **RepoPulse** — a GitHub repo auditor with engineering diagnostics and recruiter-readiness scoring
+- 🏗️ Planning **Skill Issue** — a GitHub intelligence platform that analyzes developer identity, OSS activity, engineering maturity, and recruiter readiness
 - 🌱 Studying for the **Databricks Certified Data Engineer Associate** exam
 - 🤝 Open to **Data Engineering, Data Analytics, and AI Systems** roles
 
