@@ -10,7 +10,21 @@
   <a href="https://github.com/Shaan-alpha"><img src="https://img.shields.io/badge/GitHub-Shaan--alpha-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="mailto:shaansatsangi@gmail.com"><img src="https://img.shields.io/badge/Email-shaansatsangi@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://shaan-alpha.github.io/Portfolio"><img src="https://img.shields.io/badge/Portfolio-Live-A78BFA?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="https://github.com/sponsors/Shaan-alpha"><img src="https://img.shields.io/badge/Sponsor-Developer%20Program-EC4899?style=for-the-badge&logo=githubsponsors&logoColor=white" /></a>
 </p>
+
+---
+
+## 📖 Interactive Guestbook & Visitor Wall
+
+> **Welcome to my Visitor Wall!** Click below to sign my guestbook. An automated GitHub Action will instantly grab your GitHub avatar and greeting and add you to the wall below!
+> 
+> [![Sign Guestbook](https://img.shields.io/badge/✍️_Sign_My_Guestbook-A78BFA?style=for-the-badge)](https://github.com/Shaan-alpha/Shaan-alpha/issues/new?template=guestbook.yml)
+
+<!-- GUESTBOOK_START -->
+| Visitor | Message | Date |
+| :---: | :--- | :---: |
+| <img src="https://avatars.githubusercontent.com/u/146729792?v=4" width="40" style="border-radius:50%"/><br/><b><a href="https://github.com/Shaan-alpha">Shaan Satsangi</a></b><br/><small>Maintainer</small> | *"Welcome to my GitHub! Drop a note and connect with me."* | May 16, 2026 |
 
 ---
 

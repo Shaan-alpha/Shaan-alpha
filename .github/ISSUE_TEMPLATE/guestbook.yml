@@ -1,0 +1,35 @@
+name: 📖 Sign My Guestbook / Wall
+description: Leave a greeting, feedback, or note on my profile README! Your avatar and message will appear instantly.
+title: "[Guestbook]: <your name or greeting>"
+labels: ["guestbook"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Welcome to my Guestbook! 🎉
+        Thanks for stopping by! Fill out the quick note below, and our automated GitHub Action will instantly add your profile picture and message to the Visitor Wall on my profile `README.md`.
+  - type: input
+    id: name
+    attributes:
+      label: Name / GitHub Handle
+      description: How would you like to be identified?
+      placeholder: e.g. @alex-dev or Alex
+    validations:
+      required: true
+  - type: input
+    id: role
+    attributes:
+      label: Role / Company / Location
+      description: Where are you visiting from?
+      placeholder: e.g. AI Engineer @ OpenAI, or Student @ Stanford
+    validations:
+      required: false
+  - type: textarea
+    id: message
+    attributes:
+      label: Your Message
+      description: What brings you here or what project did you like?
+      placeholder: e.g. Amazing work on jarvis-py and Databricks pipelines! Keep building.
+    validations:
+      required: true

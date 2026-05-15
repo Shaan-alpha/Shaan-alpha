@@ -1,0 +1,74 @@
+name: 📖 Automated Guestbook Wall
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  update-guestbook:
+    if: contains(github.event.issue.labels.*.name, 'guestbook')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Parse Issue and Update README
+        env:
+          AUTHOR: ${{ github.event.issue.user.login }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Extract fields from issue body using simple awk/grep or python
+          python -c "
+          import os, re, datetime
+
+          body = os.environ['ISSUE_BODY']
+          author = os.environ['AUTHOR']
+
+          # Extract Name
+          name_match = re.search(r'### Name / GitHub Handle\s*\n+(.*?)\n', body)
+          name = name_match.group(1).strip() if name_match else author
+
+          # Extract Role
+          role_match = re.search(r'### Role / Company / Location\s*\n+(.*?)\n', body)
+          role = role_match.group(1).strip() if role_match else ''
+          if role == '_No response_': role = ''
+
+          # Extract Message
+          msg_match = re.search(r'### Your Message\s*\n+(.*)', body, re.DOTALL)
+          msg = msg_match.group(1).strip() if msg_match else 'Visiting!'
+          msg = ' '.join(msg.splitlines()) # single line
+
+          date_str = datetime.datetime.now().strftime('%b %d, %Y')
+          avatar = f'<img src=\"https://avatars.githubusercontent.com/{author}?v=4\" width=\"40\" style=\"border-radius:50%\"/>'
+          user_link = f'<b><a href=\"https://github.com/{author}\">{name}</a></b>'
+          role_str = f'<br/><small>{role}</small>' if role else ''
+
+          row = f'| {avatar}<br/>{user_link}{role_str} | <i>\"{msg}\"</i> | {date_str} |\n'
+
+          with open('README.md', 'r', encoding='utf-8') as f:
+              readme = f.read()
+
+          marker = '<!-- GUESTBOOK_START -->'
+          if marker in readme:
+              parts = readme.split(marker)
+              new_readme = parts[0] + marker + '\n' + row + parts[1].lstrip()
+              with open('README.md', 'w', encoding='utf-8') as f:
+                  f.write(new_readme)
+          "
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git commit -m "docs(guestbook): add visitor @$AUTHOR (#$ISSUE_NUMBER)"; then
+              git push
+              gh issue comment $ISSUE_NUMBER --body "🎉 Thanks for signing my guestbook @$AUTHOR! Your message has been successfully added to my profile README wall. Have an awesome day!"
+              gh issue close $ISSUE_NUMBER --reason "completed"
+          else
+              echo "No changes or failed to commit"
+          fi
