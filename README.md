@@ -28,6 +28,44 @@
 
 ---
 
+## ⚡ Recent Activity Stream
+
+<!-- ACTIVITY_STREAM_START -->
+- 🚀 Continually building AI Systems and Data Engineering pipelines... Keep watching!
+<!-- ACTIVITY_STREAM_END -->
+
+---
+
+## 💬 Ask Me Anything (AMA)
+
+> Have a question about Data Engineering, local AI models, or my career journey? Ask away!
+> 
+> [![Ask AMA](https://img.shields.io/badge/💬_Ask_Shaan_Anything-10B981?style=for-the-badge)](https://github.com/Shaan-alpha/Shaan-alpha/issues/new?template=ama.yml)
+
+<!-- AMA_START -->
+<details>
+  <summary><b>💬 How do you build local RAG pipelines in jarvis-py?</b> <i>(asked by <a href="https://github.com/Shaan-alpha">@Shaan-alpha</a>)</i></summary>
+  <blockquote>We use fastembed ONNX models for local CPU embeddings and FAISS for similarity vector search. No cloud APIs or torch dependencies required!<br/><br/><a href="https://github.com/Shaan-alpha/jarvis-py">Read full repository →</a></blockquote>
+</details>
+<!-- AMA_END -->
+
+---
+
+## 💖 Top Sponsors & Supporters Wall
+
+A huge thank you to everyone supporting my research in local AI assistants and open-source data tools! Sponsoring helps cover testing hardware and model hosting.
+
+<p align="center">
+  <a href="https://github.com/sponsors/Shaan-alpha">
+    <img src="https://img.shields.io/badge/💖_Become_A_Sponsor_Today-EC4899?style=for-the-badge&logo=githubsponsors&logoColor=white" />
+  </a>
+</p>
+
+<!-- SPONSORS_START -->
+<!-- SPONSORS_END -->
+
+---
+
 ## 👨‍💻 About Me
 
 ```python

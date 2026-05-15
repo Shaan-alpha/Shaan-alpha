@@ -1,0 +1,93 @@
+name: ⚡ Dynamic Daily Activity Stream
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Every midnight UTC
+  workflow_dispatch: # Manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update-activity:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Fetch Activity and Update README
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python -c "
+          import urllib.request, json, os, datetime
+
+          url = 'https://api.github.com/users/Shaan-alpha/events/public'
+          req = urllib.request.Request(url, headers={'User-Agent': 'Shaan-alpha-Activity-Stream', 'Authorization': f'Bearer {os.environ[\"GH_TOKEN\"]}'})
+
+          try:
+              with urllib.request.urlopen(req) as response:
+                  events = json.loads(response.read().decode())
+          except Exception as e:
+              print(f'Error fetching events: {e}')
+              events = []
+
+          lines = []
+          count = 0
+          seen_repos = set()
+
+          for event in events:
+              if count >= 5: break
+              repo_name = event['repo']['name']
+              event_type = event['type']
+              created_at = datetime.datetime.strptime(event['created_at'], '%Y-%m-%dT%H:%M:%SZ').strftime('%b %d, %Y')
+              repo_link = f'<b><a href=\"https://github.com/{repo_name}\">{repo_name}</a></b>'
+
+              if event_type == 'PushEvent' and repo_name not in seen_repos:
+                  commits = len(event['payload'].get('commits', []))
+                  lines.append(f'- 🚀 Pushed {commits} commit(s) to {repo_link} ({created_at})')
+                  seen_repos.add(repo_name)
+                  count += 1
+              elif event_type == 'PullRequestEvent' and event['payload']['action'] == 'opened':
+                  pr_title = event['payload']['pull_request']['title']
+                  pr_url = event['payload']['pull_request']['html_url']
+                  lines.append(f'- ⚡ Opened PR <a href=\"{pr_url}\">\"{pr_title}\"</a> in {repo_link} ({created_at})')
+                  count += 1
+              elif event_type == 'WatchEvent' and event['payload']['action'] == 'started' and repo_name not in seen_repos:
+                  lines.append(f'- ⭐ Starred repository {repo_link} ({created_at})')
+                  seen_repos.add(repo_name)
+                  count += 1
+              elif event_type == 'IssuesEvent' and event['payload']['action'] == 'opened':
+                  issue_title = event['payload']['issue']['title']
+                  issue_url = event['payload']['issue']['html_url']
+                  lines.append(f'- 💬 Opened issue <a href=\"{issue_url}\">\"{issue_title}\"</a> in {repo_link} ({created_at})')
+                  count += 1
+
+          if not lines:
+              lines.append('- 🚀 Continually building AI Systems and Data Engineering pipelines... Keep watching!')
+
+          output_str = '\n'.join(lines) + '\n'
+
+          with open('README.md', 'r', encoding='utf-8') as f:
+              readme = f.read()
+
+          start_marker = '<!-- ACTIVITY_STREAM_START -->'
+          end_marker = '<!-- ACTIVITY_STREAM_END -->'
+
+          if start_marker in readme and end_marker in readme:
+              start_idx = readme.index(start_marker) + len(start_marker) + 1
+              end_idx = readme.index(end_marker)
+              new_readme = readme[:start_idx] + output_str + readme[end_idx:]
+              with open('README.md', 'w', encoding='utf-8') as f:
+                  f.write(new_readme)
+          "
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff-index --quiet HEAD; then
+              echo "No changes to commit."
+          else
+              git commit -m "docs(activity): automated daily activity stream update"
+              git push
+          fi

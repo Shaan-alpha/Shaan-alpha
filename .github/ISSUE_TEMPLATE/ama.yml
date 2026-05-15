@@ -1,0 +1,27 @@
+name: 💬 Ask Me Anything (AMA)
+description: Ask a question about Data Engineering, local AI assistants, college, or tech career.
+title: "[AMA]: <your question summary>"
+labels: ["ama"]
+assignees: ["Shaan-alpha"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Welcome to Shaan's AMA! 🎙️
+        Feel free to ask questions about my tech stack (PySpark, Databricks, Ollama), projects, or general developer questions. Once answered, your question will be featured on my profile README!
+  - type: textarea
+    id: question
+    attributes:
+      label: Your Question
+      description: What would you like to know?
+      placeholder: e.g. What resources did you use to master PySpark and Databricks pipelines?
+    validations:
+      required: true
+  - type: input
+    id: context
+    attributes:
+      label: Background Context (Optional)
+      description: Any relevant context about your current role or project?
+      placeholder: e.g. Currently learning dbt and Airflow for data warehousing.
+    validations:
+      required: false

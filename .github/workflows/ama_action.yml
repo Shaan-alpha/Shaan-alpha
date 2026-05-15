@@ -1,0 +1,86 @@
+name: 💬 Automated AMA Wall
+
+on:
+  issues:
+    types: [closed]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  update-ama:
+    if: contains(github.event.issue.labels.*.name, 'ama')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Fetch Comments and Update README
+        env:
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_URL: ${{ github.event.issue.html_url }}
+          AUTHOR: ${{ github.event.issue.user.login }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          python -c "
+          import urllib.request, json, os, re
+
+          issue_num = os.environ['ISSUE_NUMBER']
+          repo = os.environ['REPO']
+          token = os.environ['GH_TOKEN']
+          title = os.environ['ISSUE_TITLE'].replace('[AMA]:', '').strip()
+          url = os.environ['ISSUE_URL']
+          author = os.environ['AUTHOR']
+
+          comments_url = f'https://api.github.com/repos/{repo}/issues/{issue_num}/comments'
+          req = urllib.request.Request(comments_url, headers={'Authorization': f'Bearer {token}'})
+
+          answer = 'Answered directly by Shaan!'
+          try:
+              with urllib.request.urlopen(req) as resp:
+                  comments = json.loads(resp.read().decode())
+                  for c in comments:
+                      if c['user']['login'] == 'Shaan-alpha':
+                          answer = c['body']
+                          break
+          except Exception as e:
+              print(f'Error fetching comments: {e}')
+
+          # Clean up answer formatting for HTML details tag
+          answer_html = '<br/>'.join(answer.splitlines()[:5]) # keep summary concise
+          if len(answer.splitlines()) > 5: answer_html += '...'
+
+          accordion = (
+              f'<details>\n'
+              f'  <summary><b>💬 {title}</b> <i>(asked by <a href=\"https://github.com/{author}\">@{author}</a>)</i></summary>\n'
+              f'  <blockquote>{answer_html}<br/><br/><a href=\"{url}\">Read full discussion →</a></blockquote>\n'
+              f'</details>\n'
+          )
+
+          with open('README.md', 'r', encoding='utf-8') as f:
+              readme = f.read()
+
+          start_marker = '<!-- AMA_START -->'
+          end_marker = '<!-- AMA_END -->'
+
+          if start_marker in readme and end_marker in readme:
+              parts = readme.split(start_marker)
+              subparts = parts[1].split(end_marker)
+              new_readme = parts[0] + start_marker + '\n' + accordion + subparts[0].lstrip() + end_marker + subparts[1]
+              with open('README.md', 'w', encoding='utf-8') as f:
+                  f.write(new_readme)
+          "
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff-index --quiet HEAD; then
+              echo "No changes to commit."
+          else
+              git commit -m "docs(ama): add completed Q&A (#$ISSUE_NUMBER)"
+              git push
+              gh issue comment $ISSUE_NUMBER --body "📌 This AMA question and answer have been successfully archived to my profile README! Thanks for participating."
+          fi
