@@ -36,6 +36,19 @@
 
 ---
 
+## 📚 Latest Engineering Research & Articles
+
+<!-- RESEARCH_TICKER_START -->
+- 📝 [**Medallion Lakehouse Architecture in Practice**](https://github.com/Shaan-alpha/Youtube-Wrapped) — Building Bronze $\rightarrow$ Silver $\rightarrow$ Gold pipelines on Delta Lake.
+- ⚙️ [**Containerized Orchestration**](https://github.com/Shaan-alpha/CRM-Sales-Warehouse) — Scheduling dbt data marts with Apache Airflow and Docker.
+- 🧠 [**Offline RAG without Cloud APIs**](https://github.com/Shaan-alpha/jarvis-py) — Fastembed ONNX CPU vector search with FAISS.
+<!-- RESEARCH_TICKER_END -->
+
+> [!NOTE]
+> 💡 **Community Discussions**: Want to collaborate, ask questions, or share your own builds? Join our active developer community on [GitHub Discussions across my flagship repos](https://github.com/Shaan-alpha/jarvis-py/discussions)!
+
+---
+
 ## 💬 Ask Me Anything (AMA)
 
 > Have a question about Data Engineering, local AI models, or my career journey? Ask away!
@@ -55,9 +68,14 @@
 
 A huge thank you to everyone supporting my research in local AI assistants and open-source data tools! Sponsoring helps cover testing hardware and model hosting.
 
+Explore my [**Sponsor Tier Architecture & Perks (SPONSORS.md)**](SPONSORS.md) to see rewards like priority PR reviews, monthly 1-on-1 architecture advisory sessions, and premium logo placement!
+
 <p align="center">
   <a href="https://github.com/sponsors/Shaan-alpha">
     <img src="https://img.shields.io/badge/💖_Become_A_Sponsor_Today-EC4899?style=for-the-badge&logo=githubsponsors&logoColor=white" />
+  </a>
+  <a href="SPONSORS.md">
+    <img src="https://img.shields.io/badge/🎁_View_Sponsor_Tiers_%26_Perks-A78BFA?style=for-the-badge&logo=markdown&logoColor=white" />
   </a>
 </p>
 
