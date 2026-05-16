@@ -24,7 +24,7 @@ class ShaanSatsangi:
         self.role      = "B.Tech CSE @ JECRC, Jaipur (Class of 2026)"
         self.focus     = ["Data Engineering", "AI Systems", "Analytics", "Full Stack"]
         self.stack     = ["Python", "SQL", "PySpark", "Databricks", "dbt", "Airflow", "FastAPI", "Next.js"]
-        self.currently = "Building production-grade data platforms, local-first AI tools, and developer intelligence platforms"
+        self.currently = "Building production-grade data platforms, local-first AI tools, and develop intelligence platforms"
         self.open_to   = "Data Engineering / Analytics / AI Systems roles"
 
     def say_hi(self):
