@@ -15,28 +15,24 @@
 
 ---
 
-## 📖 Interactive Guestbook & Visitor Wall
+## 👨‍💻 About Me
 
-> **Welcome to my Visitor Wall!** Click below to sign my guestbook. An automated GitHub Action will instantly grab your GitHub avatar and greeting and add you to the wall below!
-> 
-> [![Sign Guestbook](https://img.shields.io/badge/✍️_Sign_My_Guestbook-A78BFA?style=for-the-badge)](https://github.com/Shaan-alpha/Shaan-alpha/issues/new?template=guestbook.yml)
+```python
+class ShaanSatsangi:
+    def __init__(self):
+        self.name      = "Shaan Satsangi"
+        self.role      = "B.Tech CSE @ JECRC, Jaipur (Class of 2026)"
+        self.focus     = ["Data Engineering", "AI Systems", "Analytics", "Full Stack"]
+        self.stack     = ["Python", "SQL", "PySpark", "Databricks", "dbt", "Airflow", "FastAPI", "Next.js"]
+        self.currently = "Building production-grade data platforms, local-first AI tools, and developer intelligence platforms"
+        self.open_to   = "Data Engineering / Analytics / AI Systems roles"
 
-<!-- GUESTBOOK_START -->
-| Visitor | Message | Date |
-| :---: | :--- | :---: |
-| <img src="https://avatars.githubusercontent.com/u/146729792?v=4" width="40" style="border-radius:50%"/><br/><b><a href="https://github.com/Shaan-alpha">Shaan Satsangi</a></b><br/><small>Maintainer</small> | *"Welcome to my GitHub! Drop a note and connect with me."* | May 16, 2026 |
+    def say_hi(self):
+        print("Thanks for stopping by! Let's build something useful.")
 
----
-
-## ⚡ Recent Activity Stream
-
-<!-- ACTIVITY_STREAM_START -->
-- 🚀 Pushed 0 commit(s) to <b><a href="https://github.com/Shaan-alpha/Shaan-alpha">Shaan-alpha/Shaan-alpha</a></b> (May 15, 2026)
-- 🚀 Pushed 0 commit(s) to <b><a href="https://github.com/Shaan-alpha/CRM-Sales-Warehouse">Shaan-alpha/CRM-Sales-Warehouse</a></b> (May 15, 2026)
-- 🚀 Pushed 0 commit(s) to <b><a href="https://github.com/Shaan-alpha/Youtube-Wrapped">Shaan-alpha/Youtube-Wrapped</a></b> (May 15, 2026)
-- 🚀 Pushed 0 commit(s) to <b><a href="https://github.com/Shaan-alpha/jarvis-py">Shaan-alpha/jarvis-py</a></b> (May 15, 2026)
-- 🚀 Pushed 0 commit(s) to <b><a href="https://github.com/Shaan-alpha/Face-Sort-Studio">Shaan-alpha/Face-Sort-Studio</a></b> (May 15, 2026)
-<!-- ACTIVITY_STREAM_END -->
+me = ShaanSatsangi()
+me.say_hi()
+```
 
 ---
 
@@ -65,47 +61,6 @@
   <blockquote>We use fastembed ONNX models for local CPU embeddings and FAISS for similarity vector search. No cloud APIs or torch dependencies required!<br/><br/><a href="https://github.com/Shaan-alpha/jarvis-py">Read full repository →</a></blockquote>
 </details>
 <!-- AMA_END -->
-
----
-
-## 💖 Top Sponsors & Supporters Wall
-
-A huge thank you to everyone supporting my research in local AI assistants and open-source data tools! Sponsoring helps cover testing hardware and model hosting.
-
-Explore my [**Sponsor Tier Architecture & Perks (SPONSORS.md)**](SPONSORS.md) to see rewards like priority PR reviews, monthly 1-on-1 architecture advisory sessions, and premium logo placement!
-
-<p align="center">
-  <a href="https://github.com/sponsors/Shaan-alpha">
-    <img src="https://img.shields.io/badge/💖_Become_A_Sponsor_Today-EC4899?style=for-the-badge&logo=githubsponsors&logoColor=white" />
-  </a>
-  <a href="SPONSORS.md">
-    <img src="https://img.shields.io/badge/🎁_View_Sponsor_Tiers_%26_Perks-A78BFA?style=for-the-badge&logo=markdown&logoColor=white" />
-  </a>
-</p>
-
-<!-- SPONSORS_START -->
-<!-- SPONSORS_END -->
-
----
-
-## 👨‍💻 About Me
-
-```python
-class ShaanSatsangi:
-    def __init__(self):
-        self.name      = "Shaan Satsangi"
-        self.role      = "CS Undergrad @ JECRC, Jaipur"
-        self.focus     = ["Data Engineering", "AI Systems", "Analytics", "Full Stack"]
-        self.stack     = ["Python", "SQL", "PySpark", "Databricks", "dbt", "Airflow", "FastAPI", "Next.js"]
-        self.currently = "Building production-grade data platforms and local-first AI tools"
-        self.open_to   = "Data Engineering / Analytics / AI Systems roles"
-
-    def say_hi(self):
-        print("Thanks for stopping by! Let's build something useful.")
-
-me = ShaanSatsangi()
-me.say_hi()
-```
 
 ---
 
@@ -185,7 +140,7 @@ me.say_hi()
 
 - 📚 **B.Tech CSE @ JECRC Jaipur** *(2022 – Present)* · CGPA: 7.39
 - 🧠 Upgraded **JARVIS-PY** into a local-first AI assistant with RAG, semantic memory, wake-word barge-in, and tool-agent routing
-- 🏗️ Planning **Skill Issue** — a GitHub intelligence platform that analyzes developer identity, OSS activity, engineering maturity, and recruiter readiness
+- 🏗️ Building **Skill Issue** — a GitHub intelligence platform that analyzes developer identity, OSS activity, engineering maturity, and recruiter readiness
 - 🌱 Studying for the **Databricks Certified Data Engineer Associate** exam
 - 🤝 Open to **Data Engineering, Data Analytics, and AI Systems** roles
 
@@ -216,6 +171,39 @@ me.say_hi()
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Shaan-alpha&theme=tokyonight" />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Shaan-alpha&theme=tokyonight" />
 </p>
+
+---
+
+## 📖 Interactive Guestbook & Visitor Wall
+
+> **Welcome to my Visitor Wall!** Click below to sign my guestbook. An automated GitHub Action will instantly grab your GitHub avatar and greeting and add you to the wall below!
+> 
+> [![Sign Guestbook](https://img.shields.io/badge/✍️_Sign_My_Guestbook-A78BFA?style=for-the-badge)](https://github.com/Shaan-alpha/Shaan-alpha/issues/new?template=guestbook.yml)
+
+<!-- GUESTBOOK_START -->
+| Visitor | Message | Date |
+| :---: | :--- | :---: |
+| <img src="https://avatars.githubusercontent.com/u/146729792?v=4" width="40" style="border-radius:50%"/><br/><b><a href="https://github.com/Shaan-alpha">Shaan Satsangi</a></b><br/><small>Maintainer</small> | *"Welcome to my GitHub! Drop a note and connect with me."* | May 16, 2026 |
+
+---
+
+## 💖 Top Sponsors & Supporters Wall
+
+A huge thank you to everyone supporting my research in local AI assistants and open-source data tools! Sponsoring helps cover testing hardware and model hosting.
+
+Explore my [**Sponsor Tier Architecture & Perks (SPONSORS.md)**](SPONSORS.md) to see rewards like priority PR reviews, monthly 1-on-1 architecture advisory sessions, and premium logo placement!
+
+<p align="center">
+  <a href="https://github.com/sponsors/Shaan-alpha">
+    <img src="https://img.shields.io/badge/💖_Become_A_Sponsor_Today-EC4899?style=for-the-badge&logo=githubsponsors&logoColor=white" />
+  </a>
+  <a href="SPONSORS.md">
+    <img src="https://img.shields.io/badge/🎁_View_Sponsor_Tiers_%26_Perks-A78BFA?style=for-the-badge&logo=markdown&logoColor=white" />
+  </a>
+</p>
+
+<!-- SPONSORS_START -->
+<!-- SPONSORS_END -->
 
 ---
 
