@@ -49,8 +49,17 @@ jobs:
                   seen_repos.add(repo_name)
                   count += 1
               elif event_type == 'PullRequestEvent' and event['payload']['action'] == 'opened':
-                  pr_title = event['payload']['pull_request']['title']
-                  pr_url = event['payload']['pull_request']['html_url']
+                  pr_num = event['payload'].get('number', '')
+                  pr_api_url = event['payload']['pull_request']['url']
+                  pr_req = urllib.request.Request(pr_api_url, headers={'User-Agent': 'Shaan-alpha-Activity-Stream', 'Authorization': f'Bearer {os.environ[\"GH_TOKEN\"]}'})
+                  try:
+                      with urllib.request.urlopen(pr_req) as pr_res:
+                          pr_data = json.loads(pr_res.read().decode())
+                      pr_title = pr_data.get('title', f'Pull Request #{pr_num}')
+                      pr_url = pr_data.get('html_url', f'https://github.com/{repo_name}/pull/{pr_num}')
+                  except Exception:
+                      pr_title = f'Pull Request #{pr_num}'
+                      pr_url = f'https://github.com/{repo_name}/pull/{pr_num}'
                   lines.append(f'- ⚡ Opened PR <a href=\"{pr_url}\">\"{pr_title}\"</a> in {repo_link} ({created_at})')
                   count += 1
               elif event_type == 'WatchEvent' and event['payload']['action'] == 'started' and repo_name not in seen_repos:
@@ -58,8 +67,18 @@ jobs:
                   seen_repos.add(repo_name)
                   count += 1
               elif event_type == 'IssuesEvent' and event['payload']['action'] == 'opened':
-                  issue_title = event['payload']['issue']['title']
-                  issue_url = event['payload']['issue']['html_url']
+                  issue_data = event['payload']['issue']
+                  issue_num = issue_data.get('number', '')
+                  if 'title' not in issue_data:
+                      issue_api_url = issue_data.get('url')
+                      issue_req = urllib.request.Request(issue_api_url, headers={'User-Agent': 'Shaan-alpha-Activity-Stream', 'Authorization': f'Bearer {os.environ[\"GH_TOKEN\"]}'})
+                      try:
+                          with urllib.request.urlopen(issue_req) as issue_res:
+                              issue_data = json.loads(issue_res.read().decode())
+                      except Exception:
+                          pass
+                  issue_title = issue_data.get('title', f'Issue #{issue_num}')
+                  issue_url = issue_data.get('html_url', f'https://github.com/{repo_name}/issues/{issue_num}')
                   lines.append(f'- 💬 Opened issue <a href=\"{issue_url}\">\"{issue_title}\"</a> in {repo_link} ({created_at})')
                   count += 1
 
