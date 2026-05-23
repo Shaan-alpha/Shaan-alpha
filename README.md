@@ -74,7 +74,6 @@ me.say_hi()
 | [**Face Sort Studio**](https://github.com/Shaan-alpha/Face-Sort-Studio) | Python · Flask · OpenCV DNN · SQLite · SSE | Local face-recognition photo organizer using YuNet + SFace embeddings, real-time progress streaming, and privacy-first local processing |
 | [**Sahaara**](https://github.com/Shaan-alpha/Sahaara_APP) | Next.js · TypeScript · Supabase · Tailwind · Twilio · MapLibre | Safety-focused full-stack app with emergency SOS workflows, live location sharing, trusted contacts, and Twilio alerts |
 | [**Skill Issue**](https://github.com/Shaan-alpha/Skill-Issue) | Next.js 16 · FastAPI · React 19 · Neon Postgres · Upstash Redis · Groq LLM | AI-powered GitHub intelligence platform analyzing profile maturity, coding discipline, and OSS contributions to generate deterministic 100-point scores and custom shareable "GitHub Receipts" |
-| [**Achievement Hunter**](https://github.com/Shaan-alpha/achievement-hunter) | Shell · Git | Automated repository utility designed to programmatically trigger and unlock special GitHub profile achievements (Pull Shark, Pair Extraordinaire, YOLO) via git automation |
 
 ---
 
@@ -146,7 +145,6 @@ me.say_hi()
 - 📚 **B.Tech CSE @ JECRC Jaipur** *(2022 – Present)* · CGPA: 7.39
 - 🚀 Shipped **Skill Issue (v0.8.0)** — Live at [skill-issue-tau.vercel.app](https://skill-issue-tau.vercel.app) with caching, OAuth, Neon Postgres persistence, Sentry & PostHog.
 - 🧠 Upgraded **JARVIS-PY** into a local-first AI assistant with RAG, semantic memory, wake-word barge-in, and tool-agent routing.
-- 🎯 Building Git automation utilities (like [**achievement-hunter**](https://github.com/Shaan-alpha/achievement-hunter)) to explore Git internals and automated profile achievements.
 - 🌱 Studying for the **Databricks Certified Data Engineer Associate** exam.
 - 🤝 Open to **Data Engineering, Data Analytics, and AI Systems** roles.
 
