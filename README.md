@@ -73,7 +73,8 @@ me.say_hi()
 | [**JARVIS-PY**](https://github.com/Shaan-alpha/jarvis-py) | Python · Ollama · Vosk · openWakeWord · FAISS · fastembed | Local-first AI voice assistant with wake-word barge-in, online/offline STT, semantic memory, PDF RAG, tool-agent routing, reminders, and interruptible TTS |
 | [**Face Sort Studio**](https://github.com/Shaan-alpha/Face-Sort-Studio) | Python · Flask · OpenCV DNN · SQLite · SSE | Local face-recognition photo organizer using YuNet + SFace embeddings, real-time progress streaming, and privacy-first local processing |
 | [**Sahaara**](https://github.com/Shaan-alpha/Sahaara_APP) | Next.js · TypeScript · Supabase · Tailwind · Twilio · MapLibre | Safety-focused full-stack app with emergency SOS workflows, live location sharing, trusted contacts, and Twilio alerts |
-| [**Skill Issue**](https://github.com/Shaan-alpha) | FastAPI · Next.js · GitHub API · AI · Analytics | Upcoming GitHub intelligence platform for developer identity analysis, OSS signals, recruiter readiness, and personality-driven diagnostics |
+| [**Skill Issue**](https://github.com/Shaan-alpha/Skill-Issue) | Next.js 16 · FastAPI · React 19 · Neon Postgres · Upstash Redis · Groq LLM | AI-powered GitHub intelligence platform analyzing profile maturity, coding discipline, and OSS contributions to generate deterministic 100-point scores and custom shareable "GitHub Receipts" |
+| [**Achievement Hunter**](https://github.com/Shaan-alpha/achievement-hunter) | Shell · Git | Automated repository utility designed to programmatically trigger and unlock special GitHub profile achievements (Pull Shark, Pair Extraordinaire, YOLO) via git automation |
 
 ---
 
@@ -94,6 +95,7 @@ me.say_hi()
 **AI / ML / Local AI Systems**
 
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=groq&logoColor=white)
 ![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 ![ONNX](https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white)
@@ -107,10 +109,13 @@ me.say_hi()
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Upstash Redis](https://img.shields.io/badge/Upstash_Redis-00E9A3?style=for-the-badge&logo=redis&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![Neon](https://img.shields.io/badge/Neon-00E699?style=for-the-badge&logo=neon&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Sentry](https://img.shields.io/badge/Sentry-362D59?style=for-the-badge&logo=sentry&logoColor=white)
+![PostHog](https://img.shields.io/badge/PostHog-000000?style=for-the-badge&logo=posthog&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 
 <details>
 <summary><b>More tools I use</b></summary>
@@ -139,10 +144,11 @@ me.say_hi()
 ## 🎯 Currently
 
 - 📚 **B.Tech CSE @ JECRC Jaipur** *(2022 – Present)* · CGPA: 7.39
-- 🧠 Upgraded **JARVIS-PY** into a local-first AI assistant with RAG, semantic memory, wake-word barge-in, and tool-agent routing
-- 🏗️ Building **Skill Issue** — a GitHub intelligence platform that analyzes developer identity, OSS activity, engineering maturity, and recruiter readiness
-- 🌱 Studying for the **Databricks Certified Data Engineer Associate** exam
-- 🤝 Open to **Data Engineering, Data Analytics, and AI Systems** roles
+- 🚀 Shipped **Skill Issue (v0.8.0)** — Live at [skill-issue-tau.vercel.app](https://skill-issue-tau.vercel.app) with caching, OAuth, Neon Postgres persistence, Sentry & PostHog.
+- 🧠 Upgraded **JARVIS-PY** into a local-first AI assistant with RAG, semantic memory, wake-word barge-in, and tool-agent routing.
+- 🎯 Building Git automation utilities (like [**achievement-hunter**](https://github.com/Shaan-alpha/achievement-hunter)) to explore Git internals and automated profile achievements.
+- 🌱 Studying for the **Databricks Certified Data Engineer Associate** exam.
+- 🤝 Open to **Data Engineering, Data Analytics, and AI Systems** roles.
 
 ---
 
