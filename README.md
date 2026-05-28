@@ -143,7 +143,7 @@ me.say_hi()
 ## 🎯 Currently
 
 - 📚 **B.Tech CSE @ JECRC Jaipur** *(2022 – Present)* · CGPA: 7.39
-- 🚀 Shipped **Skill Issue (v0.8.0)** — Live at [skill-issue-tau.vercel.app](https://skill-issue-tau.vercel.app) with caching, OAuth, Neon Postgres persistence, Sentry & PostHog.
+- 🚀 Shipped **Skill Issue (v1.0.0)** — The first stable release! Live at [skill-issue-tau.vercel.app](https://skill-issue-tau.vercel.app) analyzing profiles and generating GitHub Receipts.
 - 🧠 Upgraded **JARVIS-PY** into a local-first AI assistant with RAG, semantic memory, wake-word barge-in, and tool-agent routing.
 - 🌱 Studying for the **Databricks Certified Data Engineer Associate** exam.
 - 🤝 Open to **Data Engineering, Data Analytics, and AI Systems** roles.
