@@ -2,7 +2,7 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=Shaan%20Satsangi&fontSize=60&fontColor=ffffff&fontAlignY=36&desc=Data%20Engineering%20%7C%20AI%20Systems%20%7C%20Full%20Stack&descAlignY=56&descSize=18&animation=fadeIn)
 
 <!-- TYPING SUBTITLE -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=820&lines=Building+data+pipelines+that+don't+break+%F0%9F%94%A7;Turning+watch+history+into+analytics+%F0%9F%8E%AC;Building+local-first+AI+assistants+with+RAG+%F0%9F%A7%A0;Shipping+safety-first+full-stack+apps+%F0%9F%9B%A1%EF%B8%8F;Open+to+Data+Engineering+%2F+AI+Systems+roles+%F0%9F%9A%80)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=820&lines=Building+data+pipelines+that+don't+break+%F0%9F%94%A7;Automating+4%E2%80%935+YouTube+Shorts%2Fday+at+%240%2Fmonth+%F0%9F%8E%AC;Turning+watch+history+into+analytics+%F0%9F%93%8A;Building+local-first+AI+assistants+with+RAG+%F0%9F%A7%A0;Shipping+safety-first+full-stack+apps+%F0%9F%9B%A1%EF%B8%8F;Open+to+Data+Engineering+%2F+AI+Systems+roles+%F0%9F%9A%80)](https://git.io/typing-svg)
 
 <!-- SOCIAL BADGES -->
 <p align="center">
@@ -24,7 +24,7 @@ class ShaanSatsangi:
         self.role      = "B.Tech CSE @ JECRC, Jaipur (Class of 2026)"
         self.focus     = ["Data Engineering", "AI Systems", "Analytics", "Full Stack"]
         self.stack     = ["Python", "SQL", "PySpark", "Databricks", "dbt", "Airflow", "FastAPI", "Next.js"]
-        self.currently = "Building production-grade data platforms, local-first AI tools, and develop intelligence platforms"
+        self.currently = "Building production-grade data platforms, local-first AI tools, and autonomous AI content pipelines"
         self.open_to   = "Data Engineering / Analytics / AI Systems roles"
 
     def say_hi(self):
@@ -68,6 +68,7 @@ me.say_hi()
 
 | Project | Stack | What it does |
 | --- | --- | --- |
+| [**AI Reel Factory**](https://github.com/Shaan-alpha/AI-Reel-Factory) | Python · GitHub Actions · Supabase · Gemini (search-grounded) · Groq · Kokoro TTS · faster-whisper · FFmpeg · Cloudflare Workers AI · YouTube Data API | Fully autonomous, $0/month content factory publishing 4–5 AI-narrated, word-synced-captioned YouTube Shorts daily to [@butitmatters](https://youtube.com/@butitmatters) — web-grounded ideation, Telegram one-tap approval, idempotent fail-soft cloud pipeline, analytics learning loop |
 | [**CRM Sales Warehouse**](https://github.com/Shaan-alpha/CRM-Sales-Warehouse) | Python · PostgreSQL · Docker · dbt · Airflow · Power BI | End-to-end CRM analytics platform with ETL/ELT pipeline, star-schema warehouse, dbt tests, and 5-page executive dashboard |
 | [**YouTube Wrapped**](https://github.com/Shaan-alpha/Youtube-Wrapped) | Databricks · PySpark · Delta Lake · FastAPI · Next.js | Personal YouTube watch-history product using medallion lakehouse architecture, Neon Postgres, deployed API, and analytics dashboard |
 | [**JARVIS-PY**](https://github.com/Shaan-alpha/jarvis-py) | Python · Ollama · Vosk · openWakeWord · FAISS · fastembed | Local-first AI voice assistant with wake-word barge-in, online/offline STT, semantic memory, PDF RAG, tool-agent routing, reminders, and interruptible TTS |
@@ -94,7 +95,10 @@ me.say_hi()
 **AI / ML / Local AI Systems**
 
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
 ![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=groq&logoColor=white)
+![Whisper](https://img.shields.io/badge/faster--whisper-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Cloudflare Workers AI](https://img.shields.io/badge/Cloudflare_Workers_AI-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 ![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 ![ONNX](https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white)
@@ -112,6 +116,10 @@ me.say_hi()
 ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![Neon](https://img.shields.io/badge/Neon-00E699?style=for-the-badge&logo=neon&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white)
+![Telegram Bot API](https://img.shields.io/badge/Telegram_Bot_API-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)
+![YouTube Data API](https://img.shields.io/badge/YouTube_Data_API-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
 ![Sentry](https://img.shields.io/badge/Sentry-362D59?style=for-the-badge&logo=sentry&logoColor=white)
 ![PostHog](https://img.shields.io/badge/PostHog-000000?style=for-the-badge&logo=posthog&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
@@ -143,6 +151,7 @@ me.say_hi()
 ## 🎯 Currently
 
 - 📚 **B.Tech CSE @ JECRC Jaipur** *(2022 – Present)* · CGPA: 7.39
+- 🎬 Shipped **AI Reel Factory (v0.2.0)** — a fully autonomous, $0/month pipeline that researches news, writes scripts, narrates, renders captioned vertical video, and publishes daily YouTube Shorts to [**@butitmatters**](https://youtube.com/@butitmatters) — one Telegram tap is the only human input.
 - 🚀 Shipped **Skill Issue (v1.0.0)** — The first stable release! Live at [skill-issue-tau.vercel.app](https://skill-issue-tau.vercel.app) analyzing profiles and generating GitHub Receipts.
 - 🧠 Upgraded **JARVIS-PY** into a local-first AI assistant with RAG, semantic memory, wake-word barge-in, and tool-agent routing.
 - 🌱 Studying for the **Databricks Certified Data Engineer Associate** exam.
@@ -228,3 +237,4 @@ Explore my [**Sponsor Tier Architecture & Perks (SPONSORS.md)**](SPONSORS.md) to
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Shaan-alpha&color=a78bfa&style=for-the-badge&label=PROFILE+VIEWS" />
 </p>
+
