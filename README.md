@@ -10,7 +10,6 @@
   <a href="https://github.com/Shaan-alpha"><img src="https://img.shields.io/badge/GitHub-Shaan--alpha-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="mailto:shaansatsangi@gmail.com"><img src="https://img.shields.io/badge/Email-shaansatsangi@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://shaan-alpha.github.io/Portfolio"><img src="https://img.shields.io/badge/Portfolio-Live-A78BFA?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-  <a href="https://github.com/sponsors/Shaan-alpha"><img src="https://img.shields.io/badge/Sponsor-Developer%20Program-EC4899?style=for-the-badge&logo=githubsponsors&logoColor=white" /></a>
 </p>
 
 ---
@@ -33,34 +32,6 @@ class ShaanSatsangi:
 me = ShaanSatsangi()
 me.say_hi()
 ```
-
----
-
-## 📚 Latest Engineering Research & Articles
-
-<!-- RESEARCH_TICKER_START -->
-- 📝 [**Medallion Lakehouse Architecture in Practice**](https://github.com/Shaan-alpha/Youtube-Wrapped) — Building Bronze $\rightarrow$ Silver $\rightarrow$ Gold pipelines on Delta Lake.
-- ⚙️ [**Containerized Orchestration**](https://github.com/Shaan-alpha/CRM-Sales-Warehouse) — Scheduling dbt data marts with Apache Airflow and Docker.
-- 🧠 [**Offline RAG without Cloud APIs**](https://github.com/Shaan-alpha/jarvis-py) — Fastembed ONNX CPU vector search with FAISS.
-<!-- RESEARCH_TICKER_END -->
-
-> [!NOTE]
-> 💡 **Community Discussions**: Want to collaborate, ask questions, or share your own builds? Join our active developer community on [GitHub Discussions across my flagship repos](https://github.com/Shaan-alpha/jarvis-py/discussions)!
-
----
-
-## 💬 Ask Me Anything (AMA)
-
-> Have a question about Data Engineering, local AI models, or my career journey? Ask away!
-> 
-> [![Ask AMA](https://img.shields.io/badge/💬_Ask_Shaan_Anything-10B981?style=for-the-badge)](https://github.com/Shaan-alpha/Shaan-alpha/issues/new?template=ama.yml)
-
-<!-- AMA_START -->
-<details>
-  <summary><b>💬 How do you build local RAG pipelines in jarvis-py?</b> <i>(asked by <a href="https://github.com/Shaan-alpha">@Shaan-alpha</a>)</i></summary>
-  <blockquote>We use fastembed ONNX models for local CPU embeddings and FAISS for similarity vector search. No cloud APIs or torch dependencies required!<br/><br/><a href="https://github.com/Shaan-alpha/jarvis-py">Read full repository →</a></blockquote>
-</details>
-<!-- AMA_END -->
 
 ---
 
@@ -151,8 +122,8 @@ me.say_hi()
 ## 🎯 Currently
 
 - 📚 **B.Tech CSE @ JECRC Jaipur** *(2022 – Present)* · CGPA: 7.39
-- 🎬 Shipped **AI Reel Factory (v0.2.0)** — a fully autonomous, $0/month pipeline that researches news, writes scripts, narrates, renders captioned vertical video, and publishes daily YouTube Shorts to [**@butitmatters**](https://youtube.com/@butitmatters) — one Telegram tap is the only human input.
-- 🚀 Shipped **Skill Issue (v1.0.0)** — The first stable release! Live at [skill-issue-tau.vercel.app](https://skill-issue-tau.vercel.app) analyzing profiles and generating GitHub Receipts.
+- 🎬 Shipped **AI Reel Factory** — a fully autonomous, $0/month pipeline that researches news, writes scripts, narrates, renders captioned vertical video, and publishes daily YouTube Shorts to [**@butitmatters**](https://youtube.com/@butitmatters) — one Telegram tap is the only human input.
+- 🚀 Shipped **Skill Issue** — The first stable release! Live at [skill-issue-tau.vercel.app](https://skill-issue-tau.vercel.app) analyzing profiles and generating GitHub Receipts.
 - 🧠 Upgraded **JARVIS-PY** into a local-first AI assistant with RAG, semantic memory, wake-word barge-in, and tool-agent routing.
 - 🌱 Studying for the **Databricks Certified Data Engineer Associate** exam.
 - 🤝 Open to **Data Engineering, Data Analytics, and AI Systems** roles.
@@ -184,39 +155,6 @@ me.say_hi()
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Shaan-alpha&theme=tokyonight" />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Shaan-alpha&theme=tokyonight" />
 </p>
-
----
-
-## 📖 Interactive Guestbook & Visitor Wall
-
-> **Welcome to my Visitor Wall!** Click below to sign my guestbook. An automated GitHub Action will instantly grab your GitHub avatar and greeting and add you to the wall below!
-> 
-> [![Sign Guestbook](https://img.shields.io/badge/✍️_Sign_My_Guestbook-A78BFA?style=for-the-badge)](https://github.com/Shaan-alpha/Shaan-alpha/issues/new?template=guestbook.yml)
-
-<!-- GUESTBOOK_START -->
-| Visitor | Message | Date |
-| :---: | :--- | :---: |
-| <img src="https://avatars.githubusercontent.com/u/146729792?v=4" width="40" style="border-radius:50%"/><br/><b><a href="https://github.com/Shaan-alpha">Shaan Satsangi</a></b><br/><small>Maintainer</small> | *"Welcome to my GitHub! Drop a note and connect with me."* | May 16, 2026 |
-
----
-
-## 💖 Top Sponsors & Supporters Wall
-
-A huge thank you to everyone supporting my research in local AI assistants and open-source data tools! Sponsoring helps cover testing hardware and model hosting.
-
-Explore my [**Sponsor Tier Architecture & Perks (SPONSORS.md)**](SPONSORS.md) to see rewards like priority PR reviews, monthly 1-on-1 architecture advisory sessions, and premium logo placement!
-
-<p align="center">
-  <a href="https://github.com/sponsors/Shaan-alpha">
-    <img src="https://img.shields.io/badge/💖_Become_A_Sponsor_Today-EC4899?style=for-the-badge&logo=githubsponsors&logoColor=white" />
-  </a>
-  <a href="SPONSORS.md">
-    <img src="https://img.shields.io/badge/🎁_View_Sponsor_Tiers_%26_Perks-A78BFA?style=for-the-badge&logo=markdown&logoColor=white" />
-  </a>
-</p>
-
-<!-- SPONSORS_START -->
-<!-- SPONSORS_END -->
 
 ---
 
