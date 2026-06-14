@@ -145,7 +145,7 @@ me.say_hi()
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Shaan-alpha&theme=tokyonight&no-frame=true&no-bg=true&margin-w=15" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Shaan-alpha&theme=tokyonight&show_icons=true&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub stats" />
 </p>
 
 <p align="center">
