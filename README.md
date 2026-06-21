@@ -1,6 +1,6 @@
 <!-- ════════════════════════ HEADER BANNER ════════════════════════ -->
 <a href="https://github.com/Shaan-alpha">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=230&section=header&text=Shaan%20Satsangi&fontSize=62&fontColor=ffffff&fontAlignY=34&desc=Data%20%26%20AI%20Engineer%20%C2%B7%20Full-Stack%20Generalist&descAlignY=54&descSize=20&animation=fadeIn" width="100%" alt="Shaan Satsangi — Data & AI Engineer · Full-Stack Generalist" />
+  <img src="https://raw.githubusercontent.com/Shaan-alpha/Shaan-alpha/main/assets/header.svg" width="100%" alt="Shaan Satsangi — Data & AI Engineer · Full-Stack Generalist" />
 </a>
 
 <!-- ════════════════════════ ROLE PILLARS ════════════════════════ -->
@@ -259,7 +259,7 @@ Always happy to talk **data, AI, and building things**.
 </div>
 
 <!-- ════════════════════════ FOOTER ════════════════════════ -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer&animation=fadeIn" width="100%" alt="" />
+<img src="https://raw.githubusercontent.com/Shaan-alpha/Shaan-alpha/main/assets/footer.svg" width="100%" alt="" />
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=Shaan-alpha&color=a78bfa&style=flat-square&label=Profile+views" alt="Profile views" />
