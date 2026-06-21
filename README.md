@@ -1,6 +1,6 @@
 <!-- ════════════════════════ HEADER BANNER ════════════════════════ -->
 <a href="https://github.com/Shaan-alpha">
-  <img src="https://raw.githubusercontent.com/Shaan-alpha/Shaan-alpha/main/assets/header.svg" width="100%" alt="Shaan Satsangi — Data & AI Engineer · Full-Stack Generalist" />
+  <img src="https://raw.githubusercontent.com/Shaan-alpha/Shaan-alpha/main/assets/header.svg?v=2" width="100%" alt="Shaan Satsangi — Data & AI Engineer · Full-Stack Generalist" />
 </a>
 
 <!-- ════════════════════════ ROLE PILLARS ════════════════════════ -->
