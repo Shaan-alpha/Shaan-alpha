@@ -9,7 +9,7 @@
 **Data Scientist** &nbsp;·&nbsp; **Data Engineer** &nbsp;·&nbsp; **AI/ML Engineer** &nbsp;·&nbsp; **Data Analyst** &nbsp;·&nbsp; **Full-Stack Developer**
 
 <!-- ════════════════════════ TYPING SUBTITLE ════════════════════════ -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=900&lines=Data+%26+AI+Engineer+%C2%B7+Full-Stack+Generalist;I+turn+messy+data+into+pipelines+%26+products;Autonomous+AI+systems+%C2%B7+Lakehouses+%C2%B7+RAG%2FLLM+apps;Databricks+Certified+DE+%E2%80%94+in+progress;Open+to+Data+%2F+AI+%2F+Full-Stack+roles)](https://github.com/Shaan-alpha)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=900&lines=Data+%26+AI+Engineer+%C2%B7+Full-Stack+Generalist;I+turn+messy+data+into+pipelines+%26+products;Autonomous+AI+systems+%C2%B7+Lakehouses+%C2%B7+RAG%2FLLM+apps;Open+to+Data+%2F+AI+%2F+Full-Stack+roles)](https://github.com/Shaan-alpha)
 
 <!-- ════════════════════════ SOCIAL BADGES ════════════════════════ -->
 <a href="https://linkedin.com/in/shaansatsangi"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
@@ -28,7 +28,7 @@ I'm a **Data & AI Engineer** and full-stack generalist who likes owning a proble
 
 - 🔭 I build **autonomous Python pipelines**, **PySpark / Databricks lakehouses**, and **RAG / LLM systems** — then ship them as full-stack apps with **Next.js & FastAPI**.
 - 🧩 Comfortable wearing the **Data Scientist · Data Engineer · AI/ML · Analyst · Full-Stack** hats — I pick up whatever the problem needs.
-- 🎓 Finishing **B.Tech CSE (Class of 2026)** and chasing the **Databricks Certified Data Engineer Associate**.
+- 🎓 Finishing **B.Tech CSE (Class of 2026)**.
 - ⚡ I default to **free, production-grade tooling** — most of my projects run at **~$0/month**.
 - 📫 **Open to Data / AI / Full-Stack roles** — let's talk: **shaansatsangi@gmail.com**
 
@@ -210,7 +210,6 @@ Safety-focused full-stack app with gesture-based **emergency SOS**, **MapLibre**
 <!-- ════════════════════════ CURRENTLY ════════════════════════ -->
 ## 🎯 What I'm Up To
 
-- 🌱 Studying for the **Databricks Certified Data Engineer Associate** exam.
 - 🎬 Running **AI Reel Factory** — a fully autonomous, ~$0/month pipeline that publishes daily Shorts to [**@butitmatters**](https://youtube.com/@butitmatters).
 - 🚀 Shipped **Skill Issue** — live at [skill-issue-tau.vercel.app](https://skill-issue-tau.vercel.app), scoring GitHub profiles and generating GitHub Receipts.
 - 🧠 Evolving **JARVIS-PY** into a fuller local-first assistant — RAG, semantic memory, tool-agent routing.
