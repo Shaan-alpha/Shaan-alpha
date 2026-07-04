@@ -39,6 +39,25 @@ I'm a **Data & AI Engineer** and full-stack generalist who likes owning a proble
 
 <table>
 <tr>
+<td colspan="2" valign="top">
+
+### 💬 [VouchRank](https://github.com/Shaan-alpha/vouchrank) &nbsp;·&nbsp; [**▶ Live Demo**](https://vouchrank.vercel.app)
+`Full-Stack` · `SaaS` · `AI`
+
+Multi-tenant, white-label **reputation + AI-search-optimization SaaS**: a compliance-first review funnel (FTC / Google 2026 review rules), **LLM-visibility audits** (ChatGPT · Gemini · Perplexity), embeddable social-proof widgets, **Stripe** subscriptions + billing portal, and **Supabase Postgres Row-Level Security** tenant isolation across 12 Deno edge functions — fully clickable live in demo mode.
+
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Supabase](https://img.shields.io/badge/-Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-Postgres_RLS-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Stripe](https://img.shields.io/badge/-Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
+![Deno](https://img.shields.io/badge/-Deno-000000?style=flat-square&logo=deno&logoColor=white)
+
+[**▶ Live Demo**](https://vouchrank.vercel.app) · [**Code**](https://github.com/Shaan-alpha/vouchrank)
+
+</td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🎬 [AI Reel Factory](https://github.com/Shaan-alpha/AI-Reel-Factory)
@@ -177,10 +196,13 @@ Safety-focused full-stack app with gesture-based **emergency SOS**, **MapLibre**
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![Neon](https://img.shields.io/badge/Neon-00E699?style=for-the-badge&logo=neon&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white)
+![Deno](https://img.shields.io/badge/Deno-000000?style=for-the-badge&logo=deno&logoColor=white)
 
 **☁️ DevOps & Cloud**
 
@@ -188,6 +210,7 @@ Safety-focused full-stack app with gesture-based **emergency SOS**, **MapLibre**
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![GitHub Actions](https://img.shields.io/badge/Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
