@@ -252,6 +252,7 @@ Safety-focused full-stack app with gesture-based **emergency SOS**, **MapLibre**
 
 | Certification | Issuer | Year |
 | :--- | :--- | :---: |
+| Introduction to Model Context Protocol (MCP) | Anthropic | 2026 |
 | Data Science, AI/ML Engineer & Data Engineer | micro1 | 2026 |
 | Fundamentals of Machine Learning | Microsoft | 2023 |
 | Fundamental AI Concepts | Microsoft | 2023 |
