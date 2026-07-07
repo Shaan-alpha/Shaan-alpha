@@ -49,7 +49,7 @@ jobs:
           user_link = f'<b><a href=\"https://github.com/{author}\">{name}</a></b>'
           role_str = f'<br/><small>{role}</small>' if role else ''
 
-          row = f'| {avatar}<br/>{user_link}{role_str} | <i>\"{msg}\"</i> | {date_str} |\n'
+          row = f'  <tr><td>{avatar}<br/>{user_link}{role_str}</td><td><i>\"{msg}\"</i></td><td align=\"center\">{date_str}</td></tr>\n'
 
           with open('README.md', 'r', encoding='utf-8') as f:
               readme = f.read()

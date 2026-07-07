@@ -272,6 +272,34 @@ Safety-focused full-stack app with gesture-based **emergency SOS**, **MapLibre**
 
 </div>
 
+### ⚡ Recent Activity
+
+<!-- ACTIVITY_STREAM_START -->
+- 🚀 Continually building AI Systems and Data Engineering pipelines... Keep watching!
+<!-- ACTIVITY_STREAM_END -->
+
+<br />
+
+<!-- ════════════════════════ GUESTBOOK & AMA ════════════════════════ -->
+## 💬 Guestbook & AMA
+
+<div align="center">
+
+<a href="https://github.com/Shaan-alpha/Shaan-alpha/issues/new?template=guestbook.yml"><img src="https://img.shields.io/badge/📖_Sign_my_Guestbook-A78BFA?style=for-the-badge" alt="Sign my Guestbook" /></a>
+&nbsp;
+<a href="https://github.com/Shaan-alpha/Shaan-alpha/issues/new?template=ama.yml"><img src="https://img.shields.io/badge/🎙️_Ask_Me_Anything-1F6FEB?style=for-the-badge" alt="Ask Me Anything" /></a>
+
+</div>
+
+<table width="100%">
+  <tr><th align="left">Visitor</th><th align="left">Message</th><th>Date</th></tr>
+  <!-- GUESTBOOK_START -->
+  <tr><td colspan="3" align="center"><i>👋 Want to appear here? Sign the guestbook above!</i></td></tr>
+</table>
+
+<!-- AMA_START -->
+<!-- AMA_END -->
+
 <br />
 
 <!-- ════════════════════════ CONNECT ════════════════════════ -->
