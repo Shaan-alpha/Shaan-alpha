@@ -44,8 +44,10 @@ jobs:
               repo_link = f'<b><a href=\"https://github.com/{repo_name}\">{repo_name}</a></b>'
 
               if event_type == 'PushEvent' and repo_name not in seen_repos:
-                  commits = len(event['payload'].get('commits', []))
-                  lines.append(f'- 🚀 Pushed {commits} commit(s) to {repo_link} ({created_at})')
+                  payload = event['payload']
+                  commits = payload.get('size') or payload.get('distinct_size') or len(payload.get('commits', [])) or 1
+                  noun = 'commit' if commits == 1 else 'commits'
+                  lines.append(f'- 🚀 Pushed {commits} {noun} to {repo_link} ({created_at})')
                   seen_repos.add(repo_name)
                   count += 1
               elif event_type == 'PullRequestEvent' and event['payload']['action'] == 'opened':
