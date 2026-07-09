@@ -275,11 +275,11 @@ Safety-focused full-stack app with gesture-based **emergency SOS**, **MapLibre**
 ### ⚡ Recent Activity
 
 <!-- ACTIVITY_STREAM_START -->
-- ⭐ Starred repository <b><a href="https://github.com/Shaan-alpha/Cog-and-Cosmos">Shaan-alpha/Cog-and-Cosmos</a></b> (Jul 08, 2026)
-- ⭐ Starred repository <b><a href="https://github.com/Shaan-alpha/AI-Reel-Factory">Shaan-alpha/AI-Reel-Factory</a></b> (Jul 08, 2026)
-- ⭐ Starred repository <b><a href="https://github.com/Shaan-alpha/vouchrank">Shaan-alpha/vouchrank</a></b> (Jul 08, 2026)
-- ⭐ Starred repository <b><a href="https://github.com/Shaan-alpha/telegram-mcp">Shaan-alpha/telegram-mcp</a></b> (Jul 08, 2026)
-- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/Face-Sort-Studio">Shaan-alpha/Face-Sort-Studio</a></b> (Jul 08, 2026)
+- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/Shaan-alpha">Shaan-alpha/Shaan-alpha</a></b> (Jul 09, 2026)
+- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/vouchrank">Shaan-alpha/vouchrank</a></b> (Jul 09, 2026)
+- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/bootdev-course-author-takehome">Shaan-alpha/bootdev-course-author-takehome</a></b> (Jul 09, 2026)
+- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/portfolio-backend">Shaan-alpha/portfolio-backend</a></b> (Jul 09, 2026)
+- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/birthday-diary">Shaan-alpha/birthday-diary</a></b> (Jul 09, 2026)
 <!-- ACTIVITY_STREAM_END -->
 
 <br />
