@@ -64,7 +64,7 @@ jobs:
                       pr_url = f'https://github.com/{repo_name}/pull/{pr_num}'
                   lines.append(f'- ⚡ Opened PR <a href=\"{pr_url}\">\"{pr_title}\"</a> in {repo_link} ({created_at})')
                   count += 1
-              elif event_type == 'WatchEvent' and event['payload']['action'] == 'started' and repo_name not in seen_repos:
+              elif event_type == 'WatchEvent' and event['payload']['action'] == 'started' and not repo_name.startswith('Shaan-alpha/') and repo_name not in seen_repos:
                   lines.append(f'- ⭐ Starred repository {repo_link} ({created_at})')
                   seen_repos.add(repo_name)
                   count += 1
