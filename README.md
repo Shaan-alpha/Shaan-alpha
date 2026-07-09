@@ -268,7 +268,7 @@ Safety-focused full-stack app with gesture-based **emergency SOS**, **MapLibre**
 <img width="49%" src="https://raw.githubusercontent.com/Shaan-alpha/Shaan-alpha/main/profile-summary-card-output/tokyonight/3-stats.svg" alt="GitHub stats" />
 <img width="49%" src="https://raw.githubusercontent.com/Shaan-alpha/Shaan-alpha/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Top languages" />
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Shaan-alpha&theme=tokyonight&hide_border=true&background=0d1117" alt="GitHub streak" />
+<img src="https://streak-stats-delta.vercel.app/?user=Shaan-alpha&theme=tokyonight&hide_border=true&background=0d1117" alt="GitHub streak" />
 
 </div>
 
