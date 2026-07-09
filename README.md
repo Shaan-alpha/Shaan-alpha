@@ -275,11 +275,11 @@ Safety-focused full-stack app with gesture-based **emergency SOS**, **MapLibre**
 ### ⚡ Recent Activity
 
 <!-- ACTIVITY_STREAM_START -->
-- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/Shaan-alpha">Shaan-alpha/Shaan-alpha</a></b> (Jul 08, 2026)
-- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Jul 06, 2026)
-- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/Portfolio">Shaan-alpha/Portfolio</a></b> (Jul 05, 2026)
-- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/vouchrank">Shaan-alpha/vouchrank</a></b> (Jul 04, 2026)
-- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/vouchrank/pull/19">"docs: mermaid architecture diagram in README"</a> in <b><a href="https://github.com/Shaan-alpha/vouchrank">Shaan-alpha/vouchrank</a></b> (Jul 04, 2026)
+- ⭐ Starred repository <b><a href="https://github.com/Shaan-alpha/Cog-and-Cosmos">Shaan-alpha/Cog-and-Cosmos</a></b> (Jul 08, 2026)
+- ⭐ Starred repository <b><a href="https://github.com/Shaan-alpha/AI-Reel-Factory">Shaan-alpha/AI-Reel-Factory</a></b> (Jul 08, 2026)
+- ⭐ Starred repository <b><a href="https://github.com/Shaan-alpha/vouchrank">Shaan-alpha/vouchrank</a></b> (Jul 08, 2026)
+- ⭐ Starred repository <b><a href="https://github.com/Shaan-alpha/telegram-mcp">Shaan-alpha/telegram-mcp</a></b> (Jul 08, 2026)
+- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/Face-Sort-Studio">Shaan-alpha/Face-Sort-Studio</a></b> (Jul 08, 2026)
 <!-- ACTIVITY_STREAM_END -->
 
 <br />
