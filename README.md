@@ -275,11 +275,11 @@ Safety-focused full-stack app with gesture-based **emergency SOS**, **MapLibre**
 ### ⚡ Recent Activity
 
 <!-- ACTIVITY_STREAM_START -->
+- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/finpulse-msme-health-card">Shaan-alpha/finpulse-msme-health-card</a></b> (Jul 11, 2026)
+- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Jul 10, 2026)
+- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/Skill-Issue/pull/12">"v1.0.1 launch ops: site-origin helper + Sentry Session Replay"</a> in <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Jul 10, 2026)
 - 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/Shaan-alpha">Shaan-alpha/Shaan-alpha</a></b> (Jul 09, 2026)
 - 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/vouchrank">Shaan-alpha/vouchrank</a></b> (Jul 09, 2026)
-- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/bootdev-course-author-takehome">Shaan-alpha/bootdev-course-author-takehome</a></b> (Jul 09, 2026)
-- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/portfolio-backend">Shaan-alpha/portfolio-backend</a></b> (Jul 09, 2026)
-- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/birthday-diary">Shaan-alpha/birthday-diary</a></b> (Jul 09, 2026)
 <!-- ACTIVITY_STREAM_END -->
 
 <br />
