@@ -134,7 +134,7 @@ AI-powered **GitHub intelligence** platform that analyzes profile maturity and O
 ![Neon](https://img.shields.io/badge/-Neon-00E699?style=flat-square&logo=neon&logoColor=white)
 ![Groq](https://img.shields.io/badge/-Groq-F55036?style=flat-square&logo=groq&logoColor=white)
 
-[**Live**](https://skill-issue-tau.vercel.app) · [**Code**](https://github.com/Shaan-alpha/Skill-Issue)
+[**Live**](https://skillissue.tech) · [**Code**](https://github.com/Shaan-alpha/Skill-Issue)
 
 </td>
 <td width="50%" valign="top">
@@ -241,7 +241,7 @@ Safety-focused full-stack app with gesture-based **emergency SOS**, **MapLibre**
 ## 🎯 What I'm Up To
 
 - 🎬 Running **AI Reel Factory** — a fully autonomous, ~$0/month pipeline that publishes daily Shorts to [**@butitmatters**](https://youtube.com/@butitmatters).
-- 🚀 Shipped **Skill Issue** — live at [skill-issue-tau.vercel.app](https://skill-issue-tau.vercel.app), scoring GitHub profiles and generating GitHub Receipts.
+- 🚀 Shipped **Skill Issue** — live at [skillissue.tech](https://skillissue.tech), scoring GitHub profiles and generating GitHub Receipts.
 - 🧠 Evolving **JARVIS-PY** into a fuller local-first assistant — RAG, semantic memory, tool-agent routing.
 - 🤝 **Open to Data Engineering · Data Analytics · AI/ML · Full-Stack roles.**
 
