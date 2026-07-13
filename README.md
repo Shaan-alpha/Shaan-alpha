@@ -125,13 +125,14 @@ Local-first AI **voice assistant** with wake-word barge-in, online/offline STT, 
 <td width="50%" valign="top">
 
 ### ⚡ [Skill Issue](https://github.com/Shaan-alpha/Skill-Issue)
-`Full-Stack` · `AI`
+`Full-Stack` · `AI` · `Production`
 
-AI-powered **GitHub intelligence** platform that analyzes profile maturity and OSS contributions to generate deterministic **100-point engineering scores** and shareable "GitHub Receipts."
+AI-powered **GitHub intelligence** platform: a deterministic two-pass engine turns any profile into an explainable **100-point engineering score** + shareable "GitHub Receipts" — the AI writes the *narrative*, never the numbers (**0 hallucinated scores**). GitHub OAuth, Neon Postgres, Upstash cache & a nightly refresh cron — live in production at **skillissue.tech**.
 
 ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Neon](https://img.shields.io/badge/-Neon-00E699?style=flat-square&logo=neon&logoColor=white)
+![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Groq](https://img.shields.io/badge/-Groq-F55036?style=flat-square&logo=groq&logoColor=white)
 
 [**Live**](https://skillissue.tech) · [**Code**](https://github.com/Shaan-alpha/Skill-Issue)
