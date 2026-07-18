@@ -276,11 +276,11 @@ Safety-focused full-stack app with gesture-based **emergency SOS**, **MapLibre**
 ### ⚡ Recent Activity
 
 <!-- ACTIVITY_STREAM_START -->
+- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Jul 18, 2026)
+- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/Skill-Issue/pull/30">"fix(analyze): harden scoring-engine GraphQL calls against RESOURCE_LIMITS (complete SKILL-ISSUE-BACKEND-4)"</a> in <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Jul 18, 2026)
+- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/Skill-Issue/pull/29">"chore(vercel): stop dependabot preview deploys (match nested branches with ** globstar)"</a> in <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Jul 18, 2026)
+- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/Skill-Issue/pull/27">"fix(analyze): survive GitHub GraphQL RESOURCE_LIMITS_EXCEEDED on whale accounts (v1.0.3)"</a> in <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Jul 17, 2026)
 - 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/Portfolio">Shaan-alpha/Portfolio</a></b> (Jul 15, 2026)
-- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/Cog-and-Cosmos">Shaan-alpha/Cog-and-Cosmos</a></b> (Jul 14, 2026)
-- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/Cog-and-Cosmos/pull/2">"Phase 0 — Fix & Fortify: deep-audit follow-ups"</a> in <b><a href="https://github.com/Shaan-alpha/Cog-and-Cosmos">Shaan-alpha/Cog-and-Cosmos</a></b> (Jul 14, 2026)
-- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/Shaan-alpha">Shaan-alpha/Shaan-alpha</a></b> (Jul 13, 2026)
-- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Jul 13, 2026)
 <!-- ACTIVITY_STREAM_END -->
 
 <br />
