@@ -276,11 +276,11 @@ Safety-focused full-stack app with gesture-based **emergency SOS**, **MapLibre**
 ### ⚡ Recent Activity
 
 <!-- ACTIVITY_STREAM_START -->
-- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/narwhals">Shaan-alpha/narwhals</a></b> (Jul 23, 2026)
-- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/dbt-core">Shaan-alpha/dbt-core</a></b> (Jul 18, 2026)
-- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Jul 18, 2026)
-- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/Skill-Issue/pull/31">"chore(frontend): bump APP_VERSION to 1.0.3 (UI badge/footer still showed v1.0.2)"</a> in <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Jul 18, 2026)
-- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/Skill-Issue/pull/30">"fix(analyze): harden scoring-engine GraphQL calls against RESOURCE_LIMITS (complete SKILL-ISSUE-BACKEND-4)"</a> in <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Jul 18, 2026)
+- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Jul 25, 2026)
+- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/Skill-Issue/pull/38">"v1.0.7 — Low-severity hardening + version-display fix"</a> in <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Jul 25, 2026)
+- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/Skill-Issue/pull/37">"v1.0.6 — Shared-token quota breaker"</a> in <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Jul 24, 2026)
+- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/Skill-Issue/pull/36">"v1.0.5 — Ingest amplification containment (cores)"</a> in <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Jul 24, 2026)
+- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/Skill-Issue/pull/35">"chore(ci): lower npm-audit gate to critical (unpatched Next.js CVEs)"</a> in <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Jul 24, 2026)
 <!-- ACTIVITY_STREAM_END -->
 
 <br />
