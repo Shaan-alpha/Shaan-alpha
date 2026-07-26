@@ -276,11 +276,11 @@ Safety-focused full-stack app with gesture-based **emergency SOS**, **MapLibre**
 ### ⚡ Recent Activity
 
 <!-- ACTIVITY_STREAM_START -->
+- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/Skill-Issue/pull/40">"v1.0.8 — Auth & endpoint hardening"</a> in <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Jul 25, 2026)
 - 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Jul 25, 2026)
+- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/Skill-Issue/pull/39">"docs: sync markdowns to v1.0.7"</a> in <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Jul 25, 2026)
 - ⚡ Opened PR <a href="https://github.com/Shaan-alpha/Skill-Issue/pull/38">"v1.0.7 — Low-severity hardening + version-display fix"</a> in <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Jul 25, 2026)
 - ⚡ Opened PR <a href="https://github.com/Shaan-alpha/Skill-Issue/pull/37">"v1.0.6 — Shared-token quota breaker"</a> in <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Jul 24, 2026)
-- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/Skill-Issue/pull/36">"v1.0.5 — Ingest amplification containment (cores)"</a> in <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Jul 24, 2026)
-- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/Skill-Issue/pull/35">"chore(ci): lower npm-audit gate to critical (unpatched Next.js CVEs)"</a> in <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Jul 24, 2026)
 <!-- ACTIVITY_STREAM_END -->
 
 <br />
