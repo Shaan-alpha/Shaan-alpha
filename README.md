@@ -127,7 +127,11 @@ Local-first AI **voice assistant** with wake-word barge-in, online/offline STT, 
 ### ⚡ [Skill Issue](https://github.com/Shaan-alpha/Skill-Issue)
 `Full-Stack` · `AI` · `Production`
 
-AI-powered **GitHub intelligence** platform: a deterministic two-pass engine turns any profile into an explainable **100-point engineering score** + shareable "GitHub Receipts" — the AI writes the *narrative*, never the numbers (**0 hallucinated scores**). GitHub OAuth, Neon Postgres, Upstash cache & a nightly refresh cron — live in production at **skillissue.tech**.
+[![release](https://img.shields.io/github/v/release/Shaan-alpha/Skill-Issue?style=flat-square&label=&color=10b981)](https://github.com/Shaan-alpha/Skill-Issue/releases)
+
+Reads any public GitHub profile and scores it **out of 100** across six weighted signals, then places you on a **7-tier ladder** from Hobbyist to Principal with a sub-rank. Every point traces to real evidence in your repos — the AI writes the *narrative*, never the numbers (**0 hallucinated scores**). Pick **Roast Mode** for what a blunt senior would say, or **Mentor Mode** for how to fix it. Free, no signup; sign in to save reports and share them.
+
+> It scored me **81/100 — Staff Engineer**, nine points off Principal, then roasted me for it.
 
 ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
@@ -242,7 +246,7 @@ Safety-focused full-stack app with gesture-based **emergency SOS**, **MapLibre**
 ## 🎯 What I'm Up To
 
 - 🎬 Running **AI Reel Factory** — a fully autonomous, ~$0/month pipeline that publishes daily Shorts to [**@butitmatters**](https://youtube.com/@butitmatters).
-- 🚀 Shipped **Skill Issue** — live at [skillissue.tech](https://skillissue.tech), scoring GitHub profiles and generating GitHub Receipts.
+- 🚀 Shipped **Skill Issue v1.0.10** — live at [skillissue.tech](https://skillissue.tech). Scores any GitHub profile out of 100, roasts it, and hands you the receipt. Free, no signup.
 - 🧠 Evolving **JARVIS-PY** into a fuller local-first assistant — RAG, semantic memory, tool-agent routing.
 - 🤝 **Open to Data Engineering · Data Analytics · AI/ML · Full-Stack roles.**
 
