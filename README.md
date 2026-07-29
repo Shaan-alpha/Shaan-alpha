@@ -280,11 +280,11 @@ Safety-focused full-stack app with gesture-based **emergency SOS**, **MapLibre**
 ### ⚡ Recent Activity
 
 <!-- ACTIVITY_STREAM_START -->
+- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/Shaan-alpha">Shaan-alpha/Shaan-alpha</a></b> (Jul 28, 2026)
+- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/Shaan-alpha/pull/7">"docs: sharpen the Skill Issue card for the public launch"</a> in <b><a href="https://github.com/Shaan-alpha/Shaan-alpha">Shaan-alpha/Shaan-alpha</a></b> (Jul 28, 2026)
 - 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Jul 28, 2026)
-- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/Portfolio">Shaan-alpha/Portfolio</a></b> (Jul 28, 2026)
-- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/Skill-Issue/pull/47">"docs: record v1.0.9 merge + prod-verify results"</a> in <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Jul 28, 2026)
-- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/Skill-Issue/pull/46">"v1.0.9: audit-gate resilience — advisory outages warn instead of hard-blocking CI"</a> in <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Jul 28, 2026)
-- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/AI-Reel-Factory">Shaan-alpha/AI-Reel-Factory</a></b> (Jul 26, 2026)
+- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/Skill-Issue/pull/58">"docs: refresh README and sync stale docs to v1.0.10"</a> in <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Jul 28, 2026)
+- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/Skill-Issue/pull/57">"docs: close out v1.0.10 (tagged + released)"</a> in <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Jul 28, 2026)
 <!-- ACTIVITY_STREAM_END -->
 
 <br />
