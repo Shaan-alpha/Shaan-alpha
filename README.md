@@ -280,11 +280,11 @@ Safety-focused full-stack app with gesture-based **emergency SOS**, **MapLibre**
 ### ⚡ Recent Activity
 
 <!-- ACTIVITY_STREAM_START -->
-- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/Shaan-alpha">Shaan-alpha/Shaan-alpha</a></b> (Jul 28, 2026)
-- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/Shaan-alpha/pull/7">"docs: sharpen the Skill Issue card for the public launch"</a> in <b><a href="https://github.com/Shaan-alpha/Shaan-alpha">Shaan-alpha/Shaan-alpha</a></b> (Jul 28, 2026)
-- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Jul 28, 2026)
-- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/Skill-Issue/pull/58">"docs: refresh README and sync stale docs to v1.0.10"</a> in <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Jul 28, 2026)
-- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/Skill-Issue/pull/57">"docs: close out v1.0.10 (tagged + released)"</a> in <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Jul 28, 2026)
+- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Jul 31, 2026)
+- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/Skill-Issue/pull/69">"docs: close out v1.0.11 (tagged + released)"</a> in <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Jul 31, 2026)
+- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/Skill-Issue/pull/68">"docs: complete the [1.0.11] changelog before tagging"</a> in <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Jul 31, 2026)
+- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/Skill-Issue/pull/67">"ci: stop cancelling in-progress runs on main (3 commits shipped unverified)"</a> in <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Jul 31, 2026)
+- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/Skill-Issue/pull/66">"fix(vercel): disable previews for release/ and other unlisted branch prefixes"</a> in <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Jul 31, 2026)
 <!-- ACTIVITY_STREAM_END -->
 
 <br />
