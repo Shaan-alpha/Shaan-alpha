@@ -160,7 +160,7 @@ Safety-focused full-stack app with gesture-based **emergency SOS**, **MapLibre**
 </tr>
 </table>
 
-<sub>**More:** [Face Sort Studio](https://github.com/Shaan-alpha/Face-Sort-Studio) (local CV photo organizer) · [Cog & Cosmos](https://github.com/Shaan-alpha/Cog-and-Cosmos) (Svelte/PixiJS idle game) · and [15+ more repos →](https://github.com/Shaan-alpha?tab=repositories)</sub>
+<sub>**More:** [Face Sort Studio](https://github.com/Shaan-alpha/Face-Sort-Studio) (local CV photo organizer) · [Cog & Cosmos](https://github.com/Shaan-alpha/Cog-and-Cosmos) (Svelte/PixiJS idle game) · and [browse all repos →](https://github.com/Shaan-alpha?tab=repositories)</sub>
 
 <br />
 
@@ -246,7 +246,7 @@ Safety-focused full-stack app with gesture-based **emergency SOS**, **MapLibre**
 ## 🎯 What I'm Up To
 
 - 🎬 Running **AI Reel Factory** — a fully autonomous, ~$0/month pipeline that publishes daily Shorts to [**@butitmatters**](https://youtube.com/@butitmatters).
-- 🚀 Shipped **Skill Issue v1.0.10** — live at [skillissue.tech](https://skillissue.tech). Scores any GitHub profile out of 100, roasts it, and hands you the receipt. Free, no signup.
+- 🚀 Shipping **[Skill Issue](https://github.com/Shaan-alpha/Skill-Issue)** — live at [skillissue.tech](https://skillissue.tech). Scores any GitHub profile out of 100, roasts it, and hands you the receipt. Free, no signup.
 - 🧠 Evolving **JARVIS-PY** into a fuller local-first assistant — RAG, semantic memory, tool-agent routing.
 - 🤝 **Open to Data Engineering · Data Analytics · AI/ML · Full-Stack roles.**
 
