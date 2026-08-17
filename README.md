@@ -39,14 +39,14 @@ I'm a **Data & AI Engineer** and full-stack generalist who likes owning a proble
 
 <table>
 <tr>
-<td colspan="2" valign="top">
+<td width="50%" valign="top">
 
 ### 📈 [Atlas](https://github.com/Shaan-alpha/atlas-financial-assistant) &nbsp;·&nbsp; [**▶ Talk to it**](https://t.me/AtlasAnalyst_bot)
 `AI Agent` · `Fintech` · `Backend`
 
-An **AI financial analyst that lives in Telegram** — conversation only, no slash commands, no buttons, no menus. It learns who you are as you talk, pulls live quotes and fundamentals through a **five-provider failover chain**, reads PDFs and spreadsheets natively (tables stay tables), transcribes voice notes, and sends a morning briefing *only* when something on your watchlist actually matters — silence is enforced control flow, not a prompt suggestion.
+An **AI financial analyst that lives in Telegram** — conversation only, no slash commands or buttons. Learns you as you talk, pulls live quotes and fundamentals through a **five-provider failover chain**, reads PDFs and spreadsheets natively (tables stay tables), transcribes voice notes, and sends a morning briefing *only* when something on your watchlist matters — silence is enforced control flow, not a prompt suggestion.
 
-Built agentic: **Gemini function calling drives the loop across 20 tools**, each bound to one user by closure so the model can never reach another user's data. Runs always-on under `systemd` with a polling watchdog that force-exits a bot which is up but no longer listening — verified back and serving **six seconds after `kill -9`**. 191 tests, weighted toward the silence path, because a briefing that fires when it shouldn't is the failure a user actually notices.
+**Gemini function calling** drives the loop across **20 tools**, each closure-bound to one user so the model cannot reach another's data. Always-on under `systemd` with a polling watchdog that force-exits a bot which is up but no longer listening — back serving **six seconds after `kill -9`**. 191 tests.
 
 ![Python](https://img.shields.io/badge/-Python_3.13-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Gemini](https://img.shields.io/badge/-Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
@@ -58,9 +58,7 @@ Built agentic: **Gemini function calling drives the loop across 20 tools**, each
 [**▶ Talk to it**](https://t.me/AtlasAnalyst_bot) · [**Code**](https://github.com/Shaan-alpha/atlas-financial-assistant)
 
 </td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
+<td width="50%" valign="top">
 
 ### ⚡ [Skill Issue](https://github.com/Shaan-alpha/Skill-Issue)
 `Full-Stack` · `AI` · `Production`
@@ -82,7 +80,7 @@ Reads any public GitHub profile and scores it **out of 100** across six weighted
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top">
+<td width="50%" valign="top">
 
 ### 💬 [VouchRank](https://github.com/Shaan-alpha/vouchrank) &nbsp;·&nbsp; [**▶ Live Demo**](https://vouchrank.vercel.app)
 `Full-Stack` · `SaaS` · `AI`
@@ -99,8 +97,6 @@ Multi-tenant, white-label **reputation + AI-search-optimization SaaS**: a compli
 [**▶ Live Demo**](https://vouchrank.vercel.app) · [**Code**](https://github.com/Shaan-alpha/vouchrank)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 🎬 [AI Reel Factory](https://github.com/Shaan-alpha/AI-Reel-Factory)
@@ -116,6 +112,8 @@ Fully autonomous, **~$0/month** pipeline that researches news, writes & narrates
 [**▶ Watch**](https://youtube.com/@butitmatters) · [**Code**](https://github.com/Shaan-alpha/AI-Reel-Factory)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 📊 [YouTube Wrapped](https://github.com/Shaan-alpha/Youtube-Wrapped)
@@ -131,8 +129,6 @@ Personal watch-history analytics product built on a **Databricks medallion lakeh
 [**Code**](https://github.com/Shaan-alpha/Youtube-Wrapped)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 🏗️ [CRM Sales Warehouse](https://github.com/Shaan-alpha/CRM-Sales-Warehouse)
@@ -148,6 +144,8 @@ End-to-end CRM analytics platform: Python **ETL/ELT** into a star-schema **Postg
 [**Code**](https://github.com/Shaan-alpha/CRM-Sales-Warehouse)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🧠 [JARVIS-PY](https://github.com/Shaan-alpha/jarvis-py)
@@ -163,8 +161,6 @@ Local-first AI **voice assistant** with wake-word barge-in, online/offline STT, 
 [**Code**](https://github.com/Shaan-alpha/jarvis-py)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 🛡️ [Sahaara](https://github.com/Shaan-alpha/Sahaara_APP)
@@ -180,7 +176,6 @@ Safety-focused full-stack app with gesture-based **emergency SOS**, **MapLibre**
 [**Code**](https://github.com/Shaan-alpha/Sahaara_APP)
 
 </td>
-<td width="50%" valign="top"></td>
 </tr>
 </table>
 
