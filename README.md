@@ -62,6 +62,28 @@ Built agentic: **Gemini function calling drives the loop across 20 tools**, each
 <tr>
 <td colspan="2" valign="top">
 
+### ⚡ [Skill Issue](https://github.com/Shaan-alpha/Skill-Issue)
+`Full-Stack` · `AI` · `Production`
+
+[![release](https://img.shields.io/github/v/release/Shaan-alpha/Skill-Issue?style=flat-square&label=&color=10b981)](https://github.com/Shaan-alpha/Skill-Issue/releases)
+
+Reads any public GitHub profile and scores it **out of 100** across six weighted signals, then places you on a **7-tier ladder** from Hobbyist to Principal with a sub-rank. Every point traces to real evidence in your repos — the AI writes the *narrative*, never the numbers (**0 hallucinated scores**). Pick **Roast Mode** for what a blunt senior would say, or **Mentor Mode** for how to fix it. Free, no signup; sign in to save reports and share them.
+
+> It scored me **81/100 — Staff Engineer**, nine points off Principal, then roasted me for it.
+
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Neon](https://img.shields.io/badge/-Neon-00E699?style=flat-square&logo=neon&logoColor=white)
+![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![Groq](https://img.shields.io/badge/-Groq-F55036?style=flat-square&logo=groq&logoColor=white)
+
+[**Live**](https://skillissue.tech) · [**Code**](https://github.com/Shaan-alpha/Skill-Issue)
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
 ### 💬 [VouchRank](https://github.com/Shaan-alpha/vouchrank) &nbsp;·&nbsp; [**▶ Live Demo**](https://vouchrank.vercel.app)
 `Full-Stack` · `SaaS` · `AI`
 
@@ -145,26 +167,6 @@ Local-first AI **voice assistant** with wake-word barge-in, online/offline STT, 
 <tr>
 <td width="50%" valign="top">
 
-### ⚡ [Skill Issue](https://github.com/Shaan-alpha/Skill-Issue)
-`Full-Stack` · `AI` · `Production`
-
-[![release](https://img.shields.io/github/v/release/Shaan-alpha/Skill-Issue?style=flat-square&label=&color=10b981)](https://github.com/Shaan-alpha/Skill-Issue/releases)
-
-Reads any public GitHub profile and scores it **out of 100** across six weighted signals, then places you on a **7-tier ladder** from Hobbyist to Principal with a sub-rank. Every point traces to real evidence in your repos — the AI writes the *narrative*, never the numbers (**0 hallucinated scores**). Pick **Roast Mode** for what a blunt senior would say, or **Mentor Mode** for how to fix it. Free, no signup; sign in to save reports and share them.
-
-> It scored me **81/100 — Staff Engineer**, nine points off Principal, then roasted me for it.
-
-![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Neon](https://img.shields.io/badge/-Neon-00E699?style=flat-square&logo=neon&logoColor=white)
-![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Groq](https://img.shields.io/badge/-Groq-F55036?style=flat-square&logo=groq&logoColor=white)
-
-[**Live**](https://skillissue.tech) · [**Code**](https://github.com/Shaan-alpha/Skill-Issue)
-
-</td>
-<td width="50%" valign="top">
-
 ### 🛡️ [Sahaara](https://github.com/Shaan-alpha/Sahaara_APP)
 `Full-Stack`
 
@@ -178,6 +180,7 @@ Safety-focused full-stack app with gesture-based **emergency SOS**, **MapLibre**
 [**Code**](https://github.com/Shaan-alpha/Sahaara_APP)
 
 </td>
+<td width="50%" valign="top"></td>
 </tr>
 </table>
 
