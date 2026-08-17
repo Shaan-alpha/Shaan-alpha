@@ -41,6 +41,27 @@ I'm a **Data & AI Engineer** and full-stack generalist who likes owning a proble
 <tr>
 <td colspan="2" valign="top">
 
+### 📈 [Atlas](https://github.com/Shaan-alpha/atlas-financial-assistant) &nbsp;·&nbsp; [**▶ Talk to it**](https://t.me/AtlasAnalyst_bot)
+`AI Agent` · `Fintech` · `Backend`
+
+An **AI financial analyst that lives in Telegram** — conversation only, no slash commands, no buttons, no menus. It learns who you are as you talk, pulls live quotes and fundamentals through a **five-provider failover chain**, reads PDFs and spreadsheets natively (tables stay tables), transcribes voice notes, and sends a morning briefing *only* when something on your watchlist actually matters — silence is enforced control flow, not a prompt suggestion.
+
+Built agentic: **Gemini function calling drives the loop across 20 tools**, each bound to one user by closure so the model can never reach another user's data. Runs always-on under `systemd` with a polling watchdog that force-exits a bot which is up but no longer listening — verified back and serving **six seconds after `kill -9`**. 191 tests, weighted toward the silence path, because a briefing that fires when it shouldn't is the failure a user actually notices.
+
+![Python](https://img.shields.io/badge/-Python_3.13-3776AB?style=flat-square&logo=python&logoColor=white)
+![Gemini](https://img.shields.io/badge/-Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
+![Telegram](https://img.shields.io/badge/-Telegram_Bot-26A5E4?style=flat-square&logo=telegram&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-Postgres_18-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/-SQLAlchemy_2.0-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white)
+![Azure](https://img.shields.io/badge/-Azure_VM-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+
+[**▶ Talk to it**](https://t.me/AtlasAnalyst_bot) · [**Code**](https://github.com/Shaan-alpha/atlas-financial-assistant)
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
 ### 💬 [VouchRank](https://github.com/Shaan-alpha/vouchrank) &nbsp;·&nbsp; [**▶ Live Demo**](https://vouchrank.vercel.app)
 `Full-Stack` · `SaaS` · `AI`
 
@@ -248,6 +269,7 @@ Safety-focused full-stack app with gesture-based **emergency SOS**, **MapLibre**
 - 🎬 Running **AI Reel Factory** — a fully autonomous, ~$0/month pipeline that publishes daily Shorts to [**@butitmatters**](https://youtube.com/@butitmatters).
 - 🚀 Shipping **[Skill Issue](https://github.com/Shaan-alpha/Skill-Issue)** — live at [skillissue.tech](https://skillissue.tech). Scores any GitHub profile out of 100, roasts it, and hands you the receipt. Free, no signup.
 - 🧠 Evolving **JARVIS-PY** into a fuller local-first assistant — RAG, semantic memory, tool-agent routing.
+- 📈 Running **[Atlas](https://github.com/Shaan-alpha/atlas-financial-assistant)** live on Telegram ([@AtlasAnalyst_bot](https://t.me/AtlasAnalyst_bot)) — always-on AI financial analyst, self-healing, 191 tests.
 - 🤝 **Open to Data Engineering · Data Analytics · AI/ML · Full-Stack roles.**
 
 <br />
