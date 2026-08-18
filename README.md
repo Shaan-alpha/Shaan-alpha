@@ -300,11 +300,11 @@ Safety-focused full-stack app with gesture-based **emergency SOS**, **MapLibre**
 ### ⚡ Recent Activity
 
 <!-- ACTIVITY_STREAM_START -->
-- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/atlas-financial-assistant">Shaan-alpha/atlas-financial-assistant</a></b> (Aug 16, 2026)
-- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/think9-brain">Shaan-alpha/think9-brain</a></b> (Aug 16, 2026)
-- ⭐ Starred repository <b><a href="https://github.com/brightdata/cli">brightdata/cli</a></b> (Aug 15, 2026)
-- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/AI-Reel-Factory">Shaan-alpha/AI-Reel-Factory</a></b> (Aug 07, 2026)
-- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/Shaan-alpha">Shaan-alpha/Shaan-alpha</a></b> (Aug 03, 2026)
+- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/langchain-google">Shaan-alpha/langchain-google</a></b> (Aug 17, 2026)
+- ⚡ Opened PR <a href="https://github.com/langchain-ai/langchain-google/pull/1950">"fix(genai): stop warning about the $defs key in converted schemas"</a> in <b><a href="https://github.com/langchain-ai/langchain-google">langchain-ai/langchain-google</a></b> (Aug 17, 2026)
+- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/helm">Shaan-alpha/helm</a></b> (Aug 17, 2026)
+- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/appwrite">Shaan-alpha/appwrite</a></b> (Aug 17, 2026)
+- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/Shaan-alpha">Shaan-alpha/Shaan-alpha</a></b> (Aug 17, 2026)
 <!-- ACTIVITY_STREAM_END -->
 
 <br />
