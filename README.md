@@ -300,11 +300,11 @@ Safety-focused full-stack app with gesture-based **emergency SOS**, **MapLibre**
 ### ⚡ Recent Activity
 
 <!-- ACTIVITY_STREAM_START -->
+- ⭐ Starred repository <b><a href="https://github.com/truefoundry/trueforge">truefoundry/trueforge</a></b> (Aug 18, 2026)
 - 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/langchain-google">Shaan-alpha/langchain-google</a></b> (Aug 17, 2026)
 - ⚡ Opened PR <a href="https://github.com/langchain-ai/langchain-google/pull/1950">"fix(genai): stop warning about the $defs key in converted schemas"</a> in <b><a href="https://github.com/langchain-ai/langchain-google">langchain-ai/langchain-google</a></b> (Aug 17, 2026)
 - 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/helm">Shaan-alpha/helm</a></b> (Aug 17, 2026)
 - 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/appwrite">Shaan-alpha/appwrite</a></b> (Aug 17, 2026)
-- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/Shaan-alpha">Shaan-alpha/Shaan-alpha</a></b> (Aug 17, 2026)
 <!-- ACTIVITY_STREAM_END -->
 
 <br />
