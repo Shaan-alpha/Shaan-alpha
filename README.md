@@ -1,15 +1,15 @@
 <!-- ════════════════════════ HEADER BANNER ════════════════════════ -->
 <a href="https://github.com/Shaan-alpha">
-  <img src="https://raw.githubusercontent.com/Shaan-alpha/Shaan-alpha/main/assets/header.svg?v=2" width="100%" alt="Shaan Satsangi — Data & AI Engineer · Full-Stack Generalist" />
+  <img src="https://raw.githubusercontent.com/Shaan-alpha/Shaan-alpha/main/assets/header.svg?v=2" width="100%" alt="Shaan Satsangi, Agentic AI &amp; Systems Engineer" />
 </a>
 
 <!-- ════════════════════════ ROLE PILLARS ════════════════════════ -->
 <div align="center">
 
-**Data Scientist** &nbsp;·&nbsp; **Data Engineer** &nbsp;·&nbsp; **AI/ML Engineer** &nbsp;·&nbsp; **Data Analyst** &nbsp;·&nbsp; **Full-Stack Developer**
+**Agentic AI Systems** &nbsp;·&nbsp; **AI/ML Engineering** &nbsp;·&nbsp; **RAG &amp; LLM Applications** &nbsp;·&nbsp; **Python Backends** &nbsp;·&nbsp; **Data Engineering**
 
 <!-- ════════════════════════ TYPING SUBTITLE ════════════════════════ -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=900&lines=Data+%26+AI+Engineer+%C2%B7+Full-Stack+Generalist;I+turn+messy+data+into+pipelines+%26+products;Autonomous+AI+systems+%C2%B7+Lakehouses+%C2%B7+RAG%2FLLM+apps;Open+to+Data+%2F+AI+%2F+Full-Stack+roles)](https://github.com/Shaan-alpha)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=900&lines=Agentic+AI+%26+Systems+Engineer;Creator+of+skillissue.tech;Multi-agent+systems+%C2%B7+RAG+%C2%B7+FastAPI+backends;Open+to+AI+%2F+ML+%2F+Backend+roles)](https://github.com/Shaan-alpha)
 
 <!-- ════════════════════════ SOCIAL BADGES ════════════════════════ -->
 <a href="https://linkedin.com/in/shaansatsangi"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
@@ -24,13 +24,13 @@
 <!-- ════════════════════════ ABOUT ME ════════════════════════ -->
 ## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28" /> About Me
 
-I'm a **Data & AI Engineer** and full-stack generalist who likes owning a problem end-to-end — from raw, messy data all the way to the lakehouse, the model, and the product people actually use.
+I'm an **Agentic AI & Systems Engineer** who likes owning a problem end-to-end, from the data and the retrieval layer through the model to the product people actually use.
 
-- 🔭 I build **autonomous Python pipelines**, **PySpark / Databricks lakehouses**, and **RAG / LLM systems** — then ship them as full-stack apps with **Next.js & FastAPI**.
-- 🧩 Comfortable wearing the **Data Scientist · Data Engineer · AI/ML · Analyst · Full-Stack** hats — I pick up whatever the problem needs.
+- 🔭 I build **autonomous Python pipelines**, **PySpark / Databricks lakehouses**, and **RAG / LLM systems**: then ship them as full-stack apps with **Next.js & FastAPI**.
+- 🧩 Deepest in **agents, RAG and Python backends**, with real range across **data engineering and full-stack** when the problem needs it.
 - 🎓 Finishing **B.Tech CSE (Class of 2026)**.
-- ⚡ I default to **free, production-grade tooling** — most of my projects run at **~$0/month**.
-- 📫 **Open to Data / AI / Full-Stack roles** — let's talk: **shaansatsangi@gmail.com**
+- ⚡ I default to **free, production-grade tooling**: most of my projects run at **~$0/month**.
+- 📫 **Open to AI / ML / Backend roles.** Let's talk: **shaansatsangi@gmail.com**
 
 <br />
 
@@ -44,9 +44,9 @@ I'm a **Data & AI Engineer** and full-stack generalist who likes owning a proble
 ### 📈 [Atlas](https://github.com/Shaan-alpha/atlas-financial-assistant) &nbsp;·&nbsp; [**▶ Talk to it**](https://t.me/AtlasAnalyst_bot)
 `AI Agent` · `Fintech` · `Backend`
 
-An **AI financial analyst that lives in Telegram** — conversation only, no slash commands or buttons. Learns you as you talk, pulls live quotes and fundamentals through a **five-provider failover chain**, reads PDFs and spreadsheets natively (tables stay tables), transcribes voice notes, and sends a morning briefing *only* when something on your watchlist matters — silence is enforced control flow, not a prompt suggestion.
+An **AI financial analyst that lives in Telegram**: conversation only, no slash commands or buttons. Learns you as you talk, pulls live quotes and fundamentals through an **eight-provider failover chain** (five quote, three fundamentals), reads PDFs and spreadsheets natively (tables stay tables), transcribes voice notes, and sends a morning briefing *only* when something on your watchlist matters; silence is enforced control flow, not a prompt suggestion.
 
-**Gemini function calling** drives the loop across **20 tools**, each closure-bound to one user so the model cannot reach another's data. Always-on under `systemd` with a polling watchdog that force-exits a bot which is up but no longer listening — back serving **six seconds after `kill -9`**. 191 tests.
+**Gemini function calling** drives the loop across **20 tools**, each closure-bound to one user so the model cannot reach another's data. Always-on under `systemd` with a polling watchdog that force-exits a bot which is up but no longer listening: back serving **six seconds after `kill -9`**. 191 tests.
 
 ![Python](https://img.shields.io/badge/-Python_3.13-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Gemini](https://img.shields.io/badge/-Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
@@ -65,9 +65,9 @@ An **AI financial analyst that lives in Telegram** — conversation only, no sla
 
 [![release](https://img.shields.io/github/v/release/Shaan-alpha/Skill-Issue?style=flat-square&label=&color=10b981)](https://github.com/Shaan-alpha/Skill-Issue/releases)
 
-Reads any public GitHub profile and scores it **out of 100** across six weighted signals, then places you on a **7-tier ladder** from Hobbyist to Principal with a sub-rank. Every point traces to real evidence in your repos — the AI writes the *narrative*, never the numbers (**0 hallucinated scores**). Pick **Roast Mode** for what a blunt senior would say, or **Mentor Mode** for how to fix it. Free, no signup; sign in to save reports and share them.
+Reads any public GitHub profile and scores it **out of 100** across six weighted signals, then places you on a **7-tier ladder** from Hobbyist to Principal with a sub-rank. Every point traces to real evidence in your repos; the AI writes the *narrative*, never the numbers (**0 hallucinated scores**). Pick **Roast Mode** for what a blunt senior would say, or **Mentor Mode** for how to fix it. Free, no signup; sign in to save reports and share them.
 
-> It scored me **81/100 — Staff Engineer**, nine points off Principal, then roasted me for it.
+> It scored me **81/100: Staff Engineer**, nine points off Principal, then roasted me for it.
 
 ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
@@ -85,7 +85,7 @@ Reads any public GitHub profile and scores it **out of 100** across six weighted
 ### 💬 [VouchRank](https://github.com/Shaan-alpha/vouchrank) &nbsp;·&nbsp; [**▶ Live Demo**](https://vouchrank.vercel.app)
 `Full-Stack` · `SaaS` · `AI`
 
-Multi-tenant, white-label **reputation + AI-search-optimization SaaS**: a compliance-first review funnel (FTC / Google 2026 review rules), **LLM-visibility audits** (ChatGPT · Gemini · Perplexity), embeddable social-proof widgets, **Stripe** subscriptions + billing portal, and **Supabase Postgres Row-Level Security** tenant isolation across 12 Deno edge functions — fully clickable live in demo mode.
+Multi-tenant, white-label **reputation + AI-search-optimization SaaS**: a compliance-first review funnel (FTC / Google 2026 review rules), **LLM-visibility audits** (ChatGPT · Gemini · Perplexity), embeddable social-proof widgets, **Stripe** subscriptions + billing portal, and **Supabase Postgres Row-Level Security** tenant isolation across 12 Deno edge functions; fully clickable live in demo mode.
 
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Vite](https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
@@ -102,7 +102,7 @@ Multi-tenant, white-label **reputation + AI-search-optimization SaaS**: a compli
 ### 🎬 [AI Reel Factory](https://github.com/Shaan-alpha/AI-Reel-Factory)
 `AI/ML` · `Data Eng` · `Automation`
 
-Fully autonomous, **~$0/month** pipeline that researches news, writes & narrates scripts in a near-human voice, generates AI B-roll, auto-edits a captioned cinematic vertical video, and publishes daily YouTube Shorts — **one Telegram tap** is the only human input.
+Fully autonomous, **~$0/month** pipeline that researches news, writes & narrates scripts in a near-human voice, generates AI B-roll, auto-edits a captioned cinematic vertical video, and publishes daily YouTube Shorts: **one Telegram tap** is the only human input.
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/-Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
@@ -151,7 +151,7 @@ End-to-end CRM analytics platform: Python **ETL/ELT** into a star-schema **Postg
 ### 🧠 [JARVIS-PY](https://github.com/Shaan-alpha/jarvis-py)
 `AI/ML`
 
-Local-first AI **voice assistant** with wake-word barge-in, online/offline STT, **semantic memory**, **PDF RAG**, tool-agent routing, reminders, and interruptible TTS — privacy-first, runs on your machine.
+Local-first AI **voice assistant** with wake-word barge-in, online/offline STT, **semantic memory**, **PDF RAG**, tool-agent routing, reminders, and interruptible TTS; privacy-first, runs on your machine.
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Ollama](https://img.shields.io/badge/-Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
@@ -166,7 +166,7 @@ Local-first AI **voice assistant** with wake-word barge-in, online/offline STT, 
 ### 🛡️ [Sahaara](https://github.com/Shaan-alpha/Sahaara_APP)
 `Full-Stack`
 
-Safety-focused full-stack app with gesture-based **emergency SOS**, **MapLibre** live location sharing, trusted contacts, and **Twilio** SMS alerts — built for fast, reliable real-world response.
+Safety-focused full-stack app with gesture-based **emergency SOS**, **MapLibre** live location sharing, trusted contacts, and **Twilio** SMS alerts; built for fast, reliable real-world response.
 
 ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![Supabase](https://img.shields.io/badge/-Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
@@ -264,11 +264,11 @@ Safety-focused full-stack app with gesture-based **emergency SOS**, **MapLibre**
 <!-- ════════════════════════ CURRENTLY ════════════════════════ -->
 ## 🎯 What I'm Up To
 
-- 🎬 Running **AI Reel Factory** — a fully autonomous, ~$0/month pipeline that publishes daily Shorts to [**@butitmatters**](https://youtube.com/@butitmatters).
-- 🚀 Shipping **[Skill Issue](https://github.com/Shaan-alpha/Skill-Issue)** — live at [skillissue.tech](https://skillissue.tech). Scores any GitHub profile out of 100, roasts it, and hands you the receipt. Free, no signup.
-- 🧠 Evolving **JARVIS-PY** into a fuller local-first assistant — RAG, semantic memory, tool-agent routing.
-- 📈 Running **[Atlas](https://github.com/Shaan-alpha/atlas-financial-assistant)** live on Telegram ([@AtlasAnalyst_bot](https://t.me/AtlasAnalyst_bot)) — always-on AI financial analyst, self-healing, 191 tests.
-- 🤝 **Open to Data Engineering · Data Analytics · AI/ML · Full-Stack roles.**
+- 🎬 Running **AI Reel Factory**: a fully autonomous, ~$0/month pipeline that publishes daily Shorts to [**@butitmatters**](https://youtube.com/@butitmatters).
+- 🚀 Shipping **[Skill Issue](https://github.com/Shaan-alpha/Skill-Issue)**; live at [skillissue.tech](https://skillissue.tech). Scores any GitHub profile out of 100, roasts it, and hands you the receipt. Free, no signup.
+- 🧠 Evolving **JARVIS-PY** into a fuller local-first assistant; RAG, semantic memory, tool-agent routing.
+- 📈 Running **[Atlas](https://github.com/Shaan-alpha/atlas-financial-assistant)** live on Telegram ([@AtlasAnalyst_bot](https://t.me/AtlasAnalyst_bot)); always-on AI financial analyst, self-healing, 191 tests.
+- 🤝 **Open to AI/ML · Agentic AI · Backend · Data Engineering roles.**
 
 <br />
 
@@ -281,7 +281,7 @@ Safety-focused full-stack app with gesture-based **emergency SOS**, **MapLibre**
 | Data Science, AI/ML Engineer & Data Engineer | micro1 | 2026 |
 | Fundamentals of Machine Learning | Microsoft | 2023 |
 | Fundamental AI Concepts | Microsoft | 2023 |
-| 🥈 2nd Place — IEEE Debate Competition | IEEE | — |
+| 🥈 2nd Place: IEEE Debate Competition | IEEE | - |
 
 <br />
 
@@ -336,7 +336,7 @@ Safety-focused full-stack app with gesture-based **emergency SOS**, **MapLibre**
 
 <div align="center">
 
-I like turning messy inputs into useful outcomes — data platforms, AI systems, and products that ship.<br/>
+I like turning messy inputs into useful outcomes; data platforms, AI systems, and products that ship.<br/>
 Always happy to talk **data, AI, and building things**.
 
 <a href="https://linkedin.com/in/shaansatsangi"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
