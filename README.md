@@ -267,16 +267,17 @@ Safety-focused full-stack app with gesture-based **emergency SOS**, **MapLibre**
 - 🎬 Running **AI Reel Factory**: a fully autonomous, ~$0/month pipeline that publishes daily Shorts to [**@butitmatters**](https://youtube.com/@butitmatters).
 - 🚀 Shipping **[Skill Issue](https://github.com/Shaan-alpha/Skill-Issue)**; live at [skillissue.tech](https://skillissue.tech). Scores any GitHub profile out of 100, roasts it, and hands you the receipt. Free, no signup.
 - 🧠 Evolving **JARVIS-PY** into a fuller local-first assistant; RAG, semantic memory, tool-agent routing.
-- 📈 Running **[Atlas](https://github.com/Shaan-alpha/atlas-financial-assistant)** live on Telegram ([@AtlasAnalyst_bot](https://t.me/AtlasAnalyst_bot)); always-on AI financial analyst, self-healing, 191 tests.
+- 📈 Running **[Atlas](https://github.com/Shaan-alpha/atlas-financial-assistant)** live on Telegram ([@AtlasAnalyst_bot](https://t.me/AtlasAnalyst_bot)); always-on AI financial analyst, self-healing, 191 tests. Earned a **Certificate of Distinction** at the Atlas AI Hackathon (Humanity Founders).
 - 🤝 **Open to AI/ML · Agentic AI · Backend · Data Engineering roles.**
 
 <br />
 
 <!-- ════════════════════════ CERTIFICATIONS ════════════════════════ -->
-## 📜 Certifications
+## 📜 Certifications & Awards
 
 | Certification | Issuer | Year |
 | :--- | :--- | :---: |
+| 🏆 Certificate of Distinction: Atlas AI Hackathon | Humanity Founders | 2026 |
 | Introduction to Model Context Protocol (MCP) | Anthropic | 2026 |
 | Data Science, AI/ML Engineer & Data Engineer | micro1 | 2026 |
 | Fundamentals of Machine Learning | Microsoft | 2023 |
