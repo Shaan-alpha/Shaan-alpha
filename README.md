@@ -268,7 +268,7 @@ Safety-focused full-stack app with gesture-based **emergency SOS**, **MapLibre**
 
 A **zero-trust autonomous cloud-ops swarm**. Gemini agents diagnose live incidents, propose remediations, judge their own plans for safety, and: behind a **single-use SHA-256 human gate bound to that exact action**: execute real changes against real Cloud Run infrastructure, then re-read live state until it converges rather than trusting the API's acknowledgement.
 
-Five guards fail closed, cheapest first. Every refusal is audited into a **hash-chained Firestore ledger**, never silent. **113 tests** run offline in ~0.9 s with no credentials.
+Five guards fail closed, cheapest first. Every refusal is audited into a **hash-chained Firestore ledger**, never silent. **288 tests** run offline in ~2.7 s with no credentials.
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Gemini](https://img.shields.io/badge/-Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
