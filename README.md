@@ -311,20 +311,21 @@ Shipping into other people's codebases, where the review bar isn't mine to set.
 
 | PR | Project | What it fixed |
 | :--- | :--- | :--- |
+| [ha-mcp#1670](https://github.com/homeassistant-ai/ha-mcp/pull/1670) | **Home Assistant MCP** · 4.6k ⭐ | A restart through a reverse proxy returned 502/503 and was read as a failure; the known-good patterns now cover it |
+| [android#7018](https://github.com/home-assistant/android/pull/7018) | **Home Assistant Android** · 3.9k ⭐ | Refactored the media-player widget config activity to Compose + Material 3 |
 | [narwhals#3697](https://github.com/narwhals-dev/narwhals/pull/3697) | **Narwhals** · 1.7k ⭐ | Added a `maintain_order` argument to `Expr.list.unique` / `Series.list.unique`, across the backend implementations |
-| [ha-mcp#1670](https://github.com/homeassistant-ai/ha-mcp/pull/1670) | **Home Assistant MCP** · 4.5k ⭐ | A restart through a reverse proxy returned 502/503 and was read as a failure; the known-good patterns now cover it |
-| [anker-solix-api#314](https://github.com/thomluther/anker-solix-api/pull/314) | **anker-solix-api** · 291 ⭐ | Extended X1 device support by updating the status enumerations |
+| [anker-solix-api#314](https://github.com/thomluther/anker-solix-api/pull/314) | **anker-solix-api** · 296 ⭐ | Extended X1 device support by updating the status enumerations |
 
 **Open, in review**
 
 | PR | Project | What it does |
 | :--- | :--- | :--- |
-| [ollama#16715](https://github.com/ollama/ollama/pull/16715) | **Ollama** · 179k ⭐ | Fixes CLI image-path parsing bugs |
-| [supabase#46915](https://github.com/supabase/supabase/pull/46915) | **Supabase** · 108k ⭐ | Allows newlines in the SMS OTP template string in Studio |
+| [ollama#16715](https://github.com/ollama/ollama/pull/16715) | **Ollama** · 180k ⭐ | Fixes CLI image-path parsing bugs |
+| [supabase#46915](https://github.com/supabase/supabase/pull/46915) | **Supabase** · 109k ⭐ | Allows newlines in the SMS OTP template string in Studio |
 | [appwrite#12597](https://github.com/appwrite/appwrite/pull/12597) | **Appwrite** · 57k ⭐ | Allows a null `name` parameter on the user-creation endpoints |
 | [helm#32250](https://github.com/helm/helm/pull/32250) | **Helm** · 30k ⭐ | Surfaces the installed chart's source location |
-| [android#7018](https://github.com/home-assistant/android/pull/7018) | **Home Assistant Android** · 3.8k ⭐ | Refactors the media-player widget config activity to Compose + Material 3 |
-| [langchain-google#1950](https://github.com/langchain-ai/langchain-google/pull/1950) · [#1840](https://github.com/langchain-ai/langchain-google/pull/1840) | **LangChain Google** · 400 ⭐ | Stops the spurious `$defs` warning on converted schemas; migrates the integration tests to async |
+| [dbt-core#12952](https://github.com/dbt-labs/dbt-core/pull/12952) | **dbt Core** · 14k ⭐ | Fixes the snapshot `unique_key` error messaging |
+| [langchain-google#1950](https://github.com/langchain-ai/langchain-google/pull/1950) · [#1840](https://github.com/langchain-ai/langchain-google/pull/1840) | **LangChain Google** · 402 ⭐ | Stops the spurious `$defs` warning on converted schemas; migrates the integration tests to async |
 
 ```mermaid
 flowchart LR
@@ -336,13 +337,14 @@ flowchart LR
     ME --> IOT["<b>Home &amp; IoT</b>"]
 
     DATA --> N["Narwhals<br/><b>merged ✅</b>"]
+    DATA --> DBT["dbt Core<br/><i>in review</i>"]
     INFRA --> H["Helm<br/><i>in review</i>"]
     INFRA --> S["Supabase<br/><i>in review</i>"]
     INFRA --> AP["Appwrite<br/><i>in review</i>"]
     AI --> O["Ollama<br/><i>in review</i>"]
     AI --> LG["LangChain Google<br/><i>in review ×2</i>"]
     IOT --> HM["Home Assistant MCP<br/><b>merged ✅</b>"]
-    IOT --> HA["Home Assistant Android<br/><i>in review</i>"]
+    IOT --> HA["Home Assistant Android<br/><b>merged ✅</b>"]
     IOT --> AS["anker-solix-api<br/><b>merged ✅</b>"]
 
     classDef root fill:#a78bfa,stroke:#7c3aed,stroke-width:3px,color:#0f172a
@@ -351,8 +353,8 @@ flowchart LR
     classDef review fill:#1e293b,stroke:#475569,stroke-width:1.5px,color:#cbd5e1
     class ME root
     class DATA,INFRA,AI,IOT area
-    class N,HM,AS merged
-    class H,S,AP,O,LG,HA review
+    class N,HM,HA,AS merged
+    class H,S,AP,O,LG,DBT review
 ```
 
 <br />
@@ -439,10 +441,10 @@ flowchart LR
 ## 🎯 What I'm Up To
 
 - 🛰️ Built **[Syntrueno](https://github.com/Shaan-alpha/syntrueno)** for the Google Cloud "All Things Agentic" Hackathon: an agent swarm that makes real infrastructure changes behind a cryptographic human gate. [Live on Cloud Run](https://syntrueno-18489510475.us-central1.run.app).
-- 🚀 Shipping **[Skill Issue](https://github.com/Shaan-alpha/Skill-Issue)** at [skillissue.tech](https://skillissue.tech) — currently **v1.0.11**. Scores any GitHub profile out of 100, roasts it, and hands you the receipt. Free, no signup.
+- 🚀 Shipping **[Skill Issue](https://github.com/Shaan-alpha/Skill-Issue)** at [skillissue.tech](https://skillissue.tech) — currently **v1.0.12**. Scores any GitHub profile out of 100, roasts it, and hands you the receipt. Free, no signup.
 - 📈 Running **[Atlas](https://github.com/Shaan-alpha/atlas-financial-assistant)** live on Telegram ([@AtlasAnalyst_bot](https://t.me/AtlasAnalyst_bot)); always-on AI financial analyst, self-healing, 191 tests. Earned a **Certificate of Distinction** at the Atlas AI Hackathon (Humanity Founders).
 - 🎬 Running **AI Reel Factory**: a fully autonomous, ~$0/month pipeline that publishes daily Shorts to [**@butitmatters**](https://youtube.com/@butitmatters).
-- 🌐 Contributing upstream — merged into **Narwhals**, **Home Assistant MCP**, and **anker-solix-api**; open PRs at **Ollama**, **Supabase**, **Appwrite**, and **Helm**.
+- 🌐 Contributing upstream — merged into **Home Assistant MCP**, **Home Assistant Android**, **Narwhals**, and **anker-solix-api**; open PRs at **Ollama**, **Supabase**, **Appwrite**, **Helm**, **dbt Core**, and **LangChain Google**.
 - 🤝 **Open to AI/ML · Agentic AI · Backend · Data Engineering roles** and available immediately.
 
 <br />
