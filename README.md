@@ -477,6 +477,8 @@ flowchart LR
 ### ⚡ Recent Activity
 
 <!-- ACTIVITY_STREAM_START -->
+- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/AI-Reel-Factory/pull/10">"Full audit: the fact-check gate was switching itself off"</a> in <b><a href="https://github.com/Shaan-alpha/AI-Reel-Factory">Shaan-alpha/AI-Reel-Factory</a></b> (Sep 03, 2026)
+- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/AI-Reel-Factory/pull/9">"Fix the starving digest: ideation cited URLs it invented, and captions split numbers"</a> in <b><a href="https://github.com/Shaan-alpha/AI-Reel-Factory">Shaan-alpha/AI-Reel-Factory</a></b> (Sep 03, 2026)
 - 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/AI-Reel-Factory">Shaan-alpha/AI-Reel-Factory</a></b> (Sep 01, 2026)
 - ⚡ Opened PR <a href="https://github.com/Shaan-alpha/AI-Reel-Factory/pull/8">"Fix the 2026-09-01 audit: invented citations, unapproved re-runs, missing voice direction"</a> in <b><a href="https://github.com/Shaan-alpha/AI-Reel-Factory">Shaan-alpha/AI-Reel-Factory</a></b> (Sep 01, 2026)
 - 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/syntrueno">Shaan-alpha/syntrueno</a></b> (Aug 30, 2026)
