@@ -480,10 +480,10 @@ flowchart LR
 
 <!-- ACTIVITY_STREAM_START -->
 - 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/AI-Reel-Factory">Shaan-alpha/AI-Reel-Factory</a></b> (Sep 29, 2026)
+- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/jarvis-py/pull/19">"release: v3.6.0 (Grounded & Compact)"</a> in <b><a href="https://github.com/Shaan-alpha/jarvis-py">Shaan-alpha/jarvis-py</a></b> (Sep 29, 2026)
 - ⚡ Opened PR <a href="https://github.com/Shaan-alpha/AI-Reel-Factory/pull/12">"Audit 2026-09-27: the sound, the retiring model, and every fix"</a> in <b><a href="https://github.com/Shaan-alpha/AI-Reel-Factory">Shaan-alpha/AI-Reel-Factory</a></b> (Sep 27, 2026)
 - 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/Shaan-Satsangi-shaansatsangi-gmail.com-attempt-1">Shaan-alpha/Shaan-Satsangi-shaansatsangi-gmail.com-attempt-1</a></b> (Sep 27, 2026)
 - 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/atlas-financial-assistant">Shaan-alpha/atlas-financial-assistant</a></b> (Sep 15, 2026)
-- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/HuvoAI-assessment">Shaan-alpha/HuvoAI-assessment</a></b> (Sep 10, 2026)
 <!-- ACTIVITY_STREAM_END -->
 
 <br />
