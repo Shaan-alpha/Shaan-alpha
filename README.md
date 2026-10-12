@@ -26,7 +26,7 @@
 
 I'm an **Agentic AI & Systems Engineer** who likes owning a problem end-to-end, from the data and the retrieval layer through the model to the product people actually use.
 
-- 🔭 I build **autonomous Python pipelines**, **PySpark / Databricks lakehouses**, and **RAG / LLM systems**: then ship them as full-stack apps with **Next.js & FastAPI**.
+- 🔭 I build **autonomous Python pipelines**, **PySpark / Databricks lakehouses**, and **RAG / LLM systems**, then ship them as full-stack apps with **Next.js & FastAPI**.
 - 🧩 Deepest in **agents, RAG and Python backends**, with real range across **data engineering and full-stack** when the problem needs it.
 - 🎓 **B.Tech CSE, Class of 2026** (graduated). Earned an **M.Tech CSE seat at IIIT Tiruchirappalli** and turned it down to build full-time.
 - ⚡ I default to **free, production-grade tooling**: most of my projects run at **~$0/month**.
@@ -43,7 +43,7 @@ The same spine runs through almost everything below: **the model writes the pros
 flowchart LR
     IN["<b>Messy input</b><br/>APIs · webhooks<br/>PDFs · voice · sheets<br/>event streams"]
 
-    subgraph CORE ["Deterministic core — the part that must be right"]
+    subgraph CORE ["Deterministic core: the part that must be right"]
         direction TB
         ING["<b>Typed ingestion</b><br/>rate-limit aware<br/>conditional requests<br/>bounded fan-out"]
         LOGIC["<b>Pure decision code</b><br/>scoring · matching · salience<br/><i>every output traces to evidence</i>"]
@@ -78,7 +78,7 @@ flowchart LR
     class IN,OUT,SILENT,GATE term
 ```
 
-**Where each piece is real, not aspirational:** the deterministic core is [Skill Issue](https://github.com/Shaan-alpha/Skill-Issue)'s two-pass scorer · the gate is [Atlas](https://github.com/Shaan-alpha/atlas-financial-assistant)'s salience check, which returns `send: false` and means it · closure-bound routing is Atlas's 20 tools, each welded to one user id · fail-open caching is Skill Issue's four Redis layers.
+**Where each piece is real, not aspirational:** the deterministic core is [Skill Issue](https://github.com/Shaan-alpha/Skill-Issue)'s two-pass scorer · the gate is [Atlas](https://github.com/Shaan-alpha/atlas-financial-assistant)'s salience check, which returns `send: false` and means it · closure-bound routing is Atlas's 20 tools, where every tool that touches user data is welded to one user id · fail-open caching is Skill Issue's four Redis layers.
 
 <br />
 
@@ -93,19 +93,19 @@ flowchart TD
     ME --> C["<b>Python backends</b>"]
     ME --> D["<b>Data engineering</b>"]
 
-    A --> A1["<b>Atlas</b> — 20 tools under Gemini<br/>function calling, live on Telegram"]
-    A --> A2["<b>Syntrueno</b> — agent swarm that mutates<br/>real Cloud Run behind a human gate"]
-    A --> A3["<b>telegram-mcp</b> — MCP server giving<br/>agents your own Telegram account"]
+    A --> A1["<b>Atlas</b>: 20 tools under Gemini<br/>function calling, live on Telegram"]
+    A --> A2["<b>Syntrueno</b>: agent swarm that mutates<br/>real Cloud Run behind a human gate"]
+    A --> A3["<b>telegram-mcp</b>: MCP server giving<br/>agents your own Telegram account"]
 
-    B --> B1["<b>Think9 Brain</b> — cites its source section,<br/>refuses when the corpus can't answer"]
-    B --> B2["<b>disaster-management-rag</b> — 18/20 held-out,<br/>reproducible with no API key"]
-    B --> B3["<b>JARVIS-PY</b> — semantic memory +<br/>threshold-gated PDF RAG, fully local"]
+    B --> B1["<b>Think9 Brain</b>: cites its source section,<br/>refuses when the corpus can't answer"]
+    B --> B2["<b>disaster-management-rag</b>: 18/20 held-out,<br/>reproducible with no API key"]
+    B --> B3["<b>JARVIS-PY</b>: semantic memory +<br/>threshold-gated PDF RAG, local-first"]
 
-    C --> C1["<b>Skill Issue</b> — FastAPI, Neon, Upstash,<br/>OAuth, warm p95 ≤ 200 ms"]
-    C --> C2["<b>VouchRank</b> — multi-tenant SaaS on<br/>Postgres RLS + 12 Deno edge functions"]
+    C --> C1["<b>Skill Issue</b>: FastAPI, Neon, Upstash,<br/>OAuth, four-layer Redis cache"]
+    C --> C2["<b>VouchRank</b>: multi-tenant SaaS on<br/>Postgres RLS + 12 Deno edge functions"]
 
-    D --> D1["<b>YouTube Wrapped</b> — Databricks medallion<br/>lakehouse on Delta Lake"]
-    D --> D2["<b>CRM Sales Warehouse</b> — Airflow-orchestrated<br/>star schema, dbt-tested, Power BI"]
+    D --> D1["<b>YouTube Wrapped</b>: Databricks medallion<br/>lakehouse on Delta Lake"]
+    D --> D2["<b>CRM Sales Warehouse</b>: Airflow-orchestrated<br/>star schema, SQL quality checks, Power BI"]
 
     classDef root fill:#a78bfa,stroke:#7c3aed,stroke-width:3px,color:#0f172a
     classDef pillar fill:#312e81,stroke:#818cf8,stroke-width:2px,color:#e2e8f0
@@ -127,9 +127,9 @@ flowchart TD
 ### 📈 [Atlas](https://github.com/Shaan-alpha/atlas-financial-assistant) &nbsp;·&nbsp; [**▶ Talk to it**](https://t.me/AtlasAnalyst_bot)
 `AI Agent` · `Fintech` · `Backend`
 
-An **AI financial analyst that lives in Telegram**: conversation only, no slash commands or buttons. Learns you as you talk, pulls live quotes and fundamentals through an **eight-provider failover chain** (five quote, three fundamentals), reads PDFs and spreadsheets natively (tables stay tables), transcribes voice notes, and sends a morning briefing *only* when something on your watchlist matters; silence is enforced control flow, not a prompt suggestion.
+An **AI financial analyst that lives in Telegram**: conversation only, no slash commands or buttons. Learns you as you talk, pulls live quotes and fundamentals through **provider failover chains** (four quote, three fundamentals), reads PDFs and spreadsheets natively (tables stay tables), transcribes voice notes, and sends a morning briefing *only* when something on your watchlist matters; silence is enforced control flow, not a prompt suggestion.
 
-**Gemini function calling** drives the loop across **20 tools**, each closure-bound to one user so the model cannot reach another's data. Always-on under `systemd` with a polling watchdog that force-exits a bot which is up but no longer listening: back serving **six seconds after `kill -9`**. 191 tests.
+**Gemini function calling** drives the loop across **20 tools**; the ten that touch user data are closure-bound to one user, so the model cannot reach another's data. Always-on under `systemd` with a polling watchdog that force-exits a bot which is up but no longer listening: back serving **six seconds after `kill -9`**. 309 tests.
 
 ![Python](https://img.shields.io/badge/-Python_3.13-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Gemini](https://img.shields.io/badge/-Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
@@ -150,7 +150,7 @@ An **AI financial analyst that lives in Telegram**: conversation only, no slash 
 
 Reads any public GitHub profile and scores it **out of 100** across six weighted signals, then places you on a **7-tier ladder** from Hobbyist to Principal with a sub-rank. Every point traces to real evidence in your repos; the AI writes the *narrative*, never the numbers (**0 hallucinated scores**). Pick **Roast Mode** for what a blunt senior would say, or **Mentor Mode** for how to fix it. Free, no signup; sign in to save reports and share them.
 
-> It scored me **81/100: Staff Engineer**, nine points off Principal, then roasted me for it.
+> It scores me **84/100: Staff Engineer** (Oct 2026), six points off Principal, then roasts me for it.
 
 ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
@@ -168,7 +168,7 @@ Reads any public GitHub profile and scores it **out of 100** across six weighted
 ### 💬 [VouchRank](https://github.com/Shaan-alpha/vouchrank) &nbsp;·&nbsp; [**▶ Live Demo**](https://vouchrank.vercel.app)
 `Full-Stack` · `SaaS` · `AI`
 
-Multi-tenant, white-label **reputation + AI-search-optimization SaaS**: a compliance-first review funnel (FTC / Google 2026 review rules), **LLM-visibility audits** (ChatGPT · Gemini · Perplexity), embeddable social-proof widgets, **Stripe** subscriptions + billing portal, and **Supabase Postgres Row-Level Security** tenant isolation across 12 Deno edge functions; fully clickable live in demo mode.
+Multi-tenant, white-label **reputation + AI-search-optimization SaaS**: a compliance-first review funnel (FTC / Google 2026 review rules), **LLM-visibility audits** (ChatGPT · Gemini · Perplexity), embeddable social-proof widgets, **Stripe** subscriptions + billing portal, and **Supabase Postgres Row-Level Security** tenant isolation, plus 12 Deno edge functions that check agency ownership before touching data. Fully clickable live in demo mode.
 
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Vite](https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
@@ -185,7 +185,7 @@ Multi-tenant, white-label **reputation + AI-search-optimization SaaS**: a compli
 ### 🎬 [AI Reel Factory](https://github.com/Shaan-alpha/AI-Reel-Factory)
 `AI/ML` · `Data Eng` · `Automation`
 
-Fully autonomous, **~$0/month** pipeline that researches news, writes & narrates scripts in a near-human voice, generates AI B-roll, auto-edits a captioned cinematic vertical video, and publishes daily YouTube Shorts: **one Telegram tap** is the only human input.
+On-demand, **low-cost** pipeline (a $5/month target) that researches news, writes & narrates scripts in a near-human voice, generates AI B-roll, auto-edits a captioned cinematic vertical video, and uploads it as a YouTube Short. A `/makeshort` command and an **Approve tap in Telegram** are the only human input.
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/-Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
@@ -209,7 +209,7 @@ Personal watch-history analytics product built on a **Databricks medallion lakeh
 ![Delta Lake](https://img.shields.io/badge/-Delta_Lake-00ADD4?style=flat-square&logo=delta&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 
-[**Code**](https://github.com/Shaan-alpha/Youtube-Wrapped)
+[**▶ Live**](https://youtube-wrapped-by-shaan.vercel.app) · [**Code**](https://github.com/Shaan-alpha/Youtube-Wrapped)
 
 </td>
 <td width="50%" valign="top">
@@ -217,7 +217,7 @@ Personal watch-history analytics product built on a **Databricks medallion lakeh
 ### 🏗️ [CRM Sales Warehouse](https://github.com/Shaan-alpha/CRM-Sales-Warehouse)
 `Data Eng` · `Analytics`
 
-End-to-end CRM analytics platform: Python **ETL/ELT** into a star-schema **PostgreSQL** warehouse, orchestrated with **Airflow**, validated with **dbt tests**, and surfaced as a 5-page **Power BI** executive dashboard.
+End-to-end CRM analytics platform: Python **ETL/ELT** into a star-schema **PostgreSQL** warehouse, orchestrated with **Airflow**, guarded by SQL data-quality checks plus a starter **dbt** layer with its own tests, and surfaced as a 5-page **Power BI** executive dashboard.
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![dbt](https://img.shields.io/badge/-dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
@@ -234,7 +234,7 @@ End-to-end CRM analytics platform: Python **ETL/ELT** into a star-schema **Postg
 ### 🧠 [JARVIS-PY](https://github.com/Shaan-alpha/jarvis-py)
 `AI/ML`
 
-Local-first AI **voice assistant** with wake-word barge-in, online/offline STT, **semantic memory**, **PDF RAG**, tool-agent routing, reminders, and interruptible TTS; privacy-first, runs on your machine.
+Local-first AI **voice assistant** with wake-word barge-in, online/offline STT (Google, or Vosk on-device), **semantic memory**, **PDF RAG**, tool-agent routing, reminders, and interruptible TTS. The LLM runs locally through Ollama, and it keeps working offline.
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Ollama](https://img.shields.io/badge/-Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
@@ -249,11 +249,11 @@ Local-first AI **voice assistant** with wake-word barge-in, online/offline STT, 
 ### 🛡️ [Sahaara](https://github.com/Shaan-alpha/Sahaara_APP)
 `Full-Stack`
 
-Safety-focused full-stack app with gesture-based **emergency SOS**, **MapLibre** live location sharing, trusted contacts, and **Twilio** SMS alerts; built for fast, reliable real-world response.
+Safety-focused full-stack app: a one-tap **emergency SOS** broadcasts an alert to online users within a set radius over **Supabase Realtime**, with **MapLibre** live location tracking and a trusted-contacts list.
 
 ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Supabase](https://img.shields.io/badge/-Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
-![Twilio](https://img.shields.io/badge/-Twilio-F22F46?style=flat-square&logo=twilio&logoColor=white)
+![Supabase](https://img.shields.io/badge/-Supabase_Realtime-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![MapLibre](https://img.shields.io/badge/-MapLibre-396CB2?style=flat-square&logo=maplibre&logoColor=white)
 
 [**Code**](https://github.com/Shaan-alpha/Sahaara_APP)
@@ -266,9 +266,9 @@ Safety-focused full-stack app with gesture-based **emergency SOS**, **MapLibre**
 ### 🛰️ [Syntrueno](https://github.com/Shaan-alpha/syntrueno) &nbsp;·&nbsp; [**▶ Live service**](https://syntrueno-18489510475.us-central1.run.app)
 `Agentic AI` · `Zero-Trust` · `GCP`
 
-A **zero-trust autonomous cloud-ops swarm**. Gemini agents diagnose live incidents, propose remediations, judge their own plans for safety, and: behind a **single-use SHA-256 human gate bound to that exact action**: execute real changes against real Cloud Run infrastructure, then re-read live state until it converges rather than trusting the API's acknowledgement.
+A **zero-trust autonomous cloud-ops swarm**. Gemini agents diagnose live incidents, propose remediations and judge their own plans for safety. Behind a **single-use SHA-256 human gate bound to that exact action**, they execute real changes against a real Cloud Run service, then re-read live state until it converges rather than trusting the API's acknowledgement.
 
-Five guards fail closed, cheapest first. Every refusal is audited into a **hash-chained Firestore ledger**, never silent. **288 tests** run offline in ~2.7 s with no credentials.
+Guards fail closed, cheapest first. Every guard refusal is written to a **hash-chained Firestore ledger**, never dropped silently. **288 tests** run offline in ~2.7 s with no credentials.
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Gemini](https://img.shields.io/badge/-Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
@@ -283,7 +283,7 @@ Five guards fail closed, cheapest first. Every refusal is audited into a **hash-
 ### 🧾 [Think9 Brain](https://github.com/Shaan-alpha/think9-brain) &nbsp;·&nbsp; [**▶ Live**](https://think9-brain.vercel.app)
 `RAG` · `LangGraph` · `Retrieval`
 
-A grounded **institutional-memory assistant** that cites the exact source section, states a good-as-of date, and holds back superseded documents. Built to be *trusted*, which means built to say "I don't know."
+A grounded **institutional-memory assistant** over a synthetic multi-brand corpus. It cites the exact source section, states a good-as-of date, and holds back superseded documents. Built to be *trusted*, which means built to say "I don't know."
 
 **Refusal recall is 1.000 on both eval sets**: across 32 unanswerable questions (invented vendors, plausible-but-absent figures, out-of-scope functions) it never once fabricated an answer.
 
@@ -311,21 +311,12 @@ Shipping into other people's codebases, where the review bar isn't mine to set.
 
 | PR | Project | What it fixed |
 | :--- | :--- | :--- |
-| [ha-mcp#1670](https://github.com/homeassistant-ai/ha-mcp/pull/1670) | **Home Assistant MCP** · 4.6k ⭐ | A restart through a reverse proxy returned 502/503 and was read as a failure; the known-good patterns now cover it |
-| [android#7018](https://github.com/home-assistant/android/pull/7018) | **Home Assistant Android** · 3.9k ⭐ | Refactored the media-player widget config activity to Compose + Material 3 |
+| [ha-mcp#1670](https://github.com/homeassistant-ai/ha-mcp/pull/1670) | **Home Assistant MCP** · 5.0k ⭐ | A restart through a reverse proxy returned 502/503 and was read as a failure; the known-good patterns now cover it |
+| [android#7018](https://github.com/home-assistant/android/pull/7018) | **Home Assistant Android** · 4.0k ⭐ | Refactored the media-player widget config activity to Compose + Material 3 |
 | [narwhals#3697](https://github.com/narwhals-dev/narwhals/pull/3697) | **Narwhals** · 1.7k ⭐ | Added a `maintain_order` argument to `Expr.list.unique` / `Series.list.unique`, across the backend implementations |
-| [anker-solix-api#314](https://github.com/thomluther/anker-solix-api/pull/314) | **anker-solix-api** · 296 ⭐ | Extended X1 device support by updating the status enumerations |
+| [anker-solix-api#314](https://github.com/thomluther/anker-solix-api/pull/314) | **anker-solix-api** · 304 ⭐ | Extended X1 device support by updating the status enumerations |
 
-**Open, in review**
-
-| PR | Project | What it does |
-| :--- | :--- | :--- |
-| [ollama#16715](https://github.com/ollama/ollama/pull/16715) | **Ollama** · 180k ⭐ | Fixes CLI image-path parsing bugs |
-| [supabase#46915](https://github.com/supabase/supabase/pull/46915) | **Supabase** · 109k ⭐ | Allows newlines in the SMS OTP template string in Studio |
-| [appwrite#12597](https://github.com/appwrite/appwrite/pull/12597) | **Appwrite** · 57k ⭐ | Allows a null `name` parameter on the user-creation endpoints |
-| [helm#32250](https://github.com/helm/helm/pull/32250) | **Helm** · 30k ⭐ | Surfaces the installed chart's source location |
-| [dbt-core#12952](https://github.com/dbt-labs/dbt-core/pull/12952) | **dbt Core** · 14k ⭐ | Fixes the snapshot `unique_key` error messaging |
-| [langchain-google#1950](https://github.com/langchain-ai/langchain-google/pull/1950) · [#1840](https://github.com/langchain-ai/langchain-google/pull/1840) | **LangChain Google** · 402 ⭐ | Stops the spurious `$defs` warning on converted schemas; migrates the integration tests to async |
+**In review:** [ollama#16715](https://github.com/ollama/ollama/pull/16715) (Ollama, 183k ⭐: CLI image-path parsing) · [supabase#46915](https://github.com/supabase/supabase/pull/46915) (Supabase, 111k ⭐: newlines in the Studio SMS OTP template) · [helm#32250](https://github.com/helm/helm/pull/32250) (Helm, 30k ⭐: show the installed chart's source) · [dbt#12952](https://github.com/dbt-labs/dbt/pull/12952) (dbt Core, 14k ⭐: clearer snapshot `unique_key` errors) · [langchain-google#1950](https://github.com/langchain-ai/langchain-google/pull/1950) and [#1840](https://github.com/langchain-ai/langchain-google/pull/1840) (LangChain Google, 404 ⭐: no spurious `$defs` warning, async integration tests)
 
 ```mermaid
 flowchart LR
@@ -340,7 +331,6 @@ flowchart LR
     DATA --> DBT["dbt Core<br/><i>in review</i>"]
     INFRA --> H["Helm<br/><i>in review</i>"]
     INFRA --> S["Supabase<br/><i>in review</i>"]
-    INFRA --> AP["Appwrite<br/><i>in review</i>"]
     AI --> O["Ollama<br/><i>in review</i>"]
     AI --> LG["LangChain Google<br/><i>in review ×2</i>"]
     IOT --> HM["Home Assistant MCP<br/><b>merged ✅</b>"]
@@ -354,7 +344,7 @@ flowchart LR
     class ME root
     class DATA,INFRA,AI,IOT area
     class N,HM,HA,AS merged
-    class H,S,AP,O,LG,DBT review
+    class H,S,O,LG,DBT review
 ```
 
 <br />
@@ -373,18 +363,14 @@ flowchart LR
 ![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
 ![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&logoColor=white)
 
 **🤖 AI / ML**
 
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
 ![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=groq&logoColor=white)
@@ -420,18 +406,18 @@ flowchart LR
 <summary><b>+ more tools I reach for</b></summary>
 <br />
 
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Whisper](https://img.shields.io/badge/faster--whisper-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![ONNX](https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white)
-![NLTK](https://img.shields.io/badge/NLTK-154F3C?style=for-the-badge&logo=python&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![Redis](https://img.shields.io/badge/Upstash_Redis-00E9A3?style=for-the-badge&logo=redis&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 ![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white)
-![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=for-the-badge&logo=twilio&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=for-the-badge&logo=svelte&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+
+<sub>Also familiar with, though not yet in a public repo: TensorFlow, Keras, Tableau, Seaborn, NLTK, Twilio, C++.</sub>
 
 </details>
 
@@ -441,10 +427,11 @@ flowchart LR
 ## 🎯 What I'm Up To
 
 - 🛰️ Built **[Syntrueno](https://github.com/Shaan-alpha/syntrueno)** for the Google Cloud "All Things Agentic" Hackathon: an agent swarm that makes real infrastructure changes behind a cryptographic human gate. [Live on Cloud Run](https://syntrueno-18489510475.us-central1.run.app).
-- 🚀 Shipping **[Skill Issue](https://github.com/Shaan-alpha/Skill-Issue)** at [skillissue.tech](https://skillissue.tech) — currently **v1.0.12**. Scores any GitHub profile out of 100, roasts it, and hands you the receipt. Free, no signup.
-- 📈 Running **[Atlas](https://github.com/Shaan-alpha/atlas-financial-assistant)** live on Telegram ([@AtlasAnalyst_bot](https://t.me/AtlasAnalyst_bot)); always-on AI financial analyst, self-healing, 191 tests. Earned a **Certificate of Distinction** at the Atlas AI Hackathon (Humanity Founders).
-- 🎬 Running **AI Reel Factory**: a fully autonomous, ~$0/month pipeline that publishes daily Shorts to [**@butitmatters**](https://youtube.com/@butitmatters).
-- 🌐 Contributing upstream — merged into **Home Assistant MCP**, **Home Assistant Android**, **Narwhals**, and **anker-solix-api**; open PRs at **Ollama**, **Supabase**, **Appwrite**, **Helm**, **dbt Core**, and **LangChain Google**.
+- 🚀 Shipping **[Skill Issue](https://github.com/Shaan-alpha/Skill-Issue)** at [skillissue.tech](https://skillissue.tech), currently **[v1.0.13](https://github.com/Shaan-alpha/Skill-Issue/releases/tag/v1.0.13)**, which closed two critical Next.js security advisories. Scores any GitHub profile out of 100, roasts it, and hands you the receipt. Free, no signup.
+- 🎙️ Shipped **[JARVIS v3.6.0](https://github.com/Shaan-alpha/jarvis-py/releases/tag/v3.6.0)** (Sep 2026): deterministic answers for time, date, battery and disk, an offline calculator that understands spoken numbers, a hard two-sentence reply cap, and Stop/Esc that halts a streaming answer.
+- 📈 Running **[Atlas](https://github.com/Shaan-alpha/atlas-financial-assistant)** live on Telegram ([@AtlasAnalyst_bot](https://t.me/AtlasAnalyst_bot)); always-on AI financial analyst, self-healing, 309 tests. Earned a **Certificate of Distinction** at the Atlas AI Hackathon (Humanity Founders).
+- 🎬 Running **[AI Reel Factory](https://github.com/Shaan-alpha/AI-Reel-Factory)**: an on-demand, low-cost pipeline that pitches news stories to me on Telegram, then scripts, voices, captions and publishes the ones I approve as Shorts on [**@butitmatters**](https://youtube.com/@butitmatters), 80+ so far.
+- 🌐 Contributing upstream: merged into **Home Assistant MCP**, **Home Assistant Android**, **Narwhals**, and **anker-solix-api**; open PRs at **Ollama**, **Supabase**, **Helm**, **dbt Core**, and **LangChain Google**.
 - 🤝 **Open to AI/ML · Agentic AI · Backend · Data Engineering roles** and available immediately.
 
 <br />
@@ -515,7 +502,7 @@ flowchart LR
 
 <div align="center">
 
-I like turning messy inputs into useful outcomes; data platforms, AI systems, and products that ship.<br/>
+I like turning messy inputs into useful outcomes: data platforms, AI systems, and products that ship.<br/>
 Always happy to talk **data, AI, and building things**.
 
 <a href="https://linkedin.com/in/shaansatsangi"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
