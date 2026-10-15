@@ -466,11 +466,10 @@ flowchart LR
 ### ⚡ Recent Activity
 
 <!-- ACTIVITY_STREAM_START -->
-- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/Shaan-alpha">Shaan-alpha/Shaan-alpha</a></b> (Oct 12, 2026)
-- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/defaultradar-msme">Shaan-alpha/defaultradar-msme</a></b> (Oct 12, 2026)
-- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/Portfolio">Shaan-alpha/Portfolio</a></b> (Oct 12, 2026)
-- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Oct 12, 2026)
-- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/Skill-Issue/pull/120">"Correct README claims and clear new Next.js advisories"</a> in <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Oct 12, 2026)
+- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Oct 14, 2026)
+- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/Skill-Issue/pull/133">"v1.0.16: privacy patch (Sentry and PostHog)"</a> in <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Oct 14, 2026)
+- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/Skill-Issue/pull/132">"docs: close out v1.0.15 (tagged + released)"</a> in <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Oct 14, 2026)
+- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/Skill-Issue/pull/129">"v1.0.15: commit activity from GitHub's contribution data"</a> in <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Oct 14, 2026)
 <!-- ACTIVITY_STREAM_END -->
 
 <br />
