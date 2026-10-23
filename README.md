@@ -466,10 +466,11 @@ flowchart LR
 ### ⚡ Recent Activity
 
 <!-- ACTIVITY_STREAM_START -->
+- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/AI-Reel-Factory/pull/14">"Cache the apt packages; count the time limit from the job's real start"</a> in <b><a href="https://github.com/Shaan-alpha/AI-Reel-Factory">Shaan-alpha/AI-Reel-Factory</a></b> (Oct 22, 2026)
+- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/AI-Reel-Factory/pull/13">"Claude writes the script within $4 a month; fix the edge-tts hang"</a> in <b><a href="https://github.com/Shaan-alpha/AI-Reel-Factory">Shaan-alpha/AI-Reel-Factory</a></b> (Oct 22, 2026)
 - 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Oct 14, 2026)
 - ⚡ Opened PR <a href="https://github.com/Shaan-alpha/Skill-Issue/pull/133">"v1.0.16: privacy patch (Sentry and PostHog)"</a> in <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Oct 14, 2026)
 - ⚡ Opened PR <a href="https://github.com/Shaan-alpha/Skill-Issue/pull/132">"docs: close out v1.0.15 (tagged + released)"</a> in <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Oct 14, 2026)
-- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/Skill-Issue/pull/129">"v1.0.15: commit activity from GitHub's contribution data"</a> in <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Oct 14, 2026)
 <!-- ACTIVITY_STREAM_END -->
 
 <br />
