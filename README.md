@@ -466,11 +466,11 @@ flowchart LR
 ### ⚡ Recent Activity
 
 <!-- ACTIVITY_STREAM_START -->
-- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/Skill-Issue/pull/148">"chore(deps): late-October minor and patch refresh (supersedes #142–#144, #146)"</a> in <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Oct 25, 2026)
-- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/Skill-Issue/pull/147">"docs: close out v1.0.16 and v1.0.17 (tagged + released)"</a> in <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Oct 25, 2026)
 - 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Oct 25, 2026)
-- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/Skill-Issue/pull/141">"v1.0.17: dependency advisories"</a> in <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Oct 25, 2026)
 - 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/Portfolio">Shaan-alpha/Portfolio</a></b> (Oct 25, 2026)
+- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/Cog-and-Cosmos">Shaan-alpha/Cog-and-Cosmos</a></b> (Oct 25, 2026)
+- 🚀 Pushed 1 commit to <b><a href="https://github.com/Shaan-alpha/syntrueno">Shaan-alpha/syntrueno</a></b> (Oct 25, 2026)
+- ⚡ Opened PR <a href="https://github.com/Shaan-alpha/Skill-Issue/pull/148">"chore(deps): late-October minor and patch refresh (supersedes #142–#144, #146)"</a> in <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Shaan-alpha/Skill-Issue</a></b> (Oct 25, 2026)
 <!-- ACTIVITY_STREAM_END -->
 
 <br />
