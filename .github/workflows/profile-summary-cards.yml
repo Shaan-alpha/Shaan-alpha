@@ -1,11 +1,10 @@
 name: Profile summary cards
 
-# Generates GitHub stats / language cards as SVGs committed into the repo, so the
-# README renders them from raw.githubusercontent (no rate-limited external service).
+# Generates GitHub stats / language cards as SVGs committed into the repo. The profile
+# README no longer shows them (the 700x200 card was unreadable in the mobile column and
+# repeated GitHub's own contribution graph), so this runs only when triggered by hand.
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 6 * * *' # daily, 06:00 UTC — stats never lag more than a day
 
 permissions:
   contents: write
@@ -14,9 +13,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
+          # Shown in full; the default "login (name)" title is clipped to 22 characters.
+          # No THEME input: the action clears the output folder before each run.
+          NAME: Shaan Satsangi

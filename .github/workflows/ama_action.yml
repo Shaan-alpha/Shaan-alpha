@@ -1,5 +1,10 @@
 name: 💬 Automated AMA Wall
 
+# A question goes on the README only when the repository owner has answered it in a
+# comment and then closes the issue as "completed". An author closing their own issue,
+# or the owner closing one as "not planned", publishes nothing. The form's label is not
+# required, because issue forms silently drop labels that do not exist in the repository.
+# The body fallback skips guestbook notes, so one issue never triggers both walls.
 on:
   issues:
     types: [closed]
@@ -10,77 +15,138 @@ permissions:
 
 jobs:
   update-ama:
-    if: contains(github.event.issue.labels.*.name, 'ama')
+    if: >-
+      github.event.issue.state_reason == 'completed' &&
+      github.event.sender.login == github.repository_owner &&
+      (contains(github.event.issue.labels.*.name, 'ama') ||
+      startsWith(github.event.issue.title, '[AMA]') ||
+      (contains(github.event.issue.body, '### Your Question') &&
+      !contains(github.event.issue.body, '### Your Message')))
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Fetch Comments and Update README
         env:
           ISSUE_NUMBER: ${{ github.event.issue.number }}
           ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
           ISSUE_URL: ${{ github.event.issue.html_url }}
           AUTHOR: ${{ github.event.issue.user.login }}
+          OWNER: ${{ github.repository_owner }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO: ${{ github.repository }}
         run: |
-          python -c "
-          import urllib.request, json, os, re
+          # Quoted heredoc: the shell expands nothing inside the Python program.
+          edit() {
+          python - <<'PY'
+          import html, json, os, re, sys, urllib.request
 
           issue_num = os.environ['ISSUE_NUMBER']
           repo = os.environ['REPO']
           token = os.environ['GH_TOKEN']
-          title = os.environ['ISSUE_TITLE'].replace('[AMA]:', '').strip()
+          owner = os.environ['OWNER']
           url = os.environ['ISSUE_URL']
           author = os.environ['AUTHOR']
+          if not re.fullmatch(r'[A-Za-z0-9-]{1,39}', author):
+              sys.exit('Unexpected GitHub login; README left unchanged')
 
-          comments_url = f'https://api.github.com/repos/{repo}/issues/{issue_num}/comments'
-          req = urllib.request.Request(comments_url, headers={'Authorization': f'Bearer {token}'})
+          # The summary is the issue title, or the whole question on one line when the
+          # title is empty or still the old form placeholder. (Its first line alone is
+          # often just a greeting.)
+          title = re.sub(r'^\s*\[AMA\]:?', '', os.environ.get('ISSUE_TITLE') or '').strip()
+          if not title or title == '<your question summary>':
+              m = re.search(r'### Your Question\s*\n(.*?)(?=\n### |\Z)', os.environ.get('ISSUE_BODY') or '', re.S)
+              title = ' '.join(m.group(1).split()) if m else ''
+          if len(title) > 120:
+              title = title[:117].rsplit(' ', 1)[0] + '...'
+          title = html.escape(title) or 'A question'
 
-          answer = 'Answered directly by Shaan!'
+          # The answer is the owner's first comment. No answer means nothing is published.
+          req = urllib.request.Request(
+              f'https://api.github.com/repos/{repo}/issues/{issue_num}/comments?per_page=100',
+              headers={'Authorization': f'Bearer {token}', 'Accept': 'application/vnd.github+json'},
+          )
           try:
               with urllib.request.urlopen(req) as resp:
                   comments = json.loads(resp.read().decode())
-                  for c in comments:
-                      if c['user']['login'] == 'Shaan-alpha':
-                          answer = c['body']
-                          break
           except Exception as e:
-              print(f'Error fetching comments: {e}')
+              sys.exit(f'Error fetching comments: {e}; README left unchanged')
+          answer = next((c.get('body') or '' for c in comments
+                         if (c.get('user') or {}).get('login') == owner), '')
+          if not answer.strip():
+              print('No answer from the owner on this issue, so nothing is published.')
+              sys.exit(0)
 
-          # Clean up answer formatting for HTML details tag
-          answer_html = '<br/>'.join(answer.splitlines()[:5]) # keep summary concise
-          if len(answer.splitlines()) > 5: answer_html += '...'
-
-          accordion = (
-              f'<details>\n'
-              f'  <summary><b>💬 {title}</b> <i>(asked by <a href=\"https://github.com/{author}\">@{author}</a>)</i></summary>\n'
-              f'  <blockquote>{answer_html}<br/><br/><a href=\"{url}\">Read full discussion →</a></blockquote>\n'
-              f'</details>\n'
+          # The answer is the owner's own Markdown, so it is quoted as written, not
+          # HTML-escaped: GitHub sanitizes HTML anyway, and Markdown never decodes entities
+          # inside code, so an escaped "->" would show as "-&gt;". Only the README's own
+          # markers are refused. Two trailing spaces keep the comment's single line breaks,
+          # which README rendering would otherwise join into one line.
+          markers = ('<!-- ACTIVITY_STREAM_START -->', '<!-- ACTIVITY_STREAM_END -->',
+                     '<!-- GUESTBOOK_START -->', '<!-- AMA_START -->', '<!-- AMA_END -->')
+          if any(mk in answer for mk in markers):
+              sys.exit('The answer contains a README marker; README left unchanged')
+          lines = answer.strip().splitlines()
+          kept = lines[:8]
+          while kept and not kept[-1].strip():
+              kept.pop()
+          quoted = '\n'.join(('> ' + l.rstrip() + '  ') if l.strip() else '>' for l in kept)
+          if len(lines) > len(kept):
+              quoted += '\n>\n> ...'
+          entry = (
+              '<details>\n'
+              f'<summary><b>{title}</b> <i>(asked by <a href="https://github.com/{author}">@{author}</a>)</i></summary>\n\n'
+              f'{quoted}\n\n'
+              f'[Read the full discussion]({url})\n\n'
+              '</details>\n'
           )
 
           with open('README.md', 'r', encoding='utf-8') as f:
               readme = f.read()
 
-          start_marker = '<!-- AMA_START -->'
-          end_marker = '<!-- AMA_END -->'
+          start_marker, end_marker = '<!-- AMA_START -->', '<!-- AMA_END -->'
+          if readme.count(start_marker) != 1 or readme.count(end_marker) != 1:
+              sys.exit('AMA markers must appear exactly once; README left unchanged')
+          if f'({url})' in readme:
+              print('This question is already on the README.')
+              sys.exit(0)
 
-          if start_marker in readme and end_marker in readme:
-              parts = readme.split(start_marker)
-              subparts = parts[1].split(end_marker)
-              new_readme = parts[0] + start_marker + '\n' + accordion + subparts[0].lstrip() + end_marker + subparts[1]
-              with open('README.md', 'w', encoding='utf-8') as f:
-                  f.write(new_readme)
-          "
+          head, _, rest = readme.partition(start_marker)
+          older, _, tail = rest.partition(end_marker)
+          label = '**Questions answered**'
+          older = older.strip()
+          if older.startswith(label):
+              older = older[len(label):].strip()
+          section = label + '\n\n' + entry + ('\n' + older + '\n' if older else '')
+          with open('README.md', 'w', encoding='utf-8') as f:
+              f.write(head + start_marker + '\n' + section + end_marker + tail)
+          PY
+          }
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          if git diff-index --quiet HEAD; then
+
+          # Approvals made close together race: each run checked out the main of its own
+          # moment, so a later push is rejected. Start again from the latest main and
+          # re-apply the edit (it skips a question that is already up).
+          for attempt in 1 2 3 4 5; do
+            git fetch --quiet origin main
+            git reset --quiet --hard FETCH_HEAD
+            edit
+            git add README.md
+            if git diff --cached --quiet; then
               echo "No changes to commit."
-          else
-              git commit -m "docs(ama): add completed Q&A (#$ISSUE_NUMBER)"
-              git push
-              gh issue comment $ISSUE_NUMBER --body "📌 This AMA question and answer have been successfully archived to my profile README! Thanks for participating."
-          fi
+              exit 0
+            fi
+            git commit --quiet -m "docs(ama): add answered question (#$ISSUE_NUMBER)"
+            if git push --quiet origin HEAD:main; then
+              gh issue comment "$ISSUE_NUMBER" --body "This question and my answer are now on my profile README. Thanks for asking."
+              exit 0
+            fi
+            echo "Push rejected on attempt $attempt; retrying from the latest main."
+            sleep $((attempt * 5))
+          done
+          echo "Could not push after 5 attempts; README left unchanged."
+          exit 1

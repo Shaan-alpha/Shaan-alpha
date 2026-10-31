@@ -1,14 +1,12 @@
-name: 📖 Sign My Guestbook / Wall
-description: Leave a greeting, feedback, or note on my profile README! Your avatar and message will appear instantly.
-title: "[Guestbook]: <your name or greeting>"
+name: Sign my guestbook
+description: Leave a note on my GitHub profile. I read every note before it goes up.
+title: "[Guestbook]: "
 labels: ["guestbook"]
-assignees: []
 body:
   - type: markdown
     attributes:
       value: |
-        ### Welcome to my Guestbook! 🎉
-        Thanks for stopping by! Fill out the quick note below, and our automated GitHub Action will instantly add your profile picture and message to the Visitor Wall on my profile `README.md`.
+        Thanks for stopping by. Once I have read your note I close this issue, and a GitHub Action adds your avatar and message under **Notes from visitors** on my profile.
   - type: input
     id: name
     attributes:
@@ -22,14 +20,14 @@ body:
     attributes:
       label: Role / Company / Location
       description: Where are you visiting from?
-      placeholder: e.g. AI Engineer @ OpenAI, or Student @ Stanford
+      placeholder: e.g. Backend engineer, Bengaluru
     validations:
       required: false
   - type: textarea
     id: message
     attributes:
       label: Your Message
-      description: What brings you here or what project did you like?
-      placeholder: e.g. Amazing work on jarvis-py and Databricks pipelines! Keep building.
+      description: What brought you here, or which project caught your eye?
+      placeholder: e.g. Ran Skill Issue on my own profile. Fair, if a little harsh.
     validations:
       required: true

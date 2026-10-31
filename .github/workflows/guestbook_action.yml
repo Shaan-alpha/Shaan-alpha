@@ -1,8 +1,13 @@
 name: 📖 Automated Guestbook Wall
 
+# A visitor opens an issue from the guestbook form. Nothing is published until the
+# repository owner reads it and closes the issue as "completed"; closing it as
+# "not planned" discards it. The form's label is not required, because issue forms
+# silently drop labels that do not exist in the repository. The body fallback skips
+# AMA questions, so one issue never triggers both walls.
 on:
   issues:
-    types: [opened]
+    types: [closed]
 
 permissions:
   contents: write
@@ -10,25 +15,39 @@ permissions:
 
 jobs:
   update-guestbook:
-    if: contains(github.event.issue.labels.*.name, 'guestbook')
+    if: >-
+      github.event.issue.state_reason == 'completed' &&
+      github.event.sender.login == github.repository_owner &&
+      (contains(github.event.issue.labels.*.name, 'guestbook') ||
+      startsWith(github.event.issue.title, '[Guestbook]') ||
+      (contains(github.event.issue.body, '### Your Message') &&
+      !contains(github.event.issue.body, '### Your Question')))
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Parse Issue and Update README
         env:
           AUTHOR: ${{ github.event.issue.user.login }}
           ISSUE_BODY: ${{ github.event.issue.body }}
           ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_CREATED: ${{ github.event.issue.created_at }}
+          ISSUE_URL: ${{ github.event.issue.html_url }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Extract fields from issue body using simple awk/grep or python
-          python -c "
-          import os, re, datetime
+          # Quoted heredoc: the shell expands nothing inside the Python program.
+          edit() {
+          python - <<'PY'
+          import datetime, html, os, re, sys
 
-          body = os.environ['ISSUE_BODY']
+          body = os.environ.get('ISSUE_BODY') or ''
           author = os.environ['AUTHOR']
+          if not re.fullmatch(r'[A-Za-z0-9-]{1,39}', author):
+              sys.exit('Unexpected GitHub login; README left unchanged')
+          issue_url = os.environ['ISSUE_URL']
+          if not re.fullmatch(r'https://github\.com/[\w.-]+/[\w.-]+/issues/\d+', issue_url):
+              sys.exit('Unexpected issue URL; README left unchanged')
 
           # Extract Name
           name_match = re.search(r'### Name / GitHub Handle\s*\n+(.*?)\n', body)
@@ -41,34 +60,66 @@ jobs:
 
           # Extract Message
           msg_match = re.search(r'### Your Message\s*\n+(.*)', body, re.DOTALL)
-          msg = msg_match.group(1).strip() if msg_match else 'Visiting!'
-          msg = ' '.join(msg.splitlines()) # single line
+          msg = msg_match.group(1).strip() if msg_match else 'Visiting.'
+          msg = ' '.join(msg.split())  # one line
 
-          date_str = datetime.datetime.now().strftime('%b %d, %Y')
-          avatar = f'<img src=\"https://avatars.githubusercontent.com/{author}?v=4\" width=\"40\" style=\"border-radius:50%\"/>'
-          user_link = f'<b><a href=\"https://github.com/{author}\">{name}</a></b>'
+          # Visitor text is escaped, so it can only ever render as plain text.
+          name = html.escape(name[:60] or author)
+          role = html.escape(role[:80])
+          msg = html.escape(msg[:280])
+
+          # Date the visitor signed, not the date the note was approved.
+          try:
+              signed = datetime.datetime.strptime(os.environ.get('ISSUE_CREATED', ''), '%Y-%m-%dT%H:%M:%SZ')
+          except ValueError:
+              signed = datetime.datetime.now(datetime.timezone.utc)
+          date_str = signed.strftime('%b %d, %Y')
+
+          # The avatar is decorative (the name link follows it), hence the empty alt.
+          # The date links to the issue, which shows where the note came from and lets a
+          # second close of the same issue be recognised.
+          avatar = f'<img src="https://avatars.githubusercontent.com/{author}?v=4" width="40" alt="">'
+          user_link = f'<b><a href="https://github.com/{author}">{name}</a></b>'
           role_str = f'<br/><small>{role}</small>' if role else ''
-
-          row = f'  <tr><td>{avatar}<br/>{user_link}{role_str}</td><td><i>\"{msg}\"</i></td><td align=\"center\">{date_str}</td></tr>\n'
+          row = f'  <tr><td>{avatar}<br/>{user_link}{role_str}</td><td><i>"{msg}"</i></td><td align="center"><a href="{issue_url}">{date_str}</a></td></tr>'
 
           with open('README.md', 'r', encoding='utf-8') as f:
               readme = f.read()
 
           marker = '<!-- GUESTBOOK_START -->'
-          if marker in readme:
-              parts = readme.split(marker)
-              new_readme = parts[0] + marker + '\n' + row + parts[1].lstrip()
-              with open('README.md', 'w', encoding='utf-8') as f:
-                  f.write(new_readme)
-          "
+          if readme.count(marker) != 1:
+              sys.exit('GUESTBOOK_START must appear exactly once; README left unchanged')
+          # Closing the same issue again (a retry, or a reopen and close) adds nothing.
+          if f'href="{issue_url}"' in readme:
+              print('This note is already on the README.')
+              sys.exit(0)
+          with open('README.md', 'w', encoding='utf-8') as f:
+              f.write(readme.replace(marker, marker + '\n' + row, 1))
+          PY
+          }
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          if git commit -m "docs(guestbook): add visitor @$AUTHOR (#$ISSUE_NUMBER)"; then
-              git push
-              gh issue comment $ISSUE_NUMBER --body "🎉 Thanks for signing my guestbook @$AUTHOR! Your message has been successfully added to my profile README wall. Have an awesome day!"
-              gh issue close $ISSUE_NUMBER --reason "completed"
-          else
-              echo "No changes or failed to commit"
-          fi
+
+          # Approvals made close together race: each run checked out the main of its own
+          # moment, so a later push is rejected. Start again from the latest main and
+          # re-apply the edit (it skips a note that is already up).
+          for attempt in 1 2 3 4 5; do
+            git fetch --quiet origin main
+            git reset --quiet --hard FETCH_HEAD
+            edit
+            git add README.md
+            if git diff --cached --quiet; then
+              echo "No changes to commit."
+              exit 0
+            fi
+            git commit --quiet -m "docs(guestbook): add a note from @$AUTHOR (#$ISSUE_NUMBER)"
+            if git push --quiet origin HEAD:main; then
+              gh issue comment "$ISSUE_NUMBER" --body "Thanks for signing the guestbook, @$AUTHOR. Your note is now on my profile."
+              exit 0
+            fi
+            echo "Push rejected on attempt $attempt; retrying from the latest main."
+            sleep $((attempt * 5))
+          done
+          echo "Could not push after 5 attempts; README left unchanged."
+          exit 1
