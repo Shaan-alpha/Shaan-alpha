@@ -87,11 +87,11 @@ Also familiar with: PyTorch, TensorFlow, Playwright, C and C++.
 ## Recent activity
 
 <!-- ACTIVITY_STREAM_START -->
+- Pushed to <b><a href="https://github.com/Shaan-alpha/AI-Reel-Factory">AI-Reel-Factory</a></b> (Oct 31, 2026)
 - Opened PR <a href="https://github.com/Shaan-alpha/AI-Reel-Factory/pull/15">"docs: README matches the on-demand pipeline and its two cost caps"</a> in <b><a href="https://github.com/Shaan-alpha/AI-Reel-Factory">AI-Reel-Factory</a></b> (merged, Oct 31, 2026)
 - Pushed to <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Skill-Issue</a></b> (Oct 25, 2026)
 - Pushed to <b><a href="https://github.com/Shaan-alpha/Portfolio">Portfolio</a></b> (Oct 25, 2026)
 - Pushed to <b><a href="https://github.com/Shaan-alpha/Cog-and-Cosmos">Cog-and-Cosmos</a></b> (Oct 25, 2026)
-- Pushed to <b><a href="https://github.com/Shaan-alpha/syntrueno">syntrueno</a></b> (Oct 25, 2026)
 <!-- ACTIVITY_STREAM_END -->
 
 ## Guestbook and AMA
