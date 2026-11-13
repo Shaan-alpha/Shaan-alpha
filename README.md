@@ -87,11 +87,11 @@ Also familiar with: PyTorch, TensorFlow, Playwright, C and C++.
 ## Recent activity
 
 <!-- ACTIVITY_STREAM_START -->
+- Opened PR <a href="https://github.com/Shaan-alpha/AI-Reel-Factory/pull/18">"feat: stage 1 of the AI-video design: stories and script for Indian viewers"</a> in <b><a href="https://github.com/Shaan-alpha/AI-Reel-Factory">AI-Reel-Factory</a></b> (merged, Nov 12, 2026)
+- Opened PR <a href="https://github.com/Shaan-alpha/AI-Reel-Factory/pull/17">"feat: stage 0 of the AI-video design: safety fixes and measuring"</a> in <b><a href="https://github.com/Shaan-alpha/AI-Reel-Factory">AI-Reel-Factory</a></b> (merged, Nov 12, 2026)
+- Opened PR <a href="https://github.com/Shaan-alpha/AI-Reel-Factory/pull/16">"fix(voice): voice the channel on Vertex now, ahead of the 11-17 shutdown"</a> in <b><a href="https://github.com/Shaan-alpha/AI-Reel-Factory">AI-Reel-Factory</a></b> (merged, Nov 12, 2026)
 - Pushed to <b><a href="https://github.com/Shaan-alpha/AI-Reel-Factory">AI-Reel-Factory</a></b> (Oct 31, 2026)
 - Opened PR <a href="https://github.com/Shaan-alpha/AI-Reel-Factory/pull/15">"docs: README matches the on-demand pipeline and its two cost caps"</a> in <b><a href="https://github.com/Shaan-alpha/AI-Reel-Factory">AI-Reel-Factory</a></b> (merged, Oct 31, 2026)
-- Pushed to <b><a href="https://github.com/Shaan-alpha/Skill-Issue">Skill-Issue</a></b> (Oct 25, 2026)
-- Pushed to <b><a href="https://github.com/Shaan-alpha/Portfolio">Portfolio</a></b> (Oct 25, 2026)
-- Pushed to <b><a href="https://github.com/Shaan-alpha/Cog-and-Cosmos">Cog-and-Cosmos</a></b> (Oct 25, 2026)
 <!-- ACTIVITY_STREAM_END -->
 
 ## Guestbook and AMA
