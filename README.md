@@ -91,7 +91,6 @@ Also familiar with: PyTorch, TensorFlow, Playwright, C and C++.
 - Opened PR <a href="https://github.com/Shaan-alpha/AI-Reel-Factory/pull/27">"docs(status): one channel until its reach earns, then full power"</a> in <b><a href="https://github.com/Shaan-alpha/AI-Reel-Factory">AI-Reel-Factory</a></b> (merged, Nov 13, 2026)
 - Opened PR <a href="https://github.com/Shaan-alpha/AI-Reel-Factory/pull/26">"fix(production): the format stamp names the script&#x27;s structure; the relaunch recorded"</a> in <b><a href="https://github.com/Shaan-alpha/AI-Reel-Factory">AI-Reel-Factory</a></b> (merged, Nov 13, 2026)
 - Opened PR <a href="https://github.com/Shaan-alpha/AI-Reel-Factory/pull/25">"docs: the relaunch&#x27;s preparation, and release 0.19.0"</a> in <b><a href="https://github.com/Shaan-alpha/AI-Reel-Factory">AI-Reel-Factory</a></b> (merged, Nov 13, 2026)
-- Opened PR <a href="https://github.com/Shaan-alpha/AI-Reel-Factory/pull/24">"feat(subtitles): stage 4b, the text on screen and the sound"</a> in <b><a href="https://github.com/Shaan-alpha/AI-Reel-Factory">AI-Reel-Factory</a></b> (merged, Nov 13, 2026)
 <!-- ACTIVITY_STREAM_END -->
 
 ## Guestbook and AMA
